@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <include android:id="@+id/login_status"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        layout="@layout/activity_loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/formPlan">
+
+        <ScrollView
+            android:id="@+id/scrollViewContents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_plan_select_plan"/>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/cardListPlan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp" />
+
+                    <LinearLayout
+                        android:background="#cccccc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textViewSimulatePlan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/title_simulator_panel"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/title_simulator_select_receiving_plan" />
+
+                        </LinearLayout>
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/spinner_bg"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:scrollbars="vertical"
+                            android:id="@+id/sPlanSelected" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_plan_simulate_sale_price" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/edit_text_layout"
+                            android:id="@+id/eSaleValue" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_margin="5dp"
+                            android:text="@string/title_plan_simulated_price_result" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:text="@string/title_plan_zoop_tax" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="@string/title_plan_client_value" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:hint="R$0,00"
+                                android:id="@+id/eZoopPayment" />
+                            <!--android:background="@drawable/edit_text_layout"-->
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:hint="R$0,00"
+                                android:id="@+id/eClientPayment" />
+                            <!--android:background="@drawable/edit_text_layout"-->
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            <Button
+                android:id="@+id/chargePlan"
+                style="@style/zbutton_zoop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/title_plan_button_change_plan" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_one_terminal_automatically_preconfigured">O terminal marca [manufacturer], nome [btName] foi selecionado para o uso pelo Zoop Checkout. Para configurar outro terminal, clique em Configurações->Terminais</string>
+    <string name="charge_status_message_unknown_error">Erro desconhecido. Entre em contato com o suporte (suporte@pagzoop.com)</string>
+    <string name="could_not_retrieve_seller">Não foi possível recuperar os dados desse comerciante no Zoop.</string>
+    <string name="welcome_paragraph01_is_able_to_sell">Olá [userFirstName], bem vindo(a) ao [productName].</string>
+    <string name="welcome_paragraph_no_pinpad_detected_user_">Você já tem uma maquininha (terminal de cartões) do Zoop? Se você já tem, você necessita conectar a maquininha de cartões de chip e senha com esse [deviceType]. Clique aqui para configurar a maquininha.</string>
+    <string name="welcome_paragraph_pinpad_detected">Uma maquininha de cartões do Zoop foi detectada. Você já pode usar o Zoop diretamente.</string>
+    <string name="welcome_paragraph04"></string>
+    <string name="welcome_paragraph05"></string>
+    <string name="initializing_checkout">Inicializando Zoop Checkout. Aguarde.</string>
+</resources>

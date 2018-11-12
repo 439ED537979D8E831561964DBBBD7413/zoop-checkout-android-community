@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear1">
+
+    <TextView
+        android:id="@+id/textViewTerminalConfiguration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/label_terminal_configuration_text"
+        />
+    <TextView
+        android:id="@+id/textViewCurrentlySelectedTerminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="@string/label_currently_selected_terminal_on_configpinpad"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/linear2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:src="@drawable/pax_d180"
+            android:id="@+id/imageViewTerminal"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/linear3">
+
+            <Button
+                android:id="@+id/btnBuy"
+                style="@style/zbutton_zoop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColorLink="#FFFFFF"
+                android:minHeight="30dp"
+                android:minWidth="30dp"
+                android:textSize="16dp"
+                android:text="@string/button_terminal_configuration_buy_zoop_terminal" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="explainTerminalSelection"
+            android:layout_marginTop="5dp" >
+
+                <TextView
+                android:id="@+id/textViewLabelTerminalList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/label_select_available_terminal"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone"
+                    android:src="@drawable/more_info" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutBluetoothDiscovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:indeterminate="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bluetooth_discovering_compatible_devices"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewAvailableTerminals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonFinishConfiguration"
+        style="@style/zbutton_zoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_terminal_configuration_finished"
+        android:visibility="gone"/>
+
+</LinearLayout>
+

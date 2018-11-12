@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":87,"versionName":"1.9.9","enabled":true,"outputFile":"caixaleve.apk","fullName":"caixaleveDebug","baseName":"caixaleve-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.zoop.caixaleve","split":"","minSdkVersion":"19"}}]

@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_capture_signature">Capturar assinatura do cliente</string>
+    <string name="terminal_type_prompt">Escolha o terminal:</string>
+
+    <string-array name="terminal_names">
+        <item>Escolha o terminal</item>
+        <item>Terminal Virtual Zoop</item>
+        <item>Zoop Terminal</item>
+    </string-array>
+
+    <string name="title_activity_logged_user">Escolha o seller</string>
+    <string name="title_activity_extra_card_info">ExtraCardInfoActivity</string>
+    <string name="title_welcome_activity">Bem vindo</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkbox_enable_developer_mode">Habilitar modo desenvolvedor</string>
+    <string name="login_hint_password">Senha</string>
+    <string name="login_hint_username">Digite seu e-mail</string>
+    <string name="login_label_signin_to_marketplace">Acesso ao seu marketplace</string>
+    <string name="login_signin_button">Entrar</string>
+    <string name="charge_label_choose_payment_device">1. Selecione o dispositivo de pagamento</string>
+    <string name="charge_button_change_seller">Modificar seller</string>
+    <string name="charge_label_choose_terminal">Escolha a maquininha</string>
+    <string name="charge_label_choose_virtual_test_card">Cartão virtual de testes:</string>
+    <string name="charge_label_request_terminal_payment">1. Solicitar cobrança usando maquininha</string>
+    <string name="charge_label_amount_to_be_charged">1.1 Digite o valor a ser cobrado</string>
+    <string name="charge_hint_type_value_with_decimals">Valor da venda</string>
+    <string name="charge_label_choose_payment_action_below">Selecione a opção de pagamento</string>
+    <string name="charge_button_credit_only">Crédito</string>
+    <string name="charge_label_transaction_status">Registro da transação/ status:</string>
+    <string name="charge_label_terminal_message">Mensagens:</string>
+    <string name="charge_button_abort_charge">Cancelar</string>
+    <string name="charge_label_transaction_approved_pane">Comprovante de Transação</string>
+    <string name="charge_button_get_cardholder_signature">Obter assinatura do cliente</string>
+    <string name="charge_hint_email_to_send_receipt">Endereço de e-mail</string>
+    <string name="charge_hint_phone_number_to_send_receipt">Número de celular para envio de SMS</string>
+    <string name="charge_button_send_receipt_via_email_or_sms">Enviar recibo por email e/ou SMS</string>
+    <string name="charge_button_void_transaction">Cancelar Transação (Estorno)</string>
+    <string name="charge_button_new_transaction">Novo Pagamento com Cartão</string>
+    <string name="settings_label_username">Usuário</string>
+    <string name="settings_label_select_seller">Escolha o seller:</string>
+    <string name="settings_hint_search_seller_by_name_or_id">Escolher seller por nome ou id:</string>
+    <string name="settings_button_select_seller">Selecione seller</string>
+    <string name="settings_button_logout">Logout</string>
+    <string name="signature_button_cancel">Cancelar</string>
+    <string name="signature_button_clear">Limpar</string>
+    <string name="signature_label_client_signature">Sua assinatura</string>
+    <string name="signature_label_payment_agreement">Concordo em pagar a quantia abaixo ao comerciante, de acordo com o contrato do emissor do cartão.</string>
+    <string name="login_label_loading_sellers_list">Carregando lista de sellers&#8230;</string>
+    <string name="charge_button_charge_credit_with_installments">Crédito Parcelado</string>
+    <string name="charge_button_charge_debit">Débito</string>
+    <string name="charge_receipt_label_transaction_id">Zoop Id:</string>
+    <string name="charge_receipt_label_transaction_timestamp">DATA:</string>
+    <string name="charge_receipt_label_receipt">Comprovante de Transação</string>
+    <string name="charge_receipt_delivery_options">Enviar recibo eletrônico para:</string>
+    <string name="dialog_title_select_installment_option">Escolha a forma de pagamento:</string>
+    <string name="message_charge_sent_to_customer">Cobrança solicitada à maquininha&#8230;</string>
+    <string name="charge_receipt_label_transaction_uid">AID:</string>
+    <string name="charge_receipt_label_transaction_arqc">ARQC:</string>
+    <string name="charge_receipt_label_seller_name">EC:</string>
+    <string name="login_label_signing_in">Registrando usuário. Aguarde&#8230;</string>
+    <string name="charge_receipt_label_transaction_cardholder">CLIENTE:</string>
+    <string name="charge_receipt_label_transaction_service_description">Serviço utilizado:</string>
+    <string name="charge_receipt_label_transaction_total">VALOR:</string>
+    <string name="charge_receipt_label_transaction_aut">AUTO:</string>
+    <string name="charge_receipt_label_transaction_nsu">CV:</string>
+
+    <string name="charge_label_checkbox_show_log">Visualizar registro de transação (log)</string>
+    <string name="charge_label_currency_sign_small">R$</string>
+    <string name="charge_status_message_bluetooth_pairing_problem">Não há uma maquininha conectada com esse dispositivo</string>
+    <string name="charge_status_message_bluetooth_device_not_available">A maquininha está desligado ou fora de alcance (talvez sem bateria?)</string>
+    <string name="charge_status_message_connection_not_available">Não foi possível conectar a rede Zoop pela Internet</string>
+    <string name="charge_status_message_operation_aborted_by_user">Operação cancelada</string>
+    <string name="charge_status_message_initiating_charge">Iniciando cobrança: </string>
+    <string name="menu_void_transaction_activity">Cancelar transação</string>
+    <string name="charge_button_void_last_transaction">Cancelar última transação</string>
+    <string name="extra_information_label_cvc">Digite código de segurança do cartão:</string>
+    <string name="extra_information_label_last_4_digits">Digite os 4 últimos digitos do cartão:</string>
+    <string name="extra_information_label_expiration_date">Digite a data de expiração do cartão:</string>
+    <string name="extrainfo_button_OK">OK</string>
+    <string name="dialog_title_select_zoop_bluetooth_device">Selecione a maquininha que será utilizado:</string>
+    <string name="label_version">Versão: </string>
+    <string name="button_void_transaction_transation_voided">Transação cancelada.</string>
+    <string name="toast_void_transaction_success">Transação cancelada com sucesso.</string>
+    <string name="toast_void_transaction_fail">A transação não pode ser cancelada (E883).</string>
+    <string name="date_format">dd/MM/yyyy</string>
+    <string name="time_format">hh:mm</string>
+    <string name="datetime_format">hh:mm dd/MM/yyyy</string>
+    <string name="label_loading_transactions_date_format">dd/MM/yyyy</string>
+    <string name="button_cvc2_not_readable">CVC ilegível</string>
+    <string name="button_cvc2_not_present">CVC inexistente</string>
+    <string name="message_void_transaction_wait">Processando</string>
+    <string name="message_void_transaction_cancel">Cancelar Estorno</string>
+    <string name="title_activity_payments_list">Histórico de Transações</string>
+    <string name="menu_settings_shwo_orders_list">Histórico de transações</string>
+    <string name="label_payment_history_search_payments">"Procurar: "</string>
+    <string name="hint_payment_history_search_payments">Procurar por nome, data, hora, etc</string>
+    <string name="label_debit">Débito</string>
+    <string name="label_credit">Crédito à Vista</string>
+    <string name="label_credit_with_installments">Crédito Parcelado</string>
+    <string name="label_credit_with_installments_comment">(Parcelado pelo vendedor)</string>
+    <string name="label_back">Voltar</string>
+    <string name="label_ok">OK</string>
+    <string name="label_share">Compartilhar</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_charge">Cobrar</string>
+    <string name="label_next">Avançar</string>
+    <string name="label_select_payment">Selecione o tipo de pagamento</string>
+    <string name="title_activity_receipt">Recibo de venda</string>
+    <string name="login_ime_action_label">Entrar</string>
+    <string name="error_message_invalid_username_or_password">Usuário ou senha inválido</string>
+    <string name="label_payments_list_transactions_singular">1 transação</string>
+    <string name="label_payments_list_transactions_plural">[records] transações</string>
+    <string name="label_payments_list_transactions_no_transactions">Nenhuma transação</string>
+    <string name="label_payments_list_transactions_date_suffix_variable">em [date]</string>
+    <string name="label_payments_list_transactions_date_suffix_today">hoje</string>
+    <string name="number_of_installments">Número de parcelas</string>
+    <string name="charge_type">Tipo de Venda</string>
+    <string name="charge_with_installments">Venda parcelada</string>
+    <string name="payment">Pagamento</string>
+    <string name="message_select_payment_type">Selecione uma opção de pagamento</string>
+    <string name="text_transaction_step1_initializing">Aguarde&#8230;</string>
+    <string name="text_transaction_step2_insert_card">Insira ou passe o cartão no leitor</string>
+    <string name="text_transaction_step3_processing">Processando&#8230; Não retire o cartão</string>
+    <string name="text_transaction_step4_approved">Transação Aprovada</string>
+    <string name="text_transaction_step4_denied">ERRO\nTransação negada</string>
+    <string name="login_connection_error">Erro de conexão ao registrar usuário</string>
+    <string name="login_unexpected_error">Erro inesperado durante o login</string>
+    <string name="label_transaction_receipt">Comprovante</string>
+    <string name="label_button_send_via_email">Enviar por E-mail</string>
+    <string name="label_button_send_via_sms">Enviar por SMS</string>
+    <string name="label_button_print_receipt">Imprimir via do cliente</string>
+    <string name="label_customer_copy">VIA DO ESTABELECIMENTO</string>
+    <string name="label_wait_loading_transactions">Recuperando pagamentos de [date]</string>
+    <string name="unidentified_holder_name">[Nome não identificado]</string>
+    <string name="label_transactions_list_total">Total:</string>
+    <string name="transactions_list_transaction_datetime_format">HH:mm</string>
+    <string name="dialog_send_receipt_via_email_title">Recibo via e-mail</string>
+    <string name="dialog_send_receipt_via_sms_title">Recibo via SMS</string>
+    <string name="dialog_send_receipt_via_email_message">Digite o e-mail para envio do recibo:</string>
+    <string name="dialog_send_receipt_via_sms_message">Digite o número de celular para envio do recibo:</string>
+    <string name="button_send_receipt">Comprovante</string>
+    <string name="button_new_transaction">Nova Venda</string>
+    <string name="button_sale_confirm">Confirmar</string>
+    <string name="label_select_payment_type">Selecione o tipo de pagamento:</string>
+    <string name="processing_payment">Processando&#8230;</string>
+    <string name="backspace_character">\u232b</string>
+    <string name="message_password_is_mandatory">Uso de senha é obrigatório</string>
+    <string name="message_password_is_incorrect">Senha Invalida</string>
+    <string name="message_username_must_be_filled">O campo usuário deve ser preenchido</string>
+    <string name="payments_list_could_not_retrieve_transactions">Não foi possível carregar o histórico de vendas</string>
+    <string name="dialog_void_receipt_transaction_title">Cancelar essa venda</string>
+    <string name="dialog_void_receipt_transaction_text_confirm_void">Você confirma o cancelamento dessa venda (estorno da transação), que cancelara o recebimento de [transaction_value]?</string>
+    <string name="void_transaction_dialog_title">Estornar transação</string>
+    <string name="void_transaction_dialog_confirm_void">Confirmar estorno</string>
+    <string name="void_transaction_dialog_cancel_void">Cancelar</string>
+    <string name="void_transaction_dialog_void_button_ok">OK</string>
+    <string name="void_transaction_dialog_insert_card">Insira ou passe o cartão com primeiros dígitos [masked_card_number]</string>
+    <string name="void_transaction_dialog_void_failed">Não foi possível estornar a transação</string>
+    <string name="dialog_confirm_logout_title">Sair (logout)</string>
+    <string name="dialog_confirm_logout_message">[username]: você realmente deseja sair (fazer logout) do [APP_DESCRIPTOR]?\nVocê terá que fazer login novamente.</string>
+    <string name="dialog_confirm_protect_configuration">Proteger configurações</string>
+    <string name="dialog_confirm_protect_configuration_message">Essa opção protege contra alterações nas configurações do aplicativo, para que as configurações não sejam modificadas por outros usuários.\nVocê deseja proteger as configurações por senha?\nPara acessar as configurações, use a senha da sua conta.</string>
+    <string name="send_receipt_confirm_action">Enviar</string>
+    <string name="send_receipt_cancel_action">Cancelar</string>
+    <string name="send_receipt_delivered_via_sms">Recibo enviado por SMS</string>
+    <string name="send_receipt_not_delivered_via_sms_unknown_reason">Recibo não enviado por SMS. Razão desconhecida.</string>
+    <string name="send_receipt_not_delivered_via_sms_invalid_number">Número de celular inválido? SMS não enviado.</string>
+    <string name="send_receipt_sms_unknown_status">O envio do SMS não pode ser confirmado agora.</string>
+    <string name="send_receipt_delivered_via_email">Recibo enviado por e-mail</string>
+    <string name="label_transaction_voided">TRANSAÇÃO CANCELADA</string>
+    <string name="label_transaction_cancelled_letter">C</string>
+    <string name="label_transaction_failed_letter">N</string>
+    <string name="title_activity_startup">StartupActivity</string>
+    <string name="label_receipt_term">TERM:</string>
+    <string name="label_receipt_ec">EC:</string>
+    <string name="label_receipt_endereco">ENDEREÇO:</string>
+    <string name="label_receipt_payment">Tipo pagamento:</string>
+    <string name="label_receipt_phone">TELEFONE:</string>
+    <string name="label_receipt_card">CARTÃO:</string>
+    <string name="label_welcome_buy_terminal">Comprar maquininha</string>
+    <string name="label_welcome_config_terminal">Configurar maquininha</string>
+    <string name="button_welcome_skip_welcome_screen">Sair da configuração</string>
+    <string name="button_welcome_previous">Anterior</string>
+    <string name="button_welcome_next">Próximo</string>
+
+
+    <string name="label_faq_title">Perguntas Frequentes</string>
+    <string name="label_pair_title">Terminais disponíveis para pareamento</string>
+    <string name="label_printer_name_printer">Impressoras:</string>
+    <string name="label_printer_type_paper"> Papel:</string>
+    <string name="label_printer_breakline"> Quebra de linha:</string>
+
+    <string name="button_printer_save">Salvar</string>
+    <string name="hint_actionbarbutton_settings">Configurações...</string>
+    <string name="hint_actionbarbutton__transactions_history">Lista de transações (vendas)</string>
+ 	<string name="hint_actionbarbutton_logout">Sair do sistema (logout)</string>
+    
+   	<string name="title_activity_methods_payment">Métodos de pagamento</string>
+    <string name="payment_option_activity_config">Ativar as opções de pagamento:</string>
+	<string name="payment_option_deb_activity_config">Débito</string>
+	<string name="payment_option_cred_activity_config">Crédito</string>
+	<string name="payment_option_cred_parcel_activity_config">Crédito Parcelado</string>
+    
+	<string name="label_wait">Aguarde&#8230;</string>
+    <string name="label_title_error_brand">Cartão não identificado pelo chip.</string>
+    <string name="label_error_brand">Verifique se a leitura do cartão deve ser feita via chip ou tarja e tente novamente.</string>
+
+    <string name="payment_option_credit_installments_activity_config">Crédito Parcelado</string>
+	<string name="invite_opinion">Fale conosco</string>
+	<string name="title_feedback">Reclamações e sugestões</string>
+	<string name="feedback_nome">Nome:</string>
+	<string name="feedback_data">Data:</string>
+	<string name="feedback_tipo">Tipo:</string>
+    <string name="password">Senha</string>
+    <string name="password_confirm">Confirmar senha</string>
+    <string name="password_btn">Criar senha</string>
+    <string-array name="ZoopOptions_array">
+        <item>Nova venda</item>
+        <item>Histórico de vendas</item>
+        <item>Terminais</item>
+        <item>Configuraçōes</item>
+        <item>Dashboard</item>
+        <item>Suporte</item>
+        <item>Sair</item>
+    </string-array>
+    <string name="drawer_open">Abrir menu lateral</string>
+    <string name="drawer_close">Fechar menu lateral</string>
+    <string name="Config_send">OK</string>
+    <string name="enable_password">Ativar senha para configurações</string>
+    <string name="enable_printer">Ativar configurações de impressora</string>
+
+    <string name="dialog_cancel">Cancelar</string>
+
+    <string name="feedback_mensagem">Mensagem:</string>
+	<string name="feedback_enviar">Enviar</string>
+	<string-array name="feedback_opcao">
+		<item>Escolha o tipo de mensagem</item>
+		<item>Reclamação</item>
+		<item>Sugestão</item>
+	</string-array>
+	<string name="seller_status_is_not_enabled_for_selling">Atualmente o seu usuário não está autorizado a cobrar cartões.</string>
+	<string name="credit_with_installments_less_than_minimum">O valor mínimo de cada parcela é de [minimum_installment_amount]</string>
+    <string name="credit_with_installments_must_have_at_least_2_installments">Crédito parcelado deve ter pelo menos duas (2) parcelas.</string>
+    <string name="charge_receipt_customer_handwritten_signature">Assinatura do cliente:</string>
+    <string name="void_transaction_succcessful">A transação foi estornada e a cobrança cancelada.</string>
+    <string name="void_transaction_dialog_retry_operation">Tentar estorno novamente.</string>
+    <string name="void_transaction_dialog_error_message">Houve um erro ao processar o estorno da transação.</string>
+    <string name="text_label_unavailable">(indisponível)</string>
+    <string name="text_one_terminal_automatically_preconfigured_dialog_title">maquininha selecionado</string>
+    <string name="button_terminal_configuration_finished">OK</string>
+    <string name="button_terminal_configuration_buy_zoop_terminal">Comprar uma maquininha</string>
+    <string name="button_terminal_configuration_pair_new_device">Conectar uma nova maquininha</string>
+    <string name="text_terminal_configuration_quick_instructions">Foram encontrados mais de uma maquininha (tambem chamado de leitor de cartão chip&amp;senha) pareados com esse [device_type]. Pressione OK e selecione o terminal da lista.</string>
+    <string name="text_printer_configuration_quick_instructions">Foram encontrados mais de uma impressora pareados com esse [device_type]. Pressione OK e selecione o terminal da lista.</string>
+
+    <string name="device_type_tablet">tablet</string>
+    <string name="device_type_smartphone">celular</string>
+
+    <string name="title_configure_zoop_terminal">Configurar maquininha</string>
+
+    <string name="label_terminal_configuration_text">Configuração da maquininha</string>
+    <string name="label_printer_configuration_text">Configuração de Impressora</string>
+
+    <string name="label_terminal_welcome_checkout">Bem vindo(a)</string>
+    <string name="label_terminal_welcome_checkout_plan">Planos e Tarifas</string>
+
+    <string name="label_select_available_terminal">Selecione uma maquininha da lista</string>
+    <string name="label_select_available_printer">Selecione uma impressora da lista</string>
+
+    <string name="text_select_available_terminal">As maquininhas listados podem ser maquininhas com tecnologia Bluetooth já conectados ou outros tipos de maquininhas conectadas.</string>
+
+    <string name="label_no_terminal_available">Não há maquininhas disponíveis</string>
+    <string name="label_no_printer_available">Não há impressoras disponíveis</string>
+
+    <string name="text_no_terminal_available">Nenhuma maquininha foi encontrada. Verifique se a maquininha está ligada e se o Bluetooth está ligado</string>
+    <string name="text_no_printer_available">Nenhuma impressora foi encontrada. Verifique se a impressora está ligada e se o Bluetooth está ligado</string>
+
+    <string name="label_currently_selected_terminal_on_wizard">A maquininha [manufacturer] [btName] foi selecionada. Se você quiser trocar a maquininha, entre em Configurações -> Maquininhas.</string>
+    <string name="label_currently_selected_terminal_on_configpinpad">A maquininha [btName] está selecionada.</string>
+    <string name="label_currently_selected_printer_on_configprinter">A Impressora [btName] está selecionada.</string>
+
+    <string name="label_no_terminal_selected">Nenhuma maquininha selecionada.</string>
+    <string name="label_no_printer_selected">Nenhuma impressora selecionada.</string>
+
+
+    <string name="title_activity_receipt_print">ReceiptPrint</string>
+    <string name="button_print_receipt">Imprimir recibo</string>
+
+    <string name="title_dialog_customer_not_ready_for_charging_customers">Oops! Sua conta não foi ativada ainda</string>
+    <string name="text_dialog_customer_not_ready_for_charging_customers">A sua conta no Zoop ainda não foi ativada. Se você já enviou a documentação, aguarde nossa comunicação. Senão finalize o seu cadastro no site portal.pagzoop.com.\nDúvidas? Entre em contato por e-mail suporte@pagzoop.com</string>
+    <string name="bluetooth_discovering_compatible_devices">Procurando maquininha</string>
+    <string name="bluetooth_discovering_compatible_printer">Procurando impressoras</string>
+
+    <string name="label_pinpad_serial_number">N/S: </string> <!-- Número de série do pinpad -->
+    <string name="label_pinpad_date_found">Data Conf: </string> <!-- Data que foi encontrado -->
+    <string name="label_what_is_creditcard_cvc">CVC são os números atrás do cartão</string>
+    <string name="title_activity_cvchelp">O que é o CVC?</string>
+    <string name="title_simulator_select_receiving_plan">Selecione o tipo de pagamento:</string>
+    <string name="title_plan_simulate_sale_price">Valor da venda (simulado):</string>
+    <string name="title_plan_simulated_price_result">Total simulado:</string>
+    <string name="title_plan_button_change_plan">Mudar plano</string>
+    <string name="title_plan_select_plan">Selecione o plano desejado:</string>
+    <string name="title_simulator_panel">Simulador do plano selecionado</string>
+    <string name="title_plan_client_value">Seu Pagamento</string>
+    <string name="title_plan_zoop_tax">Taxa Zoop</string>
+
+    <string name="select_file">Selecionar Arquivo</string>
+
+    <string name="create_account_title_info">Dados da conta</string>
+    <string name="create_account_title_address">Endereço</string>
+
+
+    <string name="create_account_info_bank"> Informações bancárias</string>
+
+
+
+
+
+    <string name="create_account_email">Endereço de email</string>
+
+    <string name="create_account_cep">CEP</string>
+
+    <string name="create_account_logra">Logradouro</string>
+
+    <string name="create_account_number">Número</string>
+
+
+    <string name="create_account_neighborhood">Bairro</string>
+
+    <string name="create_account_city">Cidade</string>
+
+
+
+
+    <string name="create_account_UF">UF</string>
+
+
+
+
+
+
+
+    <string name="create_account_complement">Complemento</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="create_account_bank_agency">Agência</string>
+
+    <string name="create_account_bank_agency_digit">Dígito</string>
+
+    <string name="create_account_bank_account">Conta</string>
+
+    <string name="create_account_rSocial">Razão Social</string>
+    <string name="create_account_CNPJ">CNPJ</string>
+
+
+    <string name="create_account_confirm_email">Confirme seu email</string>
+    <string name="create_account_password">Digite sua senha</string>
+    <string name="create_account_confirm_password">Confirme sua senha</string>
+
+    <string name="create_account_title_person_info">Dados pessoais</string>
+    <string name="create_account_name">Seu nome completo</string>
+    <string name="create_account_date">Data de Nascimento</string>
+    <string name="create_account_cpf">CPF</string>
+    <string name="create_account_phone_number">Número de celular</string>
+    <string name="create_account_title_business_info">Dados do negócio</string>
+    <string name="create_account_legal_person">Pessoa jurídica</string>
+    <string name="create_account_person">Pessoa física</string>
+    <string name="create_account_terms">Ao clicar em cadastrar confirmo que li e concordei com os Termos e Condições </string>
+    <string name="label_new_to_zoop">Novo na Zoop?</string>
+    <string name="sale_info">Confira os dados da venda</string>
+
+
+    <string name="bt_signup_text">Cadastre-se</string>
+    <string name="label_login_with_email_or_pin_text">Já é usuário no Zoop? Entre aqui!</string>
+
+    <string name="bt_sign_in_with_email_text">Entrar</string>
+
+    <string name="marketplace_name">Zoop-Checkout-test</string>
+
+
+    <string name="url_dev">https://</string>
+
+    <string name="medicinae_base_url">https://dev.api.medicinaesolutions.com</string>
+    <string name="medicinae_login_url">api/v1/zoop/login/sessions</string>
+
+    <string name="json_menu_without_virtual">[
+
+    	{
+		"title": \"Nova venda\",
+		"icon": \"cash\",
+		"action": \"intent\",
+		"parameter": \"ChargeActivity\"
+	},
+	{
+		"title": \"Histórico de vendas\",
+		"icon": \"menu_transactions_list_icon\",
+        "action": \"intent\",
+		"parameter": \"PaymentsListActivity\"
+	},
+
+	{
+		"title": \"Maquininhas\",
+		"icon": \"termi\",
+		"action": \"intent\",
+		"parameter": \"ConfigPinPadActivity\"
+	},
+	{
+		"title": \"Configurações\",
+		"icon": \"menu_settings_icon\",
+        "action": \"method\",
+					"parameter": \"checkPassword\",
+		"submenu":
+			[
+				{
+					"title": \"Restringir tipos pagamentos\",
+					"icon": \"card\",
+					"action": \"intent\",
+					"parameter": \"PaymentMethodsActivity\"
+				},
+
+			      {
+					"title": \"Impressora\",
+					"icon": \"printerzoop\",
+					"action": \"intent\",
+					"parameter": \"ConfigPrinterActivity\"
+				},
+				{
+					"title": \"Proteger configuração\",
+					"icon": \"lock\",
+					"action": \"method\",
+					"parameter": \"enablePassword\"
+				}
+			]
+	},
+	{
+		"title": \"Dashboard\",
+		"icon": \"dashboard2\",
+		"action": \"intent\",
+		"parameter": \"WebViewActivity\"
+	},
+	{
+		"title": \"Suporte\",
+		"icon": \"support\",
+
+		"submenu":
+			[
+				{
+					"title": \"Perguntas frequentes\",
+					"icon": \"questions\",
+					"action": \"intent\",
+					"parameter": \"FAQActivity\"
+				},
+				{
+					"title": \"Sobre\",
+					"icon": \"about\",
+					"action": \"method\",
+					"parameter": \"showAboutBox\"
+				}
+			]
+	},
+	{
+		"title": \"Sair\",
+		"icon": \"logout\",
+		"action": \"method\",
+		"parameter": \"logoutCurrentUser\"
+	}
+]
+</string>
+
+
+
+    <string name="json_menu">[
+
+            {
+					"title": \"Maquininha Virtual\",
+					"icon": \"virtual\",
+					"action": \"intent\",
+					"parameter": \"WalletActivity\"
+				},
+
+	{
+		"title": \"Nova venda\",
+		"icon": \"cash\",
+		"action": \"intent\",
+		"parameter": \"ChargeActivity\"
+	},
+	{
+		"title": \"Histórico de vendas\",
+		"icon": \"menu_transactions_list_icon\",
+        "action": \"intent\",
+		"parameter": \"PaymentsListActivity\"
+	},
+
+	{
+		"title": \"Maquininhas\",
+		"icon": \"termi\",
+		"action": \"intent\",
+		"parameter": \"ConfigPinPadActivity\"
+	},
+	{
+		"title": \"Configurações\",
+		"icon": \"menu_settings_icon\",
+        "action": \"method\",
+					"parameter": \"checkPassword\",
+		"submenu":
+			[
+				{
+					"title": \"Restringir tipos pagamentos\",
+					"icon": \"card\",
+					"action": \"intent\",
+					"parameter": \"PaymentMethodsActivity\"
+				},
+
+			      {
+					"title": \"Impressora\",
+					"icon": \"printerzoop\",
+					"action": \"intent\",
+					"parameter": \"ConfigPrinterActivity\"
+				},
+				{
+					"title": \"Proteger configuração\",
+					"icon": \"lock\",
+					"action": \"method\",
+					"parameter": \"enablePassword\"
+				}
+			]
+	},
+	{
+		"title": \"Dashboard\",
+		"icon": \"dashboard2\",
+		"action": \"intent\",
+		"parameter": \"WebViewActivity\"
+	},
+	{
+		"title": \"Suporte\",
+		"icon": \"support\",
+
+		"submenu":
+			[
+				{
+					"title": \"Perguntas frequentes\",
+					"icon": \"questions\",
+					"action": \"intent\",
+					"parameter": \"FAQActivity\"
+				},
+				{
+					"title": \"Sobre\",
+					"icon": \"about\",
+					"action": \"method\",
+					"parameter": \"showAboutBox\"
+				}
+			]
+	},
+	{
+		"title": \"Sair\",
+		"icon": \"logout\",
+		"action": \"method\",
+		"parameter": \"logoutCurrentUser\"
+	}
+]
+</string>
+
+
+
+
+    <string-array name="bank_array">
+       <item>Banco Bradesco S.A. - 237</item>
+        <item>Banco do Brasil S.A. - 001</item>
+        <item>Itaú Unibanco S.A. - 341</item>
+        <item>Banco Santander  (Brasil)  S.A. - 033</item>
+        <item>Caixa Econômica Federal - 104</item>
+        <item>Banco A.J.Renner S.A. - 654</item>
+        <item>Banco ABC Brasil S.A. - 246</item>
+        <item>Banco ABN AMRO S.A. - 075</item>
+        <item>Banco Alfa S.A. - 025</item>
+        <item>Banco Alvorada S.A. - 641</item>
+        <item>Banco Arbi S.A. - 213</item>
+        <item>Banco Azteca do Brasil S.A. - 019</item>
+        <item>Banco BANDEPE S.A. - 024</item>
+        <item>Banco Banerj S.A. - 029</item>
+        <item>Banco Bankpar S.A. - 000</item>
+        <item>Banco Barclays S.A. - 740</item>
+        <item>Banco BBM S.A. - 107</item>
+        <item>Banco Beg S.A. - 031</item>
+        <item>Banco BERJ S.A. - 122-8</item>
+        <item>Banco BM&amp;FBOVESPA de Serviços de Liquidação e Custódia S.A - 096</item>
+        <item>Banco BMG S.A. - 318</item>
+        <item>Banco BNP Paribas Brasil S.A. - 752</item>
+        <item>Banco Boavista Interatlântico S.A. - 248</item>
+        <item>Banco Bonsucesso S.A. - 218</item>
+        <item>Banco Bracce S.A. - 065</item>
+        <item>Banco Bradesco BBI S.A. - 036</item>
+        <item>Banco Bradesco Cartões S.A. - 204</item>
+        <item>Banco Bradesco Financiamentos S.A. - 394</item>
+        <item>Banco Brascan S.A. - 225</item>
+        <item>Banco BRJ S.A. - M15</item>
+        <item>Banco BTG Pactual S.A. - 208</item>
+        <item>Banco BVA S.A. - 044</item>
+        <item>Banco Cacique S.A. - 263</item>
+        <item>Banco Caixa Geral - Brasil S.A. - 473</item>
+        <item>Banco Capital S.A. - 412</item>
+        <item>Banco Cargill S.A. - 040</item>
+        <item>Banco Cédula S.A. - 266</item>
+        <item>Banco Cetelem S.A. - 739</item>
+        <item>Banco Cifra S.A. - 233</item>
+        <item>Banco Citibank S.A. - 745</item>
+        <item>Banco Citicard S.A. - M08</item>
+        <item>Banco Clássico S.A. - 241</item>
+        <item>Banco CNH Industrial Capital S.A. - M19</item>
+        <item>Banco Comercial e de Investimento Sudameris S.A. - 215</item>
+        <item>Banco Confidence de Câmbio S.A. - 095</item>
+        <item>Banco Cooperativo do Brasil S.A. - BANCOOB - 756</item>
+        <item>Banco Cooperativo Sicredi S.A. - 748</item>
+        <item>Banco Credibel S.A. - 721</item>
+        <item>Banco Credit Agricole Brasil S.A. - 222</item>
+        <item>Banco Credit Suisse (Brasil) S.A. - 505</item>
+        <item>Banco Cruzeiro do Sul S.A. - 229</item>
+        <item>Banco da Amazônia S.A. - 003</item>
+        <item>Banco da China Brasil S.A. - 083-3</item>
+        <item>Banco Daimlerchrysler S.A. - M21</item>
+        <item>Banco Daycoval S.A. - 707</item>
+        <item>Banco de La Nacion Argentina - 300</item>
+        <item>Banco de La Provincia de Buenos Aires - 495</item>
+        <item>Banco de La Republica Oriental del Uruguay - 494</item>
+        <item>Banco de Lage Landen Brasil S.A. - M06</item>
+        <item>Banco de Tokyo-Mitsubishi UFJ Brasil S.A. - 456</item>
+        <item>Banco Dibens S.A. - 214</item>
+        <item>Banco do Estado de Sergipe S.A. - 047</item>
+        <item>Banco do Estado do Pará S.A. - 037</item>
+        <item>Banco do Estado do Piauí S.A. - BEP - 039</item>
+        <item>Banco do Estado do Rio Grande do Sul S.A. - 041</item>
+        <item>Banco do Nordeste do Brasil S.A. - 004</item>
+        <item>Banco Fator S.A. - 265</item>
+        <item>Banco Fiat S.A. - M03</item>
+        <item>Banco Fibra S.A. - 224</item>
+        <item>Banco Ficsa S.A. - 626</item>
+        <item>Banco Finasa BMC S.A. - 394</item>
+        <item>Banco Ford S.A. - M18</item>
+        <item>Banco Gerdau S.A. - 734</item>
+        <item>Banco GMAC S.A. - M07</item>
+        <item>Banco Guanabara S.A. - 612</item>
+        <item>Banco Honda S.A. - M22</item>
+        <item>Banco Ibi S.A. Banco Múltiplo - 063</item>
+        <item>Banco IBM S.A. - M11</item>
+        <item>Banco Industrial do Brasil S.A. - 604</item>
+        <item>Banco Industrial e Comercial S.A. - 320</item>
+        <item>Banco Indusval S.A. - 653</item>
+        <item>Banco Intercap S.A. - 630</item>
+        <item>Banco Intermedium S.A. - 077-9</item>
+        <item>Banco Investcred Unibanco S.A. - 249</item>
+        <item>Banco Itaú BBA S.A. - 184</item>
+        <item>Banco ItaúBank S.A. - 479</item>
+        <item>Banco Itaucred Financiamentos S.A. - M09</item>
+        <item>Banco J. P. Morgan S.A. - 376</item>
+        <item>Banco J. Safra S.A. - 074</item>
+        <item>Banco John Deere S.A. - 217</item>
+        <item>Banco KDB S.A. - 076</item>
+        <item>Banco KEB do Brasil S.A. - 757</item>
+        <item>Banco Luso Brasileiro S.A. - 600</item>
+        <item>Banco Máxima S.A. - 243</item>
+        <item>Banco Maxinvest S.A. - M12</item>
+        <item>Banco Mercantil do Brasil S.A. - 389</item>
+        <item>Banco Mizuho do Brasil S.A. - 370</item>
+        <item>Banco Modal S.A. - 746</item>
+        <item>Banco Moneo S.A. - M10</item>
+        <item>Banco Morada S.A. - 738</item>
+        <item>Banco Morgan Stanley S.A. - 066</item>
+        <item>Banco Opportunity S.A. - 045</item>
+        <item>Banco Original do Agronegócio S.A. - 079</item>
+        <item>Banco Original S.A. - 212</item>
+        <item>Banco Ourinvest S.A. - 712-9</item>
+        <item>Banco Panamericano S.A. - 623</item>
+        <item>Banco Paulista S.A. - 611</item>
+        <item>Banco Pecúnia S.A. - 613</item>
+        <item>Banco Petra S.A. - 094-2</item>
+        <item>Banco Pine S.A. - 643</item>
+        <item>Banco Porto Seguro S.A. - 724</item>
+        <item>Banco Pottencial S.A. - 735</item>
+        <item>Banco Prosper S.A. - 638</item>
+        <item>Banco PSA Finance Brasil S.A. - M24</item>
+        <item>Banco Rabobank International Brasil S.A. - 747</item>
+        <item>Banco Randon S.A. - 088-4</item>
+        <item>Banco Real S.A. - 356</item>
+        <item>Banco Rendimento S.A. - 633</item>
+        <item>Banco Ribeirão Preto S.A. - 741</item>
+        <item>Banco Rodobens S.A. - M16</item>
+        <item>Banco Rural Mais S.A. - 072</item>
+        <item>Banco Rural S.A. - 453</item>
+        <item>Banco Safra S.A. - 422</item>
+        <item>Banco Semear S.A. - 743</item>
+        <item>Banco Simples S.A. - 749</item>
+        <item>Banco Société Générale Brasil S.A. - 366</item>
+        <item>Banco Sofisa S.A. - 637</item>
+        <item>Banco Standard de Investimentos S.A. - 012</item>
+        <item>Banco Sumitomo Mitsui Brasileiro S.A. - 464</item>
+        <item>Banco Topázio S.A. - 082-5</item>
+        <item>Banco Toyota do Brasil S.A. - M20</item>
+        <item>Banco Triângulo S.A. - 634</item>
+        <item>Banco Tricury S.A. - 018</item>
+        <item>Banco Volkswagen S.A. - M14</item>
+        <item>Banco Volvo (Brasil) S.A. - M23</item>
+        <item>Banco Votorantim S.A. - 655</item>
+        <item>Banco VR S.A. - 610</item>
+        <item>Banco Western Union do Brasil S.A. - 119</item>
+        <item>BANESTES S.A. Banco do Estado do Espírito Santo - 021</item>
+        <item>Banif-Banco Internacional do Funchal (Brasil)S.A. - 719</item>
+        <item>Bank of America Merrill Lynch Banco Múltiplo S.A. - 755</item>
+        <item>BankBoston N.A. - 744</item>
+        <item>BB Banco Popular do Brasil S.A. - 073</item>
+        <item>BBN Banco Brasileiro de Negócios S.A. - 081-7</item>
+        <item>BCV - Banco de Crédito e Varejo S.A. - 250</item>
+        <item>BES Investimento do Brasil S.A. - 078</item>
+        <item>BPN Brasil Banco Múltiplo S.A. - 069</item>
+        <item>Brasil Plural S.A. - Banco Múltiplo - 125</item>
+        <item>BRB - Banco de Brasília S.A. - 070</item>
+        <item>Brickell S.A. Crédito, financiamento e Investimento - 092-2</item>
+        <item>Central das Coop. de Economia e Crédito Mutuo do Est. do ES - 114-7</item>
+        <item>Citibank S.A. - 477</item>
+        <item>Cooperativa Central de Crédito Noroeste Brasileiro Ltda. - 097-3</item>
+        <item>Cooperativa Central de Crédito Urbano-CECRED - 085-x</item>
+        <item>Cooperativa Central de Economia e Credito Mutuo das Unicreds - 099-x</item>
+        <item>Cooperativa Central de Economia e Crédito Mutuo das Unicreds - 090-2</item>
+        <item>Cooperativa de Crédito Rural da Região de Mogiana - 089-2</item>
+        <item>Cooperativa Unicred Central Santa Catarina - 087-6</item>
+        <item>CREDIALIANÇA COOPERATIVA DE CRÉDITO RURAL - 098-1</item>
+        <item>Deutsche Bank S.A. - Banco Alemão - 487</item>
+        <item>Goldman Sachs do Brasil Banco Múltiplo S.A. - 064</item>
+        <item>Hipercard Banco Múltiplo S.A. - 062</item>
+        <item>HSBC Bank Brasil S.A. - Banco Múltiplo - 399</item>
+        <item>HSBC Finance (Brasil) S.A. - Banco Múltiplo - 168</item>
+        <item>ING Bank N.V. - 492</item>
+        <item>Itaú Unibanco Holding S.A. - 652</item>
+        <item>JPMorgan Chase Bank - 488</item>
+        <item>Natixis Brasil S.A. Banco Múltiplo - 014</item>
+        <item>NBC Bank Brasil S.A. - Banco Múltiplo - 753</item>
+        <item>OBOE Crédito Financiamento e Investimento S.A. - 086-8</item>
+        <item>Paraná Banco S.A. - 254</item>
+        <item>Scotiabank Brasil S.A. Banco Múltiplo - 751</item>
+        <item>UNIBANCO - União de Bancos Brasileiros S.A. - 409</item>
+        <item>Unicard Banco Múltiplo S.A. - 230</item>
+        <item>Unicred Central do Rio Grande do Sul - 091-4</item>
+        <item>Unicred Norte do Paraná - 084</item>
+        <item>Conductor FlexAssists - 9991</item>
+        <item>Conductor Alpha Card - 9992</item>
+        <item>Brasil Pré Pagos- 10001</item>
+    </string-array>
+
+    <string name="card_holder">Titular do Cartão</string>
+    <string name="card_number">Número do Cartão</string>
+    <string name="card_brand">Bandeira</string>
+    <string name="expiration_month">Mês Venc</string>
+    <string name="expiration_year">Data Venc</string>
+    <string name="CVV">CVV</string>
+
+    <string name="buyer_name">Nome do Comprador</string>
+
+    <string name="buyer_description">Descrição da venda</string>
+    <string name="buyer_address">Endereço</string>
+    <string name="buyer_email">Email</string>
+    <string name="buyer_taxpayer_id">CPF</string>
+    <string name="buyer_address_number">Número</string>
+    <string name="buyer_address_complement">Complemento</string>
+
+    <string name="buyer_address_city">Cidade</string>
+    <string name="buyer_address_state">Estado</string>
+    <string name="buyer_address_postal_code">Cep</string>
+    <string name="buyer_address_neighborhood">Bairro</string>
+    <string name="buyer_address_country">País</string>
+
+    <string name="buyer_Phone">Telefone</string>
+    <string name="new_account">Novo por aqui? Crie sua conta</string>
+
+    <string name="btn_new_card">Salvar</string>
+    <string name="how_to_find_cvc">O CVC geralmente está na parte de trás do cartão. Geralmente são os 3 números ao lado do lugar para assinatura.</string>
+</resources>

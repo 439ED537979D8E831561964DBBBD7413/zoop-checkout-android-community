@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TutorialPairActivity" >
+
+
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="fill_parent"
+
+    android:layout_height="0dp"
+    android:layout_weight="1" >
+    >
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:tag="1"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+                android:text="Bem vindo ao tutorial de conexão Bluetooth do seu PAX D180 com o Zoop Checkout." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:tag="2"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"
+                android:text="Com seu terminal ligado, pressione a tecla 0 por 3 segundos." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:tag="3"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"
+                android:text="Na tela do seu terminal serão exibidas informações como nome do dispostivo e senha de pareamento. Guarde essas informaçoes, pois você irá utilizá-las para iniciar o pareamento Bluetooth" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:tag="4"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"
+                android:text="Ao clicar em Próximo será redirecionado para uma tela onde serão listados todos os terminais PAX D180 ativos" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_weight="1"
+            android:text="Anterior" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Próximo" />
+    </LinearLayout>
+
+</LinearLayout>

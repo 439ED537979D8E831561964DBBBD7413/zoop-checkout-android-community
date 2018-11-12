@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#f1f1f1"
+            android:orientation="vertical"
+
+            android:id="@+id/linear2">
+
+            <TextView
+                android:id="@+id/textViewTerminalConfiguration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/label_terminal_welcome_checkout"
+                />
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/textDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#00ccff"
+                android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

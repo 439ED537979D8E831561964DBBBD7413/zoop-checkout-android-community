@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/main/shaders"/></dataSet><dataSet config="pagavel"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/pagavel/shaders"/></dataSet><dataSet config="release"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/release/shaders"/></dataSet><dataSet config="pagavelRelease"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/pagavelRelease/shaders"/></dataSet></merger>

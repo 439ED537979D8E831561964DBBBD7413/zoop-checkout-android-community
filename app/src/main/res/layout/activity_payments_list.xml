@@ -1,0 +1,201 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+
+    <!-- Loading list progress -->
+    <FrameLayout
+        android:id="@+id/login_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f1f1f1" 
+		android:visibility="gone" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical" >
+	
+	        <ProgressBar
+	            style="?android:attr/progressBarStyleLarge"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="8dp" />
+	
+	        <com.zoop.checkout.app.AutoResizeTextView
+	            android:id="@+id/loading_transactions_status_message"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="50dp"
+	            android:layout_marginRight="20dp"
+	            android:layout_marginLeft="20dp"
+	            android:fontFamily="sans-serif-light"
+	            android:text="TEXT_LOADING"
+	            android:textAlignment="center"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+		</LinearLayout>
+	</FrameLayout>
+
+    <!-- Transactions list -->
+    
+	<LinearLayout 
+    android:id="@+id/linearLayoutPaymentsList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+	    <FrameLayout
+	        android:id="@+id/FrameLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#F0F0F0"
+	        android:padding="7dp"
+	        android:visibility="visible" >
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:fontFamily="sans-serif-light"
+	            android:text="Histórico de Vendas"
+	            android:textColor="@color/zcolor_font_color"
+	            android:textSize="26sp" />
+
+	    </FrameLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp" >
+	
+	        <Button
+	            android:id="@+id/buttonTodaysTransactions"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@color/zcolor_regular_button"
+	            android:minHeight="32dp"
+	            android:text="Vendas do dia"
+	            android:textColor="@color/zcolor_button_font_color" />
+	        <Button
+	            android:id="@+id/buttonSelectDate"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:background="@color/zcolor_regular_button_darker"
+	            android:minHeight="32dp"
+	            android:text="Outra data"
+	            android:textColor="@color/zcolor_button_font_color" />
+
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="3dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginTop="2dp"
+	        android:gravity="bottom"
+	        android:orientation="horizontal" >
+
+	        <LinearLayout
+	            android:id="@+id/linearLayoutTransactionsListDataLabel"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1"
+	            android:gravity="bottom"
+	            android:orientation="horizontal" >
+
+	            <TextView
+	                android:id="@+id/textViewLabelNumberOfTransactions"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/zcolor_font_color"
+	                android:textStyle="bold" />
+
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:id="@+id/linearLayoutTransactionsListTotal"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="right|center_vertical"
+	            android:layout_weight="1"
+	            android:gravity="right|bottom"
+	            android:orientation="horizontal" >
+
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginRight="4dp"
+	                android:text="@string/label_transactions_list_total"
+	                android:textColor="@color/zcolor_font_color"
+	                android:textSize="16sp"
+	                android:textStyle="bold" />
+
+	            <TextView
+	                android:id="@+id/textViewDailyTotal"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:fontFamily="sans-serif-light"
+	                android:textColor="@color/zcolor_font_color"
+	                android:textSize="24sp" />
+
+	        </LinearLayout>
+
+	        <TextView
+	            android:id="@+id/textViewPaymentsListErrorMessage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="Medium Text"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#efefef"
+	        android:visibility="gone" >
+	
+	        <TextView
+	            android:id="@+id/textViewTransactionToVoidDetails"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/label_payment_history_search_payments" />
+	
+	        <EditText
+	            android:id="@+id/editText1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="@string/hint_payment_history_search_payments"
+	            android:textSize="12sp" >
+	
+	            <requestFocus />
+	        </EditText>
+	    </LinearLayout>
+	
+	    <ListView
+	        android:id="@+id/listViewPaymentsList"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="3dp"
+            android:choiceMode="singleChoice"
+            >
+
+	    </ListView>	
+	</LinearLayout>
+	
+</merge>
+
+	

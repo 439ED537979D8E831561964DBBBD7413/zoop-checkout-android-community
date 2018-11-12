@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|left"
+    android:divider="@layout/divider_horizontal"
+    android:dividerPadding="3dp"
+    android:gravity="center_horizontal|left"
+    android:orientation="horizontal">
+<!--    android:paddingBottom="6dp"
+    android:paddingTop="6dp"-->
+
+
+    <ImageView
+        android:id="@+id/imageViewZoopLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:src="@drawable/ic_home" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_horizontal"
+        android:gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2"
+        android:divider="@layout/divider_horizontal" >
+
+    </LinearLayout>
+    
+</LinearLayout>
+    
+
+   

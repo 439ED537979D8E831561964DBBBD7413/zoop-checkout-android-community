@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:weightSum="4"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_methods_payment"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:singleLine="false"
+        android:text="@string/payment_option_activity_config" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/shape_linear_layout"
+            android:orientation="vertical"
+            >
+
+            <CheckBox
+                android:id="@+id/debito"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+
+                android:onClick="onPaymentsOptions"
+                android:text="@string/payment_option_deb_activity_config" />
+            <CheckBox
+                android:id="@+id/credito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:onClick="onPaymentsOptions"
+                android:text="@string/payment_option_cred_activity_config" />
+            <CheckBox
+                android:id="@+id/credito_parcelado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:onClick="onPaymentsOptions"
+                android:text="@string/payment_option_credit_installments_activity_config" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/main/shaders"/></dataSet><dataSet config="creditt"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/creditt/shaders"/></dataSet><dataSet config="release"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/release/shaders"/></dataSet><dataSet config="credittRelease"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/credittRelease/shaders"/></dataSet></merger>

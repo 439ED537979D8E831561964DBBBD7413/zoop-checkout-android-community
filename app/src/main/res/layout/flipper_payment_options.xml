@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayoutPaymentOptions"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<com.zoop.checkout.app.AutoResizeTextView
+	    android:id="@+id/textViewSelectPaymentType"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center"
+	    android:layout_weight="7"
+	    android:fontFamily="sans-serif-light"
+	    android:text="@string/label_select_payment_type"
+	    android:textAlignment="center"
+	    android:textColor="@color/zcolor_font_color"
+	    android:textSize="60sp" />
+	<ScrollView
+		android:id="@+id/scrollViewContents"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:fillViewport="true" >
+	<LinearLayout
+	    android:id="@+id/linearLayoutTransactionTypes"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="5dp"
+	    android:orientation="vertical" >
+	
+	    <com.zoop.checkout.app.ViewPaymentOption
+	         android:id="@+id/layoutPaymentDebit"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content" />
+	    
+	    <com.zoop.checkout.app.ViewPaymentOption
+	         android:id="@+id/layoutPaymentCredit"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content" />
+	    
+		<com.zoop.checkout.app.ViewPaymentOption
+	         android:id="@+id/layoutPaymentCreditWithInstallments"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content" />
+	    
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

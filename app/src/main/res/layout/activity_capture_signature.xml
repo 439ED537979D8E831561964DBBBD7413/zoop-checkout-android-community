@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:screenOrientation="landscape"
+    tools:context="com.zoop.zoopapidemo.CaptureSignatureActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:dividerPadding="15dp"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/buttonCancel"
+            style="@style/zbutton_zoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:text="@string/signature_button_cancel" />
+        
+        <TextView
+            android:id="@+id/textViewTransactionToVoidDetails"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:id="@+id/buttonClearSignature"
+            style="@style/zbutton_zoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:text="@string/signature_button_clear" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+        
+		<Button
+            android:id="@+id/buttonAcceptSignature"
+            style="@style/zbutton_zoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:text="@string/label_ok" />        
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <com.zoop.zoopandroidsdk.api.ZoopSignatureView
+            android:id="@+id/signatureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E0E1DB" />
+
+        <TextView
+            android:id="@+id/textViewCardholderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_alignLeft="@+id/signatureView"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/signatureView"
+            android:layout_alignLeft="@+id/textViewCardholderName"
+            android:text="@string/signature_label_payment_agreement"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/textViewYourSignatureLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewCardholderName"
+            android:layout_alignParentTop="true"
+            android:text="@string/signature_label_client_signature"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/zcolor_regular_button" >
+
+        <TextView
+            android:id="@+id/textViewTotalCharged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:text="$88.88"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical" >
+
+            <TextView
+                android:id="@+id/textViewMaskedCardNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="···· ···· ···· 8888"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

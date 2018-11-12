@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:document="http://schemas.android.com/tools"
+    xmlns:ext="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    android:padding="20dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_login" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+
+
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#f1f1f1"
+            android:orientation="vertical"
+            android:id="@+id/linear2">
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:id="@+id/dvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+        />
+            <TextView
+                android:id="@+id/textpair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#00ccff"
+                android:onClick="feedbackOnclick"
+                android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/label_welcome_buy_terminal"
+                android:textColorLink="#00ccff"
+
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:id="@+id/textbuy" />
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                />
+            <Button
+                android:id="@+id/buttonOKGotIt"
+                style="@style/zbutton_zoop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:minWidth="30dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:onClick="okGotItOnclick"
+                android:layout_gravity="right"
+
+                android:text="@string/button_welcome_skip_welcome_screen" />
+        </LinearLayout>
+
+     </ScrollView>
+
+
+</LinearLayout>

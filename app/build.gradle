@@ -1,0 +1,94 @@
+apply plugin:'com.android.application'
+apply from: 'signs.gradle'
+
+android {
+    flavorDimensions "default"
+
+    def map = [:]
+
+    // Generating flavors according with folders on app/src
+    new File("./app/src").eachFile() { file ->
+        def fileName = file.getName()
+
+        if (fileName == "main" || fileName == "androidTest" || fileName == ".DS_Store") {
+            return
+        }
+
+        map.put(fileName, 'com.zoop.' + fileName)
+    }
+
+    productFlavors {
+        map.each { flavorName, packageName ->
+            "$flavorName" {
+                applicationId packageName
+            }
+        }
+    }
+
+    signingConfigs {
+        map.each { flavorName, packageName ->
+            "$flavorName"
+        }
+    }
+
+    android.signingConfigs.whenObjectAdded { signing ->
+        setupSigning(signing.name)
+    }
+
+    android.productFlavors.whenObjectAdded { flavor ->
+        flavor.signingConfig = android.signingConfigs[flavor.name]
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = new File("${variant.productFlavors.get(0).name}.apk")
+        }
+    }
+
+    compileSdkVersion 28
+    buildToolsVersion '28.0.0'
+    defaultConfig {
+        versionCode 87
+        versionName "1.9.9"
+        applicationId "com.zoop.checkout.app"
+        minSdkVersion 19
+        targetSdkVersion 28
+    }
+    buildTypes {
+        release {
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
+    implementation 'org.solovyev.android.views:linear-layout-manager:0.5@aar'
+    implementation 'com.uncopt:android.justified:1.0'
+    /*
+    compile 'io.card:android-sdk:5.5.0'
+    */
+    implementation 'com.github.bluejamesbond:textjustify-android:1.5.1'
+    implementation 'com.melnykov:floatingactionbutton:1.3.0'
+    implementation 'com.android.support:design:28.0.0-alpha3'
+    implementation files('libs/zoop_emv_android_sdk_2.0.3.jar')
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.4.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0-alpha3'
+    implementation 'com.android.support:support-v13:28.0.0-alpha3'
+    implementation 'me.relex:circleindicator:1.2.1@aar'
+    implementation 'com.android.support:cardview-v7:28.0.0-alpha3'
+    implementation 'commons-io:commons-io:+'
+    implementation 'com.google.firebase:firebase-core:12.0.1'
+    implementation('com.amazonaws:aws-android-sdk-mobile-client:2.6.+@aar') { transitive = true }
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.karumi:dexter:5.0.0'
+    androidTestImplementation 'tools.fastlane:screengrab:1.0.0'
+}
+
+

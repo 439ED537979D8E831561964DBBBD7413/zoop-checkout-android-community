@@ -1,0 +1,4 @@
+#Tue Nov 06 10:55:21 BRST 2018
+base.0=/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/transforms/dexMerger/checkout/debug/5
+path.0=classes.dex
+renamed.0=classes.dex

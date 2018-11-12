@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/main/jniLibs"/></dataSet><dataSet config="creditt"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/creditt/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/release/jniLibs"/></dataSet><dataSet config="credittRelease"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/credittRelease/jniLibs"/></dataSet></merger>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >    
+	<item
+		android:id="@+id/action_settings"
+		android:title="Configurações"
+		android:icon="@drawable/menu_settings_icon"
+		android:showAsAction="always" />
+	<item
+		android:id="@+id/action_transactions_history"
+		android:title="Histórico de transações"
+		android:showAsAction="always" 
+		android:icon="@drawable/menu_transactions_list_icon"/>
+		<item
+		android:id="@+id/action_lock"
+		android:title="Logout"
+		android:showAsAction="always|collapseActionView"/>
+		 
+		android:icon="@drawable/menu_lock_icon"/>
+</menu>
+
+

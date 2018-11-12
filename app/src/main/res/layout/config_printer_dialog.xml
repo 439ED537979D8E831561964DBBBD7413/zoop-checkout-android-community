@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:gravity="center_horizontal"
+        android:text="Configurações de impressão"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id='@+id/printerColumns'
+        android:layout_marginTop="11dp"
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:ems='10'
+        >
+        <requestFocus />
+
+    </EditText>
+    <RelativeLayout
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content' >
+        <Button
+            android:id='@+id/btn_login'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:text="@string/Config_send"
+            />
+        <Button
+            android:id='@+id/btn_cancel'
+            android:layout_width='120dp'
+            android:layout_height='wrap_content'
+            android:layout_alignParentTop='true'
+            android:layout_marginLeft='10dp'
+            android:layout_toRightOf='@+id/btn_login'
+            android:text='@string/dialog_cancel' />
+    </RelativeLayout>
+</LinearLayout>

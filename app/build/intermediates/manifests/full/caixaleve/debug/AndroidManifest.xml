@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zoop.caixaleve"
+    android:versionCode="87"
+    android:versionName="1.9.9" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.BLUETOOTH"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.zoop.caixaleve.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.zoop.caixaleve.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.zoop.checkout.app.CheckoutApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/product_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name="com.zoop.checkout.app.ChargeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:label="@string/product_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.zoop.checkout.app.CHARGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--
+            <activity android:name="io.card.payment.CardIOActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        -->
+        <activity
+            android:name="com.zoop.checkout.app.ConfigPinPadActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.ConfigPrinterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.WalletActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.MigrateVersionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.OptionsMenu"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.FAQActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.PlansActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.CaptureSignatureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_capture_signature"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.zoop.checkout.app.ReceiptPrint"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_capture_signature"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zoop.checkout.app.LoginActivity"
+            android:exported="true"
+            android:label="@string/product_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.testeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_payments_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.TutorialPairPAXActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.ExtraCardInfoActivity"
+            android:label="@string/title_activity_extra_card_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zoop.checkout.app.DocumentsActivity"
+            android:label="@string/title_activity_extra_card_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zoop.checkout.app.PaymentsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_payments_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.WelcomeCheckoutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_receipt"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.PairPinPadActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.ReceiptActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_receipt"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.PaymentMethodsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.ConfigPasswordGenaratorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.ConfigSenhaActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.FeedbackActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.StartupActivity"
+            android:label="@string/product_name"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zoop.checkout.app.VoidTransactionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/void_transaction_dialog_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.zoop.checkout.app.CVCHelpActivity"
+            android:label="@string/title_activity_cvchelp" />
+        <!--
+            <activity
+            android:name=".AfterInstallActivity"
+            android:label="@string/title_activity_after_install"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        -->
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.zoop.caixaleve" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.zoop.caixaleve.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

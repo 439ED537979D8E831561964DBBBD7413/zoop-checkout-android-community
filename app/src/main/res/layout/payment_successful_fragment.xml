@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutPaymentTotal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layoutChargeLabelAligned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewLabelPaymentAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="@string/charge_hint_type_value_with_decimals"
+                android:textAlignment="gravity"
+                android:textColor="@color/zcolor_font_color"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" >
+
+                </FrameLayout>
+
+                <com.zoop.checkout.app.AutoResizeTextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:maxLines="1"
+                    android:text="@string/charge_label_currency_sign_small"
+                    android:textColor="@color/zcolor_font_color"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2" >
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <com.zoop.checkout.app.AutoResizeTextView
+                android:id="@+id/editTextValueToCharge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:editable="false"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical|right"
+                android:hint="888.888"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bebebe" >
+        </FrameLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="2"
+
+    android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageViewChargeStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/aproved" />
+
+</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutButtonsIfTransactionApproved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSendReceipt"
+            style="@style/zbutton_zoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_send_receipt" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/buttonNewTransaction"
+            style="@style/zbutton_zoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_new_transaction" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutInstallmentOptions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zoop.checkout.app.ViewPaymentOption
+        android:id="@+id/viewPaymentCreditWithInstallments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+       
+    </com.zoop.checkout.app.ViewPaymentOption>
+    
+    <com.zoop.checkout.app.AutoResizeTextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2.2"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/number_of_installments"
+        android:textColor="#5d5d5d"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageView
+            android:id="@+id/imageViewDecreaseInstallments"
+            style="@style/zbutton_zoop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:src="@drawable/minusbutton" />
+
+        <TextView
+            android:id="@+id/textViewNumberOfInstallments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#696969"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewIncrementInstallments"
+            style="@style/zbutton_zoop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:src="@drawable/plusbutton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="2"
+
+        >
+    <com.zoop.checkout.app.AutoResizeTextView
+        android:id="@+id/textViewInstallmentSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:layout_weight="1"
+        android:textColor="@color/zcolor_font_color"
+        android:textSize="40sp" />
+
+
+
+    <com.zoop.checkout.app.AutoResizeTextView
+        android:id="@+id/textViewInstallmentPlanInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/zcolor_font_color"
+        android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

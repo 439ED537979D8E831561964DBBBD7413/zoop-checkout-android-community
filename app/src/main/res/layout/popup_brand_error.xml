@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fcardBrandDetailss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/zcolor_detail_color"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewChargeStatus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/icon_denied" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewStatusText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:maxLines="2"
+                    android:text="@string/label_title_error_brand"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewMessageExplanationText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/label_error_brand"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/lbrand"
+            layout="@layout/lbrand_details"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/layoutButtonsNewTransaction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/buttonNewTransaction2"
+                style="@style/zbutton_zoop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_new_transaction" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

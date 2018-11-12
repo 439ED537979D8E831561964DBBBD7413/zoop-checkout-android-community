@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:gravity="center_horizontal"
+        android:text="Sobre"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+
+
+        android:text="Large Text"
+        android:id="@+id/lbl_version" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+
+        android:text="Large Text"
+        android:id="@+id/lbl_version_sdk" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+
+        android:text="Large Text"
+        android:id="@+id/lbl_release_date" />
+</LinearLayout>

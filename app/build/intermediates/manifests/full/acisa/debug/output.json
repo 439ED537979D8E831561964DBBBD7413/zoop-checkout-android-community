@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":87,"versionName":"1.9.9","enabled":true,"outputFile":"acisa.apk","fullName":"acisaDebug","baseName":"acisa-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.zoop.acisa","split":"","minSdkVersion":"19"}}]

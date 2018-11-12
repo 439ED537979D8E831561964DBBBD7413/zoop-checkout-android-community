@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":87,"versionName":"1.9.9","enabled":true,"outputFile":"pagavel.apk","fullName":"pagavelDebug","baseName":"pagavel-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.zoop.pagavel","split":"","minSdkVersion":"19"}}]

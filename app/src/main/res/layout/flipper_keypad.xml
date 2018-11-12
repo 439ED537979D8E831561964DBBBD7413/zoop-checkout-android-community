@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutKeypad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:weightSum="4" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:weightSum="3" >
+
+	    <Button
+	        android:id="@+id/btDigit01"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="1"
+	        android:text="1" />
+	
+	    <Button
+	        android:id="@+id/btDigit02"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="2"
+	        android:text="2" />
+	
+	    <Button
+	        android:id="@+id/btDigit03"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="3"
+	        android:text="3" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:weightSum="3" >
+	
+	    <Button
+	        android:id="@+id/btDigit04"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="4"
+	        android:text="4" />
+	
+	    <Button
+	        android:id="@+id/btDigit05"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="5"
+	        android:text="5" />
+
+	    <Button
+	        android:id="@+id/btDigit06"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="6"
+	        android:text="6" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:weightSum="3" >
+	
+	    <Button
+	        android:id="@+id/btDigit07"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="7"
+	        android:text="7" />
+	
+	    <Button
+	        android:id="@+id/btDigit08"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="8"
+	        android:text="8" />
+	
+	    <Button
+	        android:id="@+id/btDigit09"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="9"
+	        android:text="9" />
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:weightSum="3" >
+	
+	    <Button
+	        android:id="@+id/btClear"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:text="C" />
+	
+	    <Button
+	        android:id="@+id/btDigit00"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:tag="0"
+	        android:text="0" />
+
+	    <ImageButton
+	        android:id="@+id/btBackspace"
+	        style="@style/zbutton_keypad"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="3dp"
+	        android:layout_weight="1"
+	        android:adjustViewBounds="true"
+	        android:cropToPadding="true"
+	        android:maxHeight="20dp"
+	        android:maxWidth="20dp"
+	        android:padding="16dp"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/backspace_icon"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+include ':app'
+include ':zoop-emv-connect-android-sdk'
+project(':zoop-emv-connect-android-sdk').projectDir = new File('../zoop-emv-connect-android-sdk')

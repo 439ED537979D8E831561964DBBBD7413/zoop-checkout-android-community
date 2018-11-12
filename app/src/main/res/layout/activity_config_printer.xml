@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear1">
+
+    <TextView
+        android:id="@+id/textViewTerminalConfiguration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/label_printer_configuration_text"
+        />
+    <TextView
+        android:id="@+id/textViewCurrentlySelectedTerminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="@string/label_currently_selected_printer_on_configprinter"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/label_printer_type_paper"
+            android:id="@+id/textView2" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/typePaper" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/label_printer_breakline"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2"
+            android:id="@+id/breakline" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="explainTerminalSelection"
+            android:layout_marginTop="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+                <TextView
+                android:id="@+id/textViewLabelTerminalList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/label_select_available_printer"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone"
+                    android:src="@drawable/more_info" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutBluetoothDiscovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:indeterminate="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bluetooth_discovering_compatible_printer"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewAvailableTerminals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonFinishConfiguration"
+        style="@style/zbutton_zoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_terminal_configuration_finished"
+       />
+
+</LinearLayout>
+

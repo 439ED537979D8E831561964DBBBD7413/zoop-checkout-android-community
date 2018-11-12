@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true"
+>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/labelReceiptVisualization"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="Recibo - Via do cliente"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollViewContents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#eeeeff"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:fillViewport="true"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zoop.checkout.app.AutoResizeTextView
+                android:id="@+id/print"
+                android:background="#eeeeff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="12sp"
+                android:editable="false" />
+
+            <com.zoop.checkout.app.AutoResizeTextView
+                android:id="@+id/txtWithPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="TRANSAÇÃO AUTORIZADA MEDIANTE SENHA"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <!--<TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Txtclient"
+                android:text="@string/charge_receipt_customer_handwritten_signature" />
+            -->
+            <com.zoop.zoopandroidsdk.api.ZoopSignatureView
+                android:id="@+id/SignatureViewCustomerSignature"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:background="@drawable/slim_border"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:divider="@layout/lldivider"
+
+        android:showDividers="middle"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonPrintReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/zbutton_zoop"
+            android:text="@string/button_print_receipt" />
+
+        <Button
+            android:id="@+id/buttonCloseReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/zbutton_zoop"
+            android:text="@string/label_ok" />
+
+        <Button
+            android:id="@+id/buttonShareReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/zbutton_zoop"
+            android:text="@string/label_share" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bannerZoop"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewZoopFooter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:src="@drawable/zoop_footer" />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

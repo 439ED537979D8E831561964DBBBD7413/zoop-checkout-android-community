@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+            android:background="#ffffff"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutVoidTransactionStatusPane"
+                android:background="@color/zcolor_detail_color"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/imageViewVoidTransactionStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_card" />
+
+                <com.zoop.checkout.app.AutoResizeTextView
+                    android:id="@+id/textViewStatusText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:maxLines="2"
+                    android:text="@string/label_wait"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp" />
+
+
+                <Button
+                    android:id="@+id/buttonCancelVoidTransaction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/void_transaction_dialog_cancel_void"
+                    style="@style/zbutton_zoop"
+                    android:visibility="gone"
+                    />
+
+                <Button
+                    android:id="@+id/buttonAcknowledgeVoidTransactionSuccessful"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/void_transaction_dialog_void_button_ok"
+                    style="@style/zbutton_zoop"
+                    android:visibility="gone"
+                    />
+
+                <Button
+                    android:id="@+id/buttonRetryVoidTransaction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/void_transaction_dialog_retry_operation"
+                    style="@style/zbutton_zoop"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutVoidConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewTransactionToVoidDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/dialog_void_receipt_transaction_text_confirm_void"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutConfirmTransaction"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+
+
+            <Button
+                android:id="@+id/buttonCancelOperation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/void_transaction_dialog_cancel_void"
+                style="@style/zbutton_zoop"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:id="@+id/buttonConfirmOperation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/void_transaction_dialog_void_button_ok"
+                style="@style/zbutton_zoop"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

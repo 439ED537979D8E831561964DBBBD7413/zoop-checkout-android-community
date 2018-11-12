@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#f1f1f1"
+            android:orientation="vertical"
+
+            android:id="@+id/linear2">
+
+
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:id="@+id/dvText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/label_welcome_buy_terminal"
+                android:textColorLink="#00ccff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textbuy" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

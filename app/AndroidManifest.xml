@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zoop.checkout.app">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        tools:overrideLibrary="com.bluejamesbond.text"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-feature android:name="android.hardware.usb.host" android:required="false" />
+
+    <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- Allows for storing and retrieving screenshots -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Allows changing locales -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/product_name"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:name=".CheckoutApplication">
+        <activity
+            android:name=".ChargeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/product_name"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="CHARGE" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter" />
+
+        </activity>
+        <activity
+            android:name=".ConfigPinPadActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".OptionsMenu"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".FAQActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".CaptureSignatureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_capture_signature"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ReceiptPrint"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_capture_signature"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/product_name"
+            android:screenOrientation="portrait"
+            android:exported="true"
+
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".testeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_payments_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".TutorialPairPAXActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ExtraCardInfoActivity"
+            android:label="@string/title_activity_extra_card_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PaymentsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_payments_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".WelcomeCheckoutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_receipt"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".PairPinPadActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ReceiptActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_receipt"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".PaymentMethodsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+
+        </activity>
+        <activity
+            android:name=".ConfigPasswordGenaratorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ConfigSenhaActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+          <activity
+            android:name=".FeedbackActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".StartupActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:label="@string/product_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/void_transaction_dialog_title"
+            android:name=".VoidTransactionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            tools:ignore="NewApi">
+        </activity>
+    </application>
+
+</manifest>

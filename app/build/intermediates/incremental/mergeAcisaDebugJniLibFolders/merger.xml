@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/main/jniLibs"/></dataSet><dataSet config="acisa"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/acisa/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/debug/jniLibs"/></dataSet><dataSet config="acisaDebug"><source path="/Users/wellingtonfelisberto/projects/zoop-android/app/src/acisaDebug/jniLibs"/></dataSet></merger>
