@@ -5596,126 +5596,127 @@ public final class R {
     public static final int library_FloatingActionButton_licenseId=0x7f100118;
     public static final int library_FloatingActionButton_repositoryLink=0x7f100119;
     public static final int login_connection_error=0x7f10011a;
-    public static final int login_hint_password=0x7f10011b;
-    public static final int login_hint_username=0x7f10011c;
-    public static final int login_ime_action_label=0x7f10011d;
-    public static final int login_label_loading_sellers_list=0x7f10011e;
-    public static final int login_label_signin_to_marketplace=0x7f10011f;
-    public static final int login_label_signing_in=0x7f100120;
-    public static final int login_signin_button=0x7f100121;
-    public static final int login_unexpected_error=0x7f100122;
-    public static final int marketplace_name=0x7f100123;
-    public static final int medicinae_base_url=0x7f100124;
-    public static final int medicinae_login_url=0x7f100125;
-    public static final int menu_settings_shwo_orders_list=0x7f100126;
-    public static final int menu_void_transaction_activity=0x7f100127;
-    public static final int message_charge_sent_to_customer=0x7f100128;
-    public static final int message_password_is_incorrect=0x7f100129;
-    public static final int message_password_is_mandatory=0x7f10012a;
-    public static final int message_select_payment_type=0x7f10012b;
-    public static final int message_username_must_be_filled=0x7f10012c;
-    public static final int message_void_transaction_cancel=0x7f10012d;
-    public static final int message_void_transaction_wait=0x7f10012e;
-    public static final int mtrl_chip_close_icon_content_description=0x7f10012f;
-    public static final int new_account=0x7f100130;
-    public static final int number_of_installments=0x7f100131;
-    public static final int password=0x7f100132;
-    public static final int password_btn=0x7f100133;
-    public static final int password_confirm=0x7f100134;
-    public static final int password_toggle_content_description=0x7f100135;
-    public static final int path_password_eye=0x7f100136;
-    public static final int path_password_eye_mask_strike_through=0x7f100137;
-    public static final int path_password_eye_mask_visible=0x7f100138;
-    public static final int path_password_strike_through=0x7f100139;
-    public static final int payment=0x7f10013a;
-    public static final int payment_option_activity_config=0x7f10013b;
-    public static final int payment_option_cred_activity_config=0x7f10013c;
-    public static final int payment_option_cred_parcel_activity_config=0x7f10013d;
-    public static final int payment_option_credit_installments_activity_config=0x7f10013e;
-    public static final int payment_option_deb_activity_config=0x7f10013f;
-    public static final int payments_list_could_not_retrieve_transactions=0x7f100140;
-    public static final int processing_payment=0x7f100141;
-    public static final int product_name=0x7f100142;
-    public static final int sale_info=0x7f100143;
-    public static final int search_menu_title=0x7f100144;
-    public static final int select_file=0x7f100145;
-    public static final int seller_status_is_not_enabled_for_selling=0x7f100146;
-    public static final int send_receipt_cancel_action=0x7f100147;
-    public static final int send_receipt_confirm_action=0x7f100148;
-    public static final int send_receipt_delivered_via_email=0x7f100149;
-    public static final int send_receipt_delivered_via_sms=0x7f10014a;
-    public static final int send_receipt_not_delivered_via_sms_invalid_number=0x7f10014b;
-    public static final int send_receipt_not_delivered_via_sms_unknown_reason=0x7f10014c;
-    public static final int send_receipt_sms_unknown_status=0x7f10014d;
-    public static final int settings_button_logout=0x7f10014e;
-    public static final int settings_button_select_seller=0x7f10014f;
-    public static final int settings_hint_search_seller_by_name_or_id=0x7f100150;
-    public static final int settings_label_select_seller=0x7f100151;
-    public static final int settings_label_username=0x7f100152;
-    public static final int sign_in_failure_message_format=0x7f100153;
-    public static final int signature_button_cancel=0x7f100154;
-    public static final int signature_button_clear=0x7f100155;
-    public static final int signature_label_client_signature=0x7f100156;
-    public static final int signature_label_payment_agreement=0x7f100157;
-    public static final int status_bar_notification_info_overflow=0x7f100158;
-    public static final int terminal_type_prompt=0x7f100159;
-    public static final int text_dialog_customer_not_ready_for_charging_customers=0x7f10015a;
-    public static final int text_label_unavailable=0x7f10015b;
-    public static final int text_no_printer_available=0x7f10015c;
-    public static final int text_no_terminal_available=0x7f10015d;
-    public static final int text_one_terminal_automatically_preconfigured=0x7f10015e;
-    public static final int text_one_terminal_automatically_preconfigured_dialog_title=0x7f10015f;
-    public static final int text_printer_configuration_quick_instructions=0x7f100160;
-    public static final int text_select_available_terminal=0x7f100161;
-    public static final int text_terminal_configuration_quick_instructions=0x7f100162;
-    public static final int text_transaction_step1_initializing=0x7f100163;
-    public static final int text_transaction_step2_insert_card=0x7f100164;
-    public static final int text_transaction_step3_processing=0x7f100165;
-    public static final int text_transaction_step4_approved=0x7f100166;
-    public static final int text_transaction_step4_denied=0x7f100167;
-    public static final int time_format=0x7f100168;
-    public static final int title_activity_capture_signature=0x7f100169;
-    public static final int title_activity_cvchelp=0x7f10016a;
-    public static final int title_activity_extra_card_info=0x7f10016b;
-    public static final int title_activity_logged_user=0x7f10016c;
-    public static final int title_activity_methods_payment=0x7f10016d;
-    public static final int title_activity_payments_list=0x7f10016e;
-    public static final int title_activity_receipt=0x7f10016f;
-    public static final int title_activity_receipt_print=0x7f100170;
-    public static final int title_activity_startup=0x7f100171;
-    public static final int title_configure_zoop_terminal=0x7f100172;
-    public static final int title_dialog_customer_not_ready_for_charging_customers=0x7f100173;
-    public static final int title_feedback=0x7f100174;
-    public static final int title_plan_button_change_plan=0x7f100175;
-    public static final int title_plan_client_value=0x7f100176;
-    public static final int title_plan_select_plan=0x7f100177;
-    public static final int title_plan_simulate_sale_price=0x7f100178;
-    public static final int title_plan_simulated_price_result=0x7f100179;
-    public static final int title_plan_zoop_tax=0x7f10017a;
-    public static final int title_simulator_panel=0x7f10017b;
-    public static final int title_simulator_select_receiving_plan=0x7f10017c;
-    public static final int title_welcome_activity=0x7f10017d;
-    public static final int toast_void_transaction_fail=0x7f10017e;
-    public static final int toast_void_transaction_success=0x7f10017f;
-    public static final int transactions_list_transaction_datetime_format=0x7f100180;
-    public static final int unidentified_holder_name=0x7f100181;
-    public static final int url_dev=0x7f100182;
-    public static final int version_number=0x7f100183;
-    public static final int void_transaction_dialog_cancel_void=0x7f100184;
-    public static final int void_transaction_dialog_confirm_void=0x7f100185;
-    public static final int void_transaction_dialog_error_message=0x7f100186;
-    public static final int void_transaction_dialog_insert_card=0x7f100187;
-    public static final int void_transaction_dialog_retry_operation=0x7f100188;
-    public static final int void_transaction_dialog_title=0x7f100189;
-    public static final int void_transaction_dialog_void_button_ok=0x7f10018a;
-    public static final int void_transaction_dialog_void_failed=0x7f10018b;
-    public static final int void_transaction_succcessful=0x7f10018c;
-    public static final int welcome_paragraph01_is_able_to_sell=0x7f10018d;
-    public static final int welcome_paragraph04=0x7f10018e;
-    public static final int welcome_paragraph05=0x7f10018f;
-    public static final int welcome_paragraph_no_pinpad_detected_user_=0x7f100190;
-    public static final int welcome_paragraph_pinpad_detected=0x7f100191;
-    public static final int zoop_release_date=0x7f100192;
+    public static final int login_error=0x7f10011b;
+    public static final int login_hint_password=0x7f10011c;
+    public static final int login_hint_username=0x7f10011d;
+    public static final int login_ime_action_label=0x7f10011e;
+    public static final int login_label_loading_sellers_list=0x7f10011f;
+    public static final int login_label_signin_to_marketplace=0x7f100120;
+    public static final int login_label_signing_in=0x7f100121;
+    public static final int login_signin_button=0x7f100122;
+    public static final int login_unexpected_error=0x7f100123;
+    public static final int marketplace_name=0x7f100124;
+    public static final int medicinae_base_url=0x7f100125;
+    public static final int medicinae_login_url=0x7f100126;
+    public static final int menu_settings_shwo_orders_list=0x7f100127;
+    public static final int menu_void_transaction_activity=0x7f100128;
+    public static final int message_charge_sent_to_customer=0x7f100129;
+    public static final int message_password_is_incorrect=0x7f10012a;
+    public static final int message_password_is_mandatory=0x7f10012b;
+    public static final int message_select_payment_type=0x7f10012c;
+    public static final int message_username_must_be_filled=0x7f10012d;
+    public static final int message_void_transaction_cancel=0x7f10012e;
+    public static final int message_void_transaction_wait=0x7f10012f;
+    public static final int mtrl_chip_close_icon_content_description=0x7f100130;
+    public static final int new_account=0x7f100131;
+    public static final int number_of_installments=0x7f100132;
+    public static final int password=0x7f100133;
+    public static final int password_btn=0x7f100134;
+    public static final int password_confirm=0x7f100135;
+    public static final int password_toggle_content_description=0x7f100136;
+    public static final int path_password_eye=0x7f100137;
+    public static final int path_password_eye_mask_strike_through=0x7f100138;
+    public static final int path_password_eye_mask_visible=0x7f100139;
+    public static final int path_password_strike_through=0x7f10013a;
+    public static final int payment=0x7f10013b;
+    public static final int payment_option_activity_config=0x7f10013c;
+    public static final int payment_option_cred_activity_config=0x7f10013d;
+    public static final int payment_option_cred_parcel_activity_config=0x7f10013e;
+    public static final int payment_option_credit_installments_activity_config=0x7f10013f;
+    public static final int payment_option_deb_activity_config=0x7f100140;
+    public static final int payments_list_could_not_retrieve_transactions=0x7f100141;
+    public static final int processing_payment=0x7f100142;
+    public static final int product_name=0x7f100143;
+    public static final int sale_info=0x7f100144;
+    public static final int search_menu_title=0x7f100145;
+    public static final int select_file=0x7f100146;
+    public static final int seller_status_is_not_enabled_for_selling=0x7f100147;
+    public static final int send_receipt_cancel_action=0x7f100148;
+    public static final int send_receipt_confirm_action=0x7f100149;
+    public static final int send_receipt_delivered_via_email=0x7f10014a;
+    public static final int send_receipt_delivered_via_sms=0x7f10014b;
+    public static final int send_receipt_not_delivered_via_sms_invalid_number=0x7f10014c;
+    public static final int send_receipt_not_delivered_via_sms_unknown_reason=0x7f10014d;
+    public static final int send_receipt_sms_unknown_status=0x7f10014e;
+    public static final int settings_button_logout=0x7f10014f;
+    public static final int settings_button_select_seller=0x7f100150;
+    public static final int settings_hint_search_seller_by_name_or_id=0x7f100151;
+    public static final int settings_label_select_seller=0x7f100152;
+    public static final int settings_label_username=0x7f100153;
+    public static final int sign_in_failure_message_format=0x7f100154;
+    public static final int signature_button_cancel=0x7f100155;
+    public static final int signature_button_clear=0x7f100156;
+    public static final int signature_label_client_signature=0x7f100157;
+    public static final int signature_label_payment_agreement=0x7f100158;
+    public static final int status_bar_notification_info_overflow=0x7f100159;
+    public static final int terminal_type_prompt=0x7f10015a;
+    public static final int text_dialog_customer_not_ready_for_charging_customers=0x7f10015b;
+    public static final int text_label_unavailable=0x7f10015c;
+    public static final int text_no_printer_available=0x7f10015d;
+    public static final int text_no_terminal_available=0x7f10015e;
+    public static final int text_one_terminal_automatically_preconfigured=0x7f10015f;
+    public static final int text_one_terminal_automatically_preconfigured_dialog_title=0x7f100160;
+    public static final int text_printer_configuration_quick_instructions=0x7f100161;
+    public static final int text_select_available_terminal=0x7f100162;
+    public static final int text_terminal_configuration_quick_instructions=0x7f100163;
+    public static final int text_transaction_step1_initializing=0x7f100164;
+    public static final int text_transaction_step2_insert_card=0x7f100165;
+    public static final int text_transaction_step3_processing=0x7f100166;
+    public static final int text_transaction_step4_approved=0x7f100167;
+    public static final int text_transaction_step4_denied=0x7f100168;
+    public static final int time_format=0x7f100169;
+    public static final int title_activity_capture_signature=0x7f10016a;
+    public static final int title_activity_cvchelp=0x7f10016b;
+    public static final int title_activity_extra_card_info=0x7f10016c;
+    public static final int title_activity_logged_user=0x7f10016d;
+    public static final int title_activity_methods_payment=0x7f10016e;
+    public static final int title_activity_payments_list=0x7f10016f;
+    public static final int title_activity_receipt=0x7f100170;
+    public static final int title_activity_receipt_print=0x7f100171;
+    public static final int title_activity_startup=0x7f100172;
+    public static final int title_configure_zoop_terminal=0x7f100173;
+    public static final int title_dialog_customer_not_ready_for_charging_customers=0x7f100174;
+    public static final int title_feedback=0x7f100175;
+    public static final int title_plan_button_change_plan=0x7f100176;
+    public static final int title_plan_client_value=0x7f100177;
+    public static final int title_plan_select_plan=0x7f100178;
+    public static final int title_plan_simulate_sale_price=0x7f100179;
+    public static final int title_plan_simulated_price_result=0x7f10017a;
+    public static final int title_plan_zoop_tax=0x7f10017b;
+    public static final int title_simulator_panel=0x7f10017c;
+    public static final int title_simulator_select_receiving_plan=0x7f10017d;
+    public static final int title_welcome_activity=0x7f10017e;
+    public static final int toast_void_transaction_fail=0x7f10017f;
+    public static final int toast_void_transaction_success=0x7f100180;
+    public static final int transactions_list_transaction_datetime_format=0x7f100181;
+    public static final int unidentified_holder_name=0x7f100182;
+    public static final int url_dev=0x7f100183;
+    public static final int version_number=0x7f100184;
+    public static final int void_transaction_dialog_cancel_void=0x7f100185;
+    public static final int void_transaction_dialog_confirm_void=0x7f100186;
+    public static final int void_transaction_dialog_error_message=0x7f100187;
+    public static final int void_transaction_dialog_insert_card=0x7f100188;
+    public static final int void_transaction_dialog_retry_operation=0x7f100189;
+    public static final int void_transaction_dialog_title=0x7f10018a;
+    public static final int void_transaction_dialog_void_button_ok=0x7f10018b;
+    public static final int void_transaction_dialog_void_failed=0x7f10018c;
+    public static final int void_transaction_succcessful=0x7f10018d;
+    public static final int welcome_paragraph01_is_able_to_sell=0x7f10018e;
+    public static final int welcome_paragraph04=0x7f10018f;
+    public static final int welcome_paragraph05=0x7f100190;
+    public static final int welcome_paragraph_no_pinpad_detected_user_=0x7f100191;
+    public static final int welcome_paragraph_pinpad_detected=0x7f100192;
+    public static final int zoop_release_date=0x7f100193;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f110000;
@@ -6221,35 +6222,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.zoop.checkout:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.zoop.checkout:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.zoop.checkout:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.zoop.checkout:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.zoop.checkout:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.zoop.checkout:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.zoop.checkout:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.zoop.checkout:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.zoop.checkout:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.zoop.checkout:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.zoop.checkout:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.zoop.checkout:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.zoop.checkout:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.zoop.checkout:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.zoop.checkout:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.zoop.checkout:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.zoop.checkout:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.zoop.checkout:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.zoop.checkout:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.zoop.checkout:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.zoop.checkout:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.zoop.checkout:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.zoop.checkout:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.zoop.checkout:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.zoop.checkout:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.zoop.checkout:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.zoop.checkout:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.zoop.checkout:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.zoop.checkout:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.zoop.checkout.app:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.zoop.checkout.app:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.zoop.checkout.app:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.zoop.checkout.app:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.zoop.checkout.app:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.zoop.checkout.app:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.zoop.checkout.app:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.zoop.checkout.app:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.zoop.checkout.app:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.zoop.checkout.app:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.zoop.checkout.app:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.zoop.checkout.app:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.zoop.checkout.app:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.zoop.checkout.app:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.zoop.checkout.app:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.zoop.checkout.app:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.zoop.checkout.app:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.zoop.checkout.app:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.zoop.checkout.app:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.zoop.checkout.app:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.zoop.checkout.app:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.zoop.checkout.app:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.zoop.checkout.app:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.zoop.checkout.app:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.zoop.checkout.app:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.zoop.checkout.app:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.zoop.checkout.app:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.zoop.checkout.app:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.zoop.checkout.app:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -6292,7 +6293,7 @@ public final class R {
       0x7f0401f1
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6300,11 +6301,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:background
+     * @attr name com.zoop.checkout.app:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6315,11 +6316,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundSplit
+     * @attr name com.zoop.checkout.app:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6330,11 +6331,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundStacked
+     * @attr name com.zoop.checkout.app:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6343,11 +6344,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetEnd
+     * @attr name com.zoop.checkout.app:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6356,11 +6357,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetEndWithActions
+     * @attr name com.zoop.checkout.app:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6369,11 +6370,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetLeft
+     * @attr name com.zoop.checkout.app:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6382,11 +6383,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetRight
+     * @attr name com.zoop.checkout.app:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6395,11 +6396,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetStart
+     * @attr name com.zoop.checkout.app:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6408,11 +6409,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetStartWithNavigation
+     * @attr name com.zoop.checkout.app:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6420,11 +6421,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:customNavigationLayout
+     * @attr name com.zoop.checkout.app:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6442,11 +6443,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:displayOptions
+     * @attr name com.zoop.checkout.app:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6454,11 +6455,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:divider
+     * @attr name com.zoop.checkout.app:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6467,11 +6468,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:elevation
+     * @attr name com.zoop.checkout.app:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6480,21 +6481,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:height
+     * @attr name com.zoop.checkout.app:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:hideOnContentScroll
+     * @attr name com.zoop.checkout.app:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6502,11 +6503,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:homeAsUpIndicator
+     * @attr name com.zoop.checkout.app:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6514,11 +6515,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:homeLayout
+     * @attr name com.zoop.checkout.app:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6526,11 +6527,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:icon
+     * @attr name com.zoop.checkout.app:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6538,11 +6539,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:indeterminateProgressStyle
+     * @attr name com.zoop.checkout.app:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6551,11 +6552,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:itemPadding
+     * @attr name com.zoop.checkout.app:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6563,11 +6564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:logo
+     * @attr name com.zoop.checkout.app:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6581,11 +6582,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:navigationMode
+     * @attr name com.zoop.checkout.app:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6593,11 +6594,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:popupTheme
+     * @attr name com.zoop.checkout.app:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6606,11 +6607,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:progressBarPadding
+     * @attr name com.zoop.checkout.app:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6618,21 +6619,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:progressBarStyle
+     * @attr name com.zoop.checkout.app:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:subtitle
+     * @attr name com.zoop.checkout.app:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6640,21 +6641,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:subtitleTextStyle
+     * @attr name com.zoop.checkout.app:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:title
+     * @attr name com.zoop.checkout.app:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6662,7 +6663,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:titleTextStyle
+     * @attr name com.zoop.checkout.app:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -6744,12 +6745,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.zoop.checkout:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.zoop.checkout:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.zoop.checkout:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.zoop.checkout:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.zoop.checkout:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.zoop.checkout:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.zoop.checkout.app:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.zoop.checkout.app:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.zoop.checkout.app:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.zoop.checkout.app:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.zoop.checkout.app:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.zoop.checkout.app:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -6763,7 +6764,7 @@ public final class R {
       0x7f04019a, 0x7f0401f1
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6771,11 +6772,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:background
+     * @attr name com.zoop.checkout.app:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6786,11 +6787,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundSplit
+     * @attr name com.zoop.checkout.app:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6798,11 +6799,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:closeItemLayout
+     * @attr name com.zoop.checkout.app:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6811,11 +6812,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:height
+     * @attr name com.zoop.checkout.app:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6823,11 +6824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:subtitleTextStyle
+     * @attr name com.zoop.checkout.app:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6835,7 +6836,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:titleTextStyle
+     * @attr name com.zoop.checkout.app:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -6845,8 +6846,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.zoop.checkout:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.zoop.checkout:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.zoop.checkout.app:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.zoop.checkout.app:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -6855,7 +6856,7 @@ public final class R {
       0x7f0400c4, 0x7f040108
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6863,17 +6864,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:expandActivityOverflowButtonDrawable
+     * @attr name com.zoop.checkout.app:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:initialActivityCount
+     * @attr name com.zoop.checkout.app:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6884,13 +6885,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.zoop.checkout:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.zoop.checkout:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.zoop.checkout:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.zoop.checkout:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.zoop.checkout:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.zoop.checkout:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.zoop.checkout:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.zoop.checkout.app:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.zoop.checkout.app:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.zoop.checkout.app:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.zoop.checkout.app:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.zoop.checkout.app:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.zoop.checkout.app:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.zoop.checkout.app:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6918,7 +6919,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6927,11 +6928,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:buttonIconDimen
+     * @attr name com.zoop.checkout.app:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6939,11 +6940,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonPanelSideLayout
+     * @attr name com.zoop.checkout.app:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6951,11 +6952,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:listItemLayout
+     * @attr name com.zoop.checkout.app:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6963,11 +6964,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:listLayout
+     * @attr name com.zoop.checkout.app:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6975,21 +6976,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:multiChoiceItemLayout
+     * @attr name com.zoop.checkout.app:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:showTitle
+     * @attr name com.zoop.checkout.app:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6997,7 +6998,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:singleChoiceItemLayout
+     * @attr name com.zoop.checkout.app:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -7010,9 +7011,9 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.zoop.checkout:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.zoop.checkout:expanded}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.zoop.checkout:liftOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.zoop.checkout.app:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.zoop.checkout.app:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.zoop.checkout.app:liftOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -7061,7 +7062,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7070,27 +7071,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:elevation
+     * @attr name com.zoop.checkout.app:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:expanded
+     * @attr name com.zoop.checkout.app:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#liftOnScroll}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#liftOnScroll}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:liftOnScroll
+     * @attr name com.zoop.checkout.app:liftOnScroll
      */
     public static final int AppBarLayout_liftOnScroll=5;
     /**
@@ -7100,10 +7101,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.zoop.checkout:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.zoop.checkout:state_collapsible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.zoop.checkout:state_liftable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.zoop.checkout:state_lifted}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.zoop.checkout.app:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.zoop.checkout.app:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.zoop.checkout.app:state_liftable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.zoop.checkout.app:state_lifted}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -7114,43 +7115,43 @@ public final class R {
       0x7f04018d, 0x7f04018e, 0x7f04018f, 0x7f040190
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:state_collapsed
+     * @attr name com.zoop.checkout.app:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:state_collapsible
+     * @attr name com.zoop.checkout.app:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#state_liftable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#state_liftable}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:state_liftable
+     * @attr name com.zoop.checkout.app:state_liftable
      */
     public static final int AppBarLayoutStates_state_liftable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#state_lifted}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#state_lifted}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:state_lifted
+     * @attr name com.zoop.checkout.app:state_lifted
      */
     public static final int AppBarLayoutStates_state_lifted=3;
     /**
@@ -7160,8 +7161,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.zoop.checkout:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.zoop.checkout:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.zoop.checkout.app:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.zoop.checkout.app:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -7170,7 +7171,7 @@ public final class R {
       0x7f04012b, 0x7f04012c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7187,11 +7188,11 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:layout_scrollFlags
+     * @attr name com.zoop.checkout.app:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7199,7 +7200,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:layout_scrollInterpolator
+     * @attr name com.zoop.checkout.app:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -7210,9 +7211,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.zoop.checkout:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.zoop.checkout:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.zoop.checkout:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.zoop.checkout.app:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.zoop.checkout.app:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.zoop.checkout.app:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -7238,7 +7239,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7246,22 +7247,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:srcCompat
+     * @attr name com.zoop.checkout.app:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tint
+     * @attr name com.zoop.checkout.app:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7278,7 +7279,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:tintMode
+     * @attr name com.zoop.checkout.app:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -7289,9 +7290,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.zoop.checkout:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.zoop.checkout:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.zoop.checkout:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.zoop.checkout.app:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.zoop.checkout.app:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.zoop.checkout.app:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -7314,7 +7315,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7322,22 +7323,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:tickMark
+     * @attr name com.zoop.checkout.app:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tickMarkTint
+     * @attr name com.zoop.checkout.app:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7354,7 +7355,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:tickMarkTintMode
+     * @attr name com.zoop.checkout.app:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -7494,16 +7495,16 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.zoop.checkout:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.zoop.checkout:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.zoop.checkout:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.zoop.checkout:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.zoop.checkout:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.zoop.checkout:firstBaselineToTopHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.zoop.checkout:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.zoop.checkout:lastBaselineToBottomHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.zoop.checkout:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.zoop.checkout:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.zoop.checkout.app:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.zoop.checkout.app:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.zoop.checkout.app:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.zoop.checkout.app:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.zoop.checkout.app:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.zoop.checkout.app:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.zoop.checkout.app:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.zoop.checkout.app:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.zoop.checkout.app:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.zoop.checkout.app:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7535,7 +7536,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7544,11 +7545,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:autoSizeMaxTextSize
+     * @attr name com.zoop.checkout.app:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7557,11 +7558,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:autoSizeMinTextSize
+     * @attr name com.zoop.checkout.app:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7569,11 +7570,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:autoSizePresetSizes
+     * @attr name com.zoop.checkout.app:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7582,11 +7583,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:autoSizeStepGranularity
+     * @attr name com.zoop.checkout.app:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7599,11 +7600,11 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:autoSizeTextType
+     * @attr name com.zoop.checkout.app:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#firstBaselineToTopHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#firstBaselineToTopHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7612,21 +7613,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:firstBaselineToTopHeight
+     * @attr name com.zoop.checkout.app:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:fontFamily
+     * @attr name com.zoop.checkout.app:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#lastBaselineToBottomHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#lastBaselineToBottomHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7635,11 +7636,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:lastBaselineToBottomHeight
+     * @attr name com.zoop.checkout.app:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#lineHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#lineHeight}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7648,11 +7649,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:lineHeight
+     * @attr name com.zoop.checkout.app:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7662,7 +7663,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:textAllCaps
+     * @attr name com.zoop.checkout.app:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -7674,125 +7675,125 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.zoop.checkout:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.zoop.checkout:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.zoop.checkout:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.zoop.checkout:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.zoop.checkout:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.zoop.checkout:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.zoop.checkout:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.zoop.checkout:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.zoop.checkout:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.zoop.checkout:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.zoop.checkout:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.zoop.checkout:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.zoop.checkout:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.zoop.checkout:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.zoop.checkout:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.zoop.checkout:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.zoop.checkout:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.zoop.checkout:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.zoop.checkout:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.zoop.checkout:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.zoop.checkout:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.zoop.checkout:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.zoop.checkout:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.zoop.checkout:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.zoop.checkout:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.zoop.checkout:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.zoop.checkout:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.zoop.checkout:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.zoop.checkout:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.zoop.checkout:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.zoop.checkout:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.zoop.checkout:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.zoop.checkout:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.zoop.checkout:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.zoop.checkout:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.zoop.checkout:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.zoop.checkout:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.zoop.checkout:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.zoop.checkout:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.zoop.checkout:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.zoop.checkout:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.zoop.checkout:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.zoop.checkout:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.zoop.checkout:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.zoop.checkout:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.zoop.checkout:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.zoop.checkout:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.zoop.checkout:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.zoop.checkout:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.zoop.checkout:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.zoop.checkout:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.zoop.checkout:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.zoop.checkout:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.zoop.checkout:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.zoop.checkout:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.zoop.checkout:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.zoop.checkout:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.zoop.checkout:dialogCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.zoop.checkout:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.zoop.checkout:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.zoop.checkout:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.zoop.checkout:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.zoop.checkout:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.zoop.checkout:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.zoop.checkout:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.zoop.checkout:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.zoop.checkout:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.zoop.checkout:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.zoop.checkout:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.zoop.checkout:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.zoop.checkout:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.zoop.checkout:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.zoop.checkout:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.zoop.checkout:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.zoop.checkout:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.zoop.checkout:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.zoop.checkout:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.zoop.checkout:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.zoop.checkout:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.zoop.checkout:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.zoop.checkout:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.zoop.checkout:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.zoop.checkout:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.zoop.checkout:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.zoop.checkout:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.zoop.checkout:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.zoop.checkout:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.zoop.checkout:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.zoop.checkout:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.zoop.checkout:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.zoop.checkout:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.zoop.checkout:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.zoop.checkout:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.zoop.checkout:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.zoop.checkout:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.zoop.checkout:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.zoop.checkout:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.zoop.checkout:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.zoop.checkout:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.zoop.checkout:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.zoop.checkout:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.zoop.checkout:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.zoop.checkout:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.zoop.checkout:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.zoop.checkout:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.zoop.checkout:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.zoop.checkout:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.zoop.checkout:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.zoop.checkout:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.zoop.checkout:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.zoop.checkout:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.zoop.checkout:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.zoop.checkout:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.zoop.checkout:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.zoop.checkout:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.zoop.checkout:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.zoop.checkout:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.zoop.checkout:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.zoop.checkout:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.zoop.checkout.app:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.zoop.checkout.app:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.zoop.checkout.app:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.zoop.checkout.app:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.zoop.checkout.app:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.zoop.checkout.app:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.zoop.checkout.app:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.zoop.checkout.app:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.zoop.checkout.app:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.zoop.checkout.app:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.zoop.checkout.app:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.zoop.checkout.app:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.zoop.checkout.app:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.zoop.checkout.app:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.zoop.checkout.app:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.zoop.checkout.app:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.zoop.checkout.app:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.zoop.checkout.app:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.zoop.checkout.app:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.zoop.checkout.app:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.zoop.checkout.app:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.zoop.checkout.app:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.zoop.checkout.app:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.zoop.checkout.app:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.zoop.checkout.app:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.zoop.checkout.app:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.zoop.checkout.app:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.zoop.checkout.app:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.zoop.checkout.app:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.zoop.checkout.app:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.zoop.checkout.app:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.zoop.checkout.app:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.zoop.checkout.app:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.zoop.checkout.app:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.zoop.checkout.app:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.zoop.checkout.app:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.zoop.checkout.app:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.zoop.checkout.app:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.zoop.checkout.app:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.zoop.checkout.app:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.zoop.checkout.app:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.zoop.checkout.app:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.zoop.checkout.app:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.zoop.checkout.app:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.zoop.checkout.app:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.zoop.checkout.app:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.zoop.checkout.app:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.zoop.checkout.app:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.zoop.checkout.app:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.zoop.checkout.app:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.zoop.checkout.app:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.zoop.checkout.app:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.zoop.checkout.app:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.zoop.checkout.app:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.zoop.checkout.app:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.zoop.checkout.app:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.zoop.checkout.app:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.zoop.checkout.app:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.zoop.checkout.app:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.zoop.checkout.app:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.zoop.checkout.app:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.zoop.checkout.app:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.zoop.checkout.app:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.zoop.checkout.app:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.zoop.checkout.app:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.zoop.checkout.app:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.zoop.checkout.app:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.zoop.checkout.app:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.zoop.checkout.app:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.zoop.checkout.app:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.zoop.checkout.app:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.zoop.checkout.app:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.zoop.checkout.app:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.zoop.checkout.app:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.zoop.checkout.app:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.zoop.checkout.app:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.zoop.checkout.app:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.zoop.checkout.app:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.zoop.checkout.app:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.zoop.checkout.app:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.zoop.checkout.app:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.zoop.checkout.app:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.zoop.checkout.app:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.zoop.checkout.app:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.zoop.checkout.app:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.zoop.checkout.app:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.zoop.checkout.app:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.zoop.checkout.app:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.zoop.checkout.app:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.zoop.checkout.app:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.zoop.checkout.app:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.zoop.checkout.app:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.zoop.checkout.app:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.zoop.checkout.app:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.zoop.checkout.app:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.zoop.checkout.app:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.zoop.checkout.app:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.zoop.checkout.app:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.zoop.checkout.app:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.zoop.checkout.app:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.zoop.checkout.app:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.zoop.checkout.app:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.zoop.checkout.app:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.zoop.checkout.app:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.zoop.checkout.app:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.zoop.checkout.app:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.zoop.checkout.app:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.zoop.checkout.app:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.zoop.checkout.app:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.zoop.checkout.app:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.zoop.checkout.app:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.zoop.checkout.app:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.zoop.checkout.app:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.zoop.checkout.app:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.zoop.checkout.app:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.zoop.checkout.app:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.zoop.checkout.app:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.zoop.checkout.app:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.zoop.checkout.app:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -7972,7 +7973,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7980,11 +7981,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarDivider
+     * @attr name com.zoop.checkout.app:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7992,11 +7993,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarItemBackground
+     * @attr name com.zoop.checkout.app:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8004,11 +8005,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarPopupTheme
+     * @attr name com.zoop.checkout.app:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8025,11 +8026,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:actionBarSize
+     * @attr name com.zoop.checkout.app:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8037,11 +8038,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarSplitStyle
+     * @attr name com.zoop.checkout.app:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8049,11 +8050,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarStyle
+     * @attr name com.zoop.checkout.app:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8061,11 +8062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarTabBarStyle
+     * @attr name com.zoop.checkout.app:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8073,11 +8074,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarTabStyle
+     * @attr name com.zoop.checkout.app:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8085,11 +8086,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarTabTextStyle
+     * @attr name com.zoop.checkout.app:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8097,11 +8098,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarTheme
+     * @attr name com.zoop.checkout.app:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8109,11 +8110,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionBarWidgetTheme
+     * @attr name com.zoop.checkout.app:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8121,11 +8122,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionButtonStyle
+     * @attr name com.zoop.checkout.app:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8133,11 +8134,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionDropDownStyle
+     * @attr name com.zoop.checkout.app:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8145,11 +8146,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionMenuTextAppearance
+     * @attr name com.zoop.checkout.app:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8160,11 +8161,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:actionMenuTextColor
+     * @attr name com.zoop.checkout.app:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8172,11 +8173,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeBackground
+     * @attr name com.zoop.checkout.app:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8184,11 +8185,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeCloseButtonStyle
+     * @attr name com.zoop.checkout.app:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8196,11 +8197,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeCloseDrawable
+     * @attr name com.zoop.checkout.app:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8208,11 +8209,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeCopyDrawable
+     * @attr name com.zoop.checkout.app:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8220,11 +8221,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeCutDrawable
+     * @attr name com.zoop.checkout.app:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8232,11 +8233,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeFindDrawable
+     * @attr name com.zoop.checkout.app:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8244,11 +8245,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModePasteDrawable
+     * @attr name com.zoop.checkout.app:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8256,11 +8257,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModePopupWindowStyle
+     * @attr name com.zoop.checkout.app:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8268,11 +8269,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeSelectAllDrawable
+     * @attr name com.zoop.checkout.app:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8280,11 +8281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeShareDrawable
+     * @attr name com.zoop.checkout.app:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8292,11 +8293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeSplitBackground
+     * @attr name com.zoop.checkout.app:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8304,11 +8305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeStyle
+     * @attr name com.zoop.checkout.app:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8316,11 +8317,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionModeWebSearchDrawable
+     * @attr name com.zoop.checkout.app:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8328,11 +8329,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionOverflowButtonStyle
+     * @attr name com.zoop.checkout.app:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8340,11 +8341,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionOverflowMenuStyle
+     * @attr name com.zoop.checkout.app:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8352,11 +8353,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:activityChooserViewStyle
+     * @attr name com.zoop.checkout.app:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8364,21 +8365,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:alertDialogButtonGroupStyle
+     * @attr name com.zoop.checkout.app:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:alertDialogCenterButtons
+     * @attr name com.zoop.checkout.app:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8386,11 +8387,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:alertDialogStyle
+     * @attr name com.zoop.checkout.app:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8398,11 +8399,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:alertDialogTheme
+     * @attr name com.zoop.checkout.app:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8410,11 +8411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:autoCompleteTextViewStyle
+     * @attr name com.zoop.checkout.app:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8422,11 +8423,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:borderlessButtonStyle
+     * @attr name com.zoop.checkout.app:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8434,11 +8435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonBarButtonStyle
+     * @attr name com.zoop.checkout.app:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8446,11 +8447,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonBarNegativeButtonStyle
+     * @attr name com.zoop.checkout.app:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8458,11 +8459,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonBarNeutralButtonStyle
+     * @attr name com.zoop.checkout.app:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8470,11 +8471,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonBarPositiveButtonStyle
+     * @attr name com.zoop.checkout.app:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8482,11 +8483,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonBarStyle
+     * @attr name com.zoop.checkout.app:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8494,11 +8495,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonStyle
+     * @attr name com.zoop.checkout.app:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8506,11 +8507,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonStyleSmall
+     * @attr name com.zoop.checkout.app:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8518,11 +8519,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:checkboxStyle
+     * @attr name com.zoop.checkout.app:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8530,77 +8531,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:checkedTextViewStyle
+     * @attr name com.zoop.checkout.app:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorAccent
+     * @attr name com.zoop.checkout.app:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorBackgroundFloating
+     * @attr name com.zoop.checkout.app:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorButtonNormal
+     * @attr name com.zoop.checkout.app:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorControlActivated
+     * @attr name com.zoop.checkout.app:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorControlHighlight
+     * @attr name com.zoop.checkout.app:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorControlNormal
+     * @attr name com.zoop.checkout.app:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8611,44 +8612,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorError
+     * @attr name com.zoop.checkout.app:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorPrimary
+     * @attr name com.zoop.checkout.app:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorPrimaryDark
+     * @attr name com.zoop.checkout.app:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorSwitchThumbNormal
+     * @attr name com.zoop.checkout.app:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8656,11 +8657,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:controlBackground
+     * @attr name com.zoop.checkout.app:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dialogCornerRadius}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dialogCornerRadius}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8669,11 +8670,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:dialogCornerRadius
+     * @attr name com.zoop.checkout.app:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8682,11 +8683,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:dialogPreferredPadding
+     * @attr name com.zoop.checkout.app:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8694,11 +8695,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:dialogTheme
+     * @attr name com.zoop.checkout.app:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8706,11 +8707,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:dividerHorizontal
+     * @attr name com.zoop.checkout.app:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8718,11 +8719,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:dividerVertical
+     * @attr name com.zoop.checkout.app:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8730,11 +8731,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:dropDownListViewStyle
+     * @attr name com.zoop.checkout.app:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8743,11 +8744,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:dropdownListPreferredItemHeight
+     * @attr name com.zoop.checkout.app:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8755,11 +8756,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:editTextBackground
+     * @attr name com.zoop.checkout.app:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8770,11 +8771,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:editTextColor
+     * @attr name com.zoop.checkout.app:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8782,11 +8783,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:editTextStyle
+     * @attr name com.zoop.checkout.app:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8794,11 +8795,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:homeAsUpIndicator
+     * @attr name com.zoop.checkout.app:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8806,11 +8807,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:imageButtonStyle
+     * @attr name com.zoop.checkout.app:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8818,11 +8819,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:listChoiceBackgroundIndicator
+     * @attr name com.zoop.checkout.app:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8830,11 +8831,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:listDividerAlertDialog
+     * @attr name com.zoop.checkout.app:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8842,11 +8843,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:listMenuViewStyle
+     * @attr name com.zoop.checkout.app:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8854,11 +8855,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:listPopupWindowStyle
+     * @attr name com.zoop.checkout.app:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8867,11 +8868,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:listPreferredItemHeight
+     * @attr name com.zoop.checkout.app:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8880,11 +8881,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:listPreferredItemHeightLarge
+     * @attr name com.zoop.checkout.app:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8893,11 +8894,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:listPreferredItemHeightSmall
+     * @attr name com.zoop.checkout.app:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8906,11 +8907,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:listPreferredItemPaddingLeft
+     * @attr name com.zoop.checkout.app:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8919,11 +8920,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:listPreferredItemPaddingRight
+     * @attr name com.zoop.checkout.app:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8931,11 +8932,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:panelBackground
+     * @attr name com.zoop.checkout.app:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8943,11 +8944,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:panelMenuListTheme
+     * @attr name com.zoop.checkout.app:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8956,11 +8957,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:panelMenuListWidth
+     * @attr name com.zoop.checkout.app:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8968,11 +8969,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:popupMenuStyle
+     * @attr name com.zoop.checkout.app:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8980,11 +8981,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:popupWindowStyle
+     * @attr name com.zoop.checkout.app:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8992,11 +8993,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:radioButtonStyle
+     * @attr name com.zoop.checkout.app:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9004,11 +9005,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ratingBarStyle
+     * @attr name com.zoop.checkout.app:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9016,11 +9017,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ratingBarStyleIndicator
+     * @attr name com.zoop.checkout.app:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9028,11 +9029,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ratingBarStyleSmall
+     * @attr name com.zoop.checkout.app:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9040,11 +9041,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:searchViewStyle
+     * @attr name com.zoop.checkout.app:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9052,11 +9053,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:seekBarStyle
+     * @attr name com.zoop.checkout.app:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9064,11 +9065,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:selectableItemBackground
+     * @attr name com.zoop.checkout.app:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9076,11 +9077,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:selectableItemBackgroundBorderless
+     * @attr name com.zoop.checkout.app:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9088,11 +9089,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:spinnerDropDownItemStyle
+     * @attr name com.zoop.checkout.app:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9100,11 +9101,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:spinnerStyle
+     * @attr name com.zoop.checkout.app:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9112,11 +9113,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:switchStyle
+     * @attr name com.zoop.checkout.app:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9124,11 +9125,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceLargePopupMenu
+     * @attr name com.zoop.checkout.app:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9136,11 +9137,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceListItem
+     * @attr name com.zoop.checkout.app:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9148,11 +9149,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceListItemSecondary
+     * @attr name com.zoop.checkout.app:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9160,11 +9161,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceListItemSmall
+     * @attr name com.zoop.checkout.app:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9172,11 +9173,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearancePopupMenuHeader
+     * @attr name com.zoop.checkout.app:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9184,11 +9185,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceSearchResultSubtitle
+     * @attr name com.zoop.checkout.app:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9196,11 +9197,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceSearchResultTitle
+     * @attr name com.zoop.checkout.app:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9208,11 +9209,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceSmallPopupMenu
+     * @attr name com.zoop.checkout.app:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9223,11 +9224,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:textColorAlertDialogListItem
+     * @attr name com.zoop.checkout.app:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9238,11 +9239,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:textColorSearchUrl
+     * @attr name com.zoop.checkout.app:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9250,11 +9251,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:toolbarNavigationButtonStyle
+     * @attr name com.zoop.checkout.app:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9262,11 +9263,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:toolbarStyle
+     * @attr name com.zoop.checkout.app:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9277,11 +9278,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tooltipForegroundColor
+     * @attr name com.zoop.checkout.app:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9289,51 +9290,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:tooltipFrameBackground
+     * @attr name com.zoop.checkout.app:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:viewInflaterClass
+     * @attr name com.zoop.checkout.app:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:windowActionBar
+     * @attr name com.zoop.checkout.app:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:windowActionBarOverlay
+     * @attr name com.zoop.checkout.app:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:windowActionModeOverlay
+     * @attr name com.zoop.checkout.app:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9346,11 +9347,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:windowFixedHeightMajor
+     * @attr name com.zoop.checkout.app:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9363,11 +9364,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:windowFixedHeightMinor
+     * @attr name com.zoop.checkout.app:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9380,11 +9381,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:windowFixedWidthMajor
+     * @attr name com.zoop.checkout.app:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9397,11 +9398,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:windowFixedWidthMinor
+     * @attr name com.zoop.checkout.app:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9414,11 +9415,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:windowMinWidthMajor
+     * @attr name com.zoop.checkout.app:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9431,17 +9432,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:windowMinWidthMinor
+     * @attr name com.zoop.checkout.app:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:windowNoTitle
+     * @attr name com.zoop.checkout.app:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -9451,9 +9452,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AutofitTextView_minTextSize com.zoop.checkout:minTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AutofitTextView_precision com.zoop.checkout:precision}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AutofitTextView_sizeToFit com.zoop.checkout:sizeToFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AutofitTextView_minTextSize com.zoop.checkout.app:minTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AutofitTextView_precision com.zoop.checkout.app:precision}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AutofitTextView_sizeToFit com.zoop.checkout.app:sizeToFit}</code></td><td></td></tr>
      * </table>
      * @see #AutofitTextView_minTextSize
      * @see #AutofitTextView_precision
@@ -9463,7 +9464,7 @@ public final class R {
       0x7f040146, 0x7f040164, 0x7f040183
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#minTextSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#minTextSize}
      * attribute's value can be found in the {@link #AutofitTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9472,26 +9473,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:minTextSize
+     * @attr name com.zoop.checkout.app:minTextSize
      */
     public static final int AutofitTextView_minTextSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#precision}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#precision}
      * attribute's value can be found in the {@link #AutofitTextView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:precision
+     * @attr name com.zoop.checkout.app:precision
      */
     public static final int AutofitTextView_precision=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#sizeToFit}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#sizeToFit}
      * attribute's value can be found in the {@link #AutofitTextView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:sizeToFit
+     * @attr name com.zoop.checkout.app:sizeToFit
      */
     public static final int AutofitTextView_sizeToFit=2;
     /**
@@ -9501,13 +9502,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.zoop.checkout:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.zoop.checkout:fabAlignmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAttached com.zoop.checkout:fabAttached}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.zoop.checkout:fabCradleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.zoop.checkout:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.zoop.checkout:fabCradleVerticalOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.zoop.checkout:hideOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.zoop.checkout.app:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.zoop.checkout.app:fabAlignmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAttached com.zoop.checkout.app:fabAttached}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.zoop.checkout.app:fabCradleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.zoop.checkout.app:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.zoop.checkout.app:fabCradleVerticalOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.zoop.checkout.app:hideOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #BottomAppBar_backgroundTint
      * @see #BottomAppBar_fabAlignmentMode
@@ -9522,18 +9523,18 @@ public final class R {
       0x7f0400d0, 0x7f0400d1, 0x7f0400f6
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundTint
+     * @attr name com.zoop.checkout.app:backgroundTint
      */
     public static final int BottomAppBar_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabAlignmentMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabAlignmentMode}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9546,21 +9547,21 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:fabAlignmentMode
+     * @attr name com.zoop.checkout.app:fabAlignmentMode
      */
     public static final int BottomAppBar_fabAlignmentMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabAttached}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabAttached}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:fabAttached
+     * @attr name com.zoop.checkout.app:fabAttached
      */
     public static final int BottomAppBar_fabAttached=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabCradleMargin}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabCradleMargin}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9569,11 +9570,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:fabCradleMargin
+     * @attr name com.zoop.checkout.app:fabCradleMargin
      */
     public static final int BottomAppBar_fabCradleMargin=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabCradleRoundedCornerRadius}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabCradleRoundedCornerRadius}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9582,11 +9583,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:fabCradleRoundedCornerRadius
+     * @attr name com.zoop.checkout.app:fabCradleRoundedCornerRadius
      */
     public static final int BottomAppBar_fabCradleRoundedCornerRadius=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabCradleVerticalOffset}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabCradleVerticalOffset}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9595,17 +9596,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:fabCradleVerticalOffset
+     * @attr name com.zoop.checkout.app:fabCradleVerticalOffset
      */
     public static final int BottomAppBar_fabCradleVerticalOffset=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hideOnScroll}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hideOnScroll}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:hideOnScroll
+     * @attr name com.zoop.checkout.app:hideOnScroll
      */
     public static final int BottomAppBar_hideOnScroll=6;
     /**
@@ -9615,16 +9616,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.zoop.checkout:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.zoop.checkout:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.zoop.checkout:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.zoop.checkout:itemIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.zoop.checkout:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.zoop.checkout:itemTextAppearanceActive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.zoop.checkout:itemTextAppearanceInactive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.zoop.checkout:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.zoop.checkout:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.zoop.checkout:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.zoop.checkout.app:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.zoop.checkout.app:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.zoop.checkout.app:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.zoop.checkout.app:itemIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.zoop.checkout.app:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.zoop.checkout.app:itemTextAppearanceActive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.zoop.checkout.app:itemTextAppearanceInactive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.zoop.checkout.app:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.zoop.checkout.app:labelVisibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.zoop.checkout.app:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -9643,7 +9644,7 @@ public final class R {
       0x7f040117, 0x7f040145
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9652,11 +9653,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:elevation
+     * @attr name com.zoop.checkout.app:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9664,21 +9665,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:itemBackground
+     * @attr name com.zoop.checkout.app:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemHorizontalTranslationEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemHorizontalTranslationEnabled}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:itemHorizontalTranslationEnabled
+     * @attr name com.zoop.checkout.app:itemHorizontalTranslationEnabled
      */
     public static final int BottomNavigationView_itemHorizontalTranslationEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemIconSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemIconSize}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9687,22 +9688,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:itemIconSize
+     * @attr name com.zoop.checkout.app:itemIconSize
      */
     public static final int BottomNavigationView_itemIconSize=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:itemIconTint
+     * @attr name com.zoop.checkout.app:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemTextAppearanceActive}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemTextAppearanceActive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9710,11 +9711,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:itemTextAppearanceActive
+     * @attr name com.zoop.checkout.app:itemTextAppearanceActive
      */
     public static final int BottomNavigationView_itemTextAppearanceActive=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemTextAppearanceInactive}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemTextAppearanceInactive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9722,22 +9723,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:itemTextAppearanceInactive
+     * @attr name com.zoop.checkout.app:itemTextAppearanceInactive
      */
     public static final int BottomNavigationView_itemTextAppearanceInactive=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:itemTextColor
+     * @attr name com.zoop.checkout.app:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#labelVisibilityMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#labelVisibilityMode}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9752,11 +9753,11 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:labelVisibilityMode
+     * @attr name com.zoop.checkout.app:labelVisibilityMode
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9764,7 +9765,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:menu
+     * @attr name com.zoop.checkout.app:menu
      */
     public static final int BottomNavigationView_menu=9;
     /**
@@ -9774,10 +9775,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.zoop.checkout:behavior_fitToContents}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.zoop.checkout:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.zoop.checkout:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.zoop.checkout:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.zoop.checkout.app:behavior_fitToContents}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.zoop.checkout.app:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.zoop.checkout.app:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.zoop.checkout.app:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_fitToContents
      * @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -9788,27 +9789,27 @@ public final class R {
       0x7f04003b, 0x7f04003c, 0x7f04003e, 0x7f04003f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#behavior_fitToContents}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#behavior_fitToContents}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:behavior_fitToContents
+     * @attr name com.zoop.checkout.app:behavior_fitToContents
      */
     public static final int BottomSheetBehavior_Layout_behavior_fitToContents=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:behavior_hideable
+     * @attr name com.zoop.checkout.app:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9825,17 +9826,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:behavior_peekHeight
+     * @attr name com.zoop.checkout.app:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:behavior_skipCollapsed
+     * @attr name com.zoop.checkout.app:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=3;
     /**
@@ -9845,7 +9846,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.zoop.checkout:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.zoop.checkout.app:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -9853,13 +9854,13 @@ public final class R {
       0x7f040028
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:allowStacking
+     * @attr name com.zoop.checkout.app:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -9871,17 +9872,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.zoop.checkout:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.zoop.checkout:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.zoop.checkout:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.zoop.checkout:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.zoop.checkout:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.zoop.checkout:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.zoop.checkout:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.zoop.checkout:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.zoop.checkout:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.zoop.checkout:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.zoop.checkout:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.zoop.checkout.app:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.zoop.checkout.app:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.zoop.checkout.app:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.zoop.checkout.app:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.zoop.checkout.app:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.zoop.checkout.app:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.zoop.checkout.app:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.zoop.checkout.app:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.zoop.checkout.app:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.zoop.checkout.app:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.zoop.checkout.app:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -9930,18 +9931,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:cardBackgroundColor
+     * @attr name com.zoop.checkout.app:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9950,11 +9951,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:cardCornerRadius
+     * @attr name com.zoop.checkout.app:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9963,11 +9964,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:cardElevation
+     * @attr name com.zoop.checkout.app:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9976,31 +9977,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:cardMaxElevation
+     * @attr name com.zoop.checkout.app:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:cardPreventCornerOverlap
+     * @attr name com.zoop.checkout.app:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:cardUseCompatPadding
+     * @attr name com.zoop.checkout.app:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10009,11 +10010,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentPadding
+     * @attr name com.zoop.checkout.app:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10022,11 +10023,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentPaddingBottom
+     * @attr name com.zoop.checkout.app:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10035,11 +10036,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentPaddingLeft
+     * @attr name com.zoop.checkout.app:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10048,11 +10049,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentPaddingRight
+     * @attr name com.zoop.checkout.app:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10061,7 +10062,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentPaddingTop
+     * @attr name com.zoop.checkout.app:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -10075,31 +10076,31 @@ public final class R {
      * <tr><td><code>{@link #ChipDrawable_android_ellipsize android:ellipsize}</code></td><td></td></tr>
      * <tr><td><code>{@link #ChipDrawable_android_text android:text}</code></td><td></td></tr>
      * <tr><td><code>{@link #ChipDrawable_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_checkedIcon com.zoop.checkout:checkedIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_checkedIconEnabled com.zoop.checkout:checkedIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipBackgroundColor com.zoop.checkout:chipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipCornerRadius com.zoop.checkout:chipCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipEndPadding com.zoop.checkout:chipEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipIcon com.zoop.checkout:chipIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipIconEnabled com.zoop.checkout:chipIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipIconSize com.zoop.checkout:chipIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipMinHeight com.zoop.checkout:chipMinHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipStartPadding com.zoop.checkout:chipStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipStrokeColor com.zoop.checkout:chipStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_chipStrokeWidth com.zoop.checkout:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_closeIcon com.zoop.checkout:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_closeIconEnabled com.zoop.checkout:closeIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_closeIconEndPadding com.zoop.checkout:closeIconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_closeIconSize com.zoop.checkout:closeIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_closeIconStartPadding com.zoop.checkout:closeIconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_closeIconTint com.zoop.checkout:closeIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_hideMotionSpec com.zoop.checkout:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_iconEndPadding com.zoop.checkout:iconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_iconStartPadding com.zoop.checkout:iconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_rippleColor com.zoop.checkout:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_showMotionSpec com.zoop.checkout:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_textEndPadding com.zoop.checkout:textEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipDrawable_textStartPadding com.zoop.checkout:textStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_checkedIcon com.zoop.checkout.app:checkedIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_checkedIconEnabled com.zoop.checkout.app:checkedIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipBackgroundColor com.zoop.checkout.app:chipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipCornerRadius com.zoop.checkout.app:chipCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipEndPadding com.zoop.checkout.app:chipEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipIcon com.zoop.checkout.app:chipIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipIconEnabled com.zoop.checkout.app:chipIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipIconSize com.zoop.checkout.app:chipIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipMinHeight com.zoop.checkout.app:chipMinHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipStartPadding com.zoop.checkout.app:chipStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipStrokeColor com.zoop.checkout.app:chipStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_chipStrokeWidth com.zoop.checkout.app:chipStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_closeIcon com.zoop.checkout.app:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_closeIconEnabled com.zoop.checkout.app:closeIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_closeIconEndPadding com.zoop.checkout.app:closeIconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_closeIconSize com.zoop.checkout.app:closeIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_closeIconStartPadding com.zoop.checkout.app:closeIconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_closeIconTint com.zoop.checkout.app:closeIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_hideMotionSpec com.zoop.checkout.app:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_iconEndPadding com.zoop.checkout.app:iconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_iconStartPadding com.zoop.checkout.app:iconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_rippleColor com.zoop.checkout.app:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_showMotionSpec com.zoop.checkout.app:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_textEndPadding com.zoop.checkout.app:textEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipDrawable_textStartPadding com.zoop.checkout.app:textStartPadding}</code></td><td></td></tr>
      * </table>
      * @see #ChipDrawable_android_textAppearance
      * @see #ChipDrawable_android_ellipsize
@@ -10194,7 +10195,7 @@ public final class R {
      */
     public static final int ChipDrawable_android_checkable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#checkedIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#checkedIcon}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10202,32 +10203,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:checkedIcon
+     * @attr name com.zoop.checkout.app:checkedIcon
      */
     public static final int ChipDrawable_checkedIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#checkedIconEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#checkedIconEnabled}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:checkedIconEnabled
+     * @attr name com.zoop.checkout.app:checkedIconEnabled
      */
     public static final int ChipDrawable_checkedIconEnabled=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipBackgroundColor}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:chipBackgroundColor
+     * @attr name com.zoop.checkout.app:chipBackgroundColor
      */
     public static final int ChipDrawable_chipBackgroundColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipCornerRadius}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipCornerRadius}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10236,11 +10237,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipCornerRadius
+     * @attr name com.zoop.checkout.app:chipCornerRadius
      */
     public static final int ChipDrawable_chipCornerRadius=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipEndPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipEndPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10249,11 +10250,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipEndPadding
+     * @attr name com.zoop.checkout.app:chipEndPadding
      */
     public static final int ChipDrawable_chipEndPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipIcon}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10261,21 +10262,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:chipIcon
+     * @attr name com.zoop.checkout.app:chipIcon
      */
     public static final int ChipDrawable_chipIcon=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipIconEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipIconEnabled}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:chipIconEnabled
+     * @attr name com.zoop.checkout.app:chipIconEnabled
      */
     public static final int ChipDrawable_chipIconEnabled=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipIconSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipIconSize}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10284,11 +10285,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipIconSize
+     * @attr name com.zoop.checkout.app:chipIconSize
      */
     public static final int ChipDrawable_chipIconSize=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipMinHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipMinHeight}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10297,11 +10298,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipMinHeight
+     * @attr name com.zoop.checkout.app:chipMinHeight
      */
     public static final int ChipDrawable_chipMinHeight=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipStartPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipStartPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10310,22 +10311,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipStartPadding
+     * @attr name com.zoop.checkout.app:chipStartPadding
      */
     public static final int ChipDrawable_chipStartPadding=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipStrokeColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipStrokeColor}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:chipStrokeColor
+     * @attr name com.zoop.checkout.app:chipStrokeColor
      */
     public static final int ChipDrawable_chipStrokeColor=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipStrokeWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipStrokeWidth}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10334,11 +10335,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipStrokeWidth
+     * @attr name com.zoop.checkout.app:chipStrokeWidth
      */
     public static final int ChipDrawable_chipStrokeWidth=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIcon}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10346,21 +10347,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:closeIcon
+     * @attr name com.zoop.checkout.app:closeIcon
      */
     public static final int ChipDrawable_closeIcon=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIconEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIconEnabled}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:closeIconEnabled
+     * @attr name com.zoop.checkout.app:closeIconEnabled
      */
     public static final int ChipDrawable_closeIconEnabled=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIconEndPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIconEndPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10369,11 +10370,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:closeIconEndPadding
+     * @attr name com.zoop.checkout.app:closeIconEndPadding
      */
     public static final int ChipDrawable_closeIconEndPadding=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIconSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIconSize}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10382,11 +10383,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:closeIconSize
+     * @attr name com.zoop.checkout.app:closeIconSize
      */
     public static final int ChipDrawable_closeIconSize=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIconStartPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIconStartPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10395,22 +10396,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:closeIconStartPadding
+     * @attr name com.zoop.checkout.app:closeIconStartPadding
      */
     public static final int ChipDrawable_closeIconStartPadding=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIconTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIconTint}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:closeIconTint
+     * @attr name com.zoop.checkout.app:closeIconTint
      */
     public static final int ChipDrawable_closeIconTint=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10418,11 +10419,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:hideMotionSpec
+     * @attr name com.zoop.checkout.app:hideMotionSpec
      */
     public static final int ChipDrawable_hideMotionSpec=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconEndPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconEndPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10431,11 +10432,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:iconEndPadding
+     * @attr name com.zoop.checkout.app:iconEndPadding
      */
     public static final int ChipDrawable_iconEndPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconStartPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconStartPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10444,22 +10445,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:iconStartPadding
+     * @attr name com.zoop.checkout.app:iconStartPadding
      */
     public static final int ChipDrawable_iconStartPadding=24;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#rippleColor}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:rippleColor
+     * @attr name com.zoop.checkout.app:rippleColor
      */
     public static final int ChipDrawable_rippleColor=25;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10467,11 +10468,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:showMotionSpec
+     * @attr name com.zoop.checkout.app:showMotionSpec
      */
     public static final int ChipDrawable_showMotionSpec=26;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textEndPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textEndPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10480,11 +10481,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:textEndPadding
+     * @attr name com.zoop.checkout.app:textEndPadding
      */
     public static final int ChipDrawable_textEndPadding=27;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textStartPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textStartPadding}
      * attribute's value can be found in the {@link #ChipDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10493,7 +10494,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:textStartPadding
+     * @attr name com.zoop.checkout.app:textStartPadding
      */
     public static final int ChipDrawable_textStartPadding=28;
     /**
@@ -10503,12 +10504,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ChipGroup_checkedChip com.zoop.checkout:checkedChip}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacing com.zoop.checkout:chipSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.zoop.checkout:chipSpacingHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.zoop.checkout:chipSpacingVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleLine com.zoop.checkout:singleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleSelection com.zoop.checkout:singleSelection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_checkedChip com.zoop.checkout.app:checkedChip}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacing com.zoop.checkout.app:chipSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.zoop.checkout.app:chipSpacingHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.zoop.checkout.app:chipSpacingVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleLine com.zoop.checkout.app:singleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleSelection com.zoop.checkout.app:singleSelection}</code></td><td></td></tr>
      * </table>
      * @see #ChipGroup_checkedChip
      * @see #ChipGroup_chipSpacing
@@ -10522,7 +10523,7 @@ public final class R {
       0x7f040181, 0x7f040182
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#checkedChip}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#checkedChip}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10530,11 +10531,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:checkedChip
+     * @attr name com.zoop.checkout.app:checkedChip
      */
     public static final int ChipGroup_checkedChip=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipSpacing}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipSpacing}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10543,11 +10544,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipSpacing
+     * @attr name com.zoop.checkout.app:chipSpacing
      */
     public static final int ChipGroup_chipSpacing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipSpacingHorizontal}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipSpacingHorizontal}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10556,11 +10557,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipSpacingHorizontal
+     * @attr name com.zoop.checkout.app:chipSpacingHorizontal
      */
     public static final int ChipGroup_chipSpacingHorizontal=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipSpacingVertical}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipSpacingVertical}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10569,27 +10570,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:chipSpacingVertical
+     * @attr name com.zoop.checkout.app:chipSpacingVertical
      */
     public static final int ChipGroup_chipSpacingVertical=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#singleLine}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#singleLine}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:singleLine
+     * @attr name com.zoop.checkout.app:singleLine
      */
     public static final int ChipGroup_singleLine=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#singleSelection}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#singleSelection}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:singleSelection
+     * @attr name com.zoop.checkout.app:singleSelection
      */
     public static final int ChipGroup_singleSelection=5;
     /**
@@ -10599,15 +10600,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_animator com.zoop.checkout:ci_animator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_animator_reverse com.zoop.checkout:ci_animator_reverse}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_drawable com.zoop.checkout:ci_drawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_drawable_unselected com.zoop.checkout:ci_drawable_unselected}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_gravity com.zoop.checkout:ci_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_height com.zoop.checkout:ci_height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_margin com.zoop.checkout:ci_margin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_orientation com.zoop.checkout:ci_orientation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleIndicator_ci_width com.zoop.checkout:ci_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_animator com.zoop.checkout.app:ci_animator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_animator_reverse com.zoop.checkout.app:ci_animator_reverse}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_drawable com.zoop.checkout.app:ci_drawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_drawable_unselected com.zoop.checkout.app:ci_drawable_unselected}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_gravity com.zoop.checkout.app:ci_gravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_height com.zoop.checkout.app:ci_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_margin com.zoop.checkout.app:ci_margin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_orientation com.zoop.checkout.app:ci_orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleIndicator_ci_width com.zoop.checkout.app:ci_width}</code></td><td></td></tr>
      * </table>
      * @see #CircleIndicator_ci_animator
      * @see #CircleIndicator_ci_animator_reverse
@@ -10625,7 +10626,7 @@ public final class R {
       0x7f040081
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_animator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_animator}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10633,11 +10634,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ci_animator
+     * @attr name com.zoop.checkout.app:ci_animator
      */
     public static final int CircleIndicator_ci_animator=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_animator_reverse}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_animator_reverse}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10645,11 +10646,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ci_animator_reverse
+     * @attr name com.zoop.checkout.app:ci_animator_reverse
      */
     public static final int CircleIndicator_ci_animator_reverse=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_drawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_drawable}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10657,11 +10658,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ci_drawable
+     * @attr name com.zoop.checkout.app:ci_drawable
      */
     public static final int CircleIndicator_ci_drawable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_drawable_unselected}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_drawable_unselected}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10669,11 +10670,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:ci_drawable_unselected
+     * @attr name com.zoop.checkout.app:ci_drawable_unselected
      */
     public static final int CircleIndicator_ci_drawable_unselected=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_gravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_gravity}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10698,11 +10699,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:ci_gravity
+     * @attr name com.zoop.checkout.app:ci_gravity
      */
     public static final int CircleIndicator_ci_gravity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_height}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_height}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10711,11 +10712,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:ci_height
+     * @attr name com.zoop.checkout.app:ci_height
      */
     public static final int CircleIndicator_ci_height=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_margin}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_margin}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10724,11 +10725,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:ci_margin
+     * @attr name com.zoop.checkout.app:ci_margin
      */
     public static final int CircleIndicator_ci_margin=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_orientation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_orientation}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10741,11 +10742,11 @@ public final class R {
      * <tr><td>vertical</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:ci_orientation
+     * @attr name com.zoop.checkout.app:ci_orientation
      */
     public static final int CircleIndicator_ci_orientation=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ci_width}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ci_width}
      * attribute's value can be found in the {@link #CircleIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10754,7 +10755,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:ci_width
+     * @attr name com.zoop.checkout.app:ci_width
      */
     public static final int CircleIndicator_ci_width=8;
     /**
@@ -10764,22 +10765,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.zoop.checkout:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.zoop.checkout:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.zoop.checkout:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.zoop.checkout:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.zoop.checkout:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.zoop.checkout:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.zoop.checkout:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.zoop.checkout:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.zoop.checkout:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.zoop.checkout:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.zoop.checkout:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.zoop.checkout:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.zoop.checkout:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.zoop.checkout:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.zoop.checkout:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.zoop.checkout:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.zoop.checkout.app:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.zoop.checkout.app:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.zoop.checkout.app:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.zoop.checkout.app:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.zoop.checkout.app:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.zoop.checkout.app:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.zoop.checkout.app:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.zoop.checkout.app:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.zoop.checkout.app:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.zoop.checkout.app:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.zoop.checkout.app:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.zoop.checkout.app:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.zoop.checkout.app:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.zoop.checkout.app:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.zoop.checkout.app:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.zoop.checkout.app:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10805,7 +10806,7 @@ public final class R {
       0x7f040192, 0x7f0401e7, 0x7f0401e8, 0x7f0401f2
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10826,11 +10827,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:collapsedTitleGravity
+     * @attr name com.zoop.checkout.app:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10838,22 +10839,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:collapsedTitleTextAppearance
+     * @attr name com.zoop.checkout.app:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:contentScrim
+     * @attr name com.zoop.checkout.app:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10874,11 +10875,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:expandedTitleGravity
+     * @attr name com.zoop.checkout.app:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10887,11 +10888,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:expandedTitleMargin
+     * @attr name com.zoop.checkout.app:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10900,11 +10901,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:expandedTitleMarginBottom
+     * @attr name com.zoop.checkout.app:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10913,11 +10914,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:expandedTitleMarginEnd
+     * @attr name com.zoop.checkout.app:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10926,11 +10927,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:expandedTitleMarginStart
+     * @attr name com.zoop.checkout.app:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10939,11 +10940,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:expandedTitleMarginTop
+     * @attr name com.zoop.checkout.app:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10951,20 +10952,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:expandedTitleTextAppearance
+     * @attr name com.zoop.checkout.app:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:scrimAnimationDuration
+     * @attr name com.zoop.checkout.app:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10973,42 +10974,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:scrimVisibleHeightTrigger
+     * @attr name com.zoop.checkout.app:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:statusBarScrim
+     * @attr name com.zoop.checkout.app:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:title
+     * @attr name com.zoop.checkout.app:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:titleEnabled
+     * @attr name com.zoop.checkout.app:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11016,7 +11017,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:toolbarId
+     * @attr name com.zoop.checkout.app:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -11026,8 +11027,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.zoop.checkout:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.zoop.checkout:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.zoop.checkout.app:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.zoop.checkout.app:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -11036,7 +11037,7 @@ public final class R {
       0x7f04011e, 0x7f04011f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11050,16 +11051,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:layout_collapseMode
+     * @attr name com.zoop.checkout.app:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:layout_collapseParallaxMultiplier
+     * @attr name com.zoop.checkout.app:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -11071,7 +11072,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.zoop.checkout:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.zoop.checkout.app:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -11101,12 +11102,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:alpha
+     * @attr name com.zoop.checkout.app:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -11117,8 +11118,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.zoop.checkout:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.zoop.checkout:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.zoop.checkout.app:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.zoop.checkout.app:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -11140,18 +11141,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:buttonTint
+     * @attr name com.zoop.checkout.app:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11168,7 +11169,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:buttonTintMode
+     * @attr name com.zoop.checkout.app:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -11178,8 +11179,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.zoop.checkout:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.zoop.checkout:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.zoop.checkout.app:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.zoop.checkout.app:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -11188,7 +11189,7 @@ public final class R {
       0x7f040116, 0x7f040191
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11196,11 +11197,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:keylines
+     * @attr name com.zoop.checkout.app:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11211,7 +11212,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:statusBarBackground
+     * @attr name com.zoop.checkout.app:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -11222,12 +11223,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.zoop.checkout:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.zoop.checkout:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.zoop.checkout:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.zoop.checkout:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.zoop.checkout:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.zoop.checkout:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.zoop.checkout.app:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.zoop.checkout.app:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.zoop.checkout.app:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.zoop.checkout.app:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.zoop.checkout.app:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.zoop.checkout.app:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -11271,7 +11272,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11279,11 +11280,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:layout_anchor
+     * @attr name com.zoop.checkout.app:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11308,21 +11309,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:layout_anchorGravity
+     * @attr name com.zoop.checkout.app:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:layout_behavior
+     * @attr name com.zoop.checkout.app:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11341,11 +11342,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:layout_dodgeInsetEdges
+     * @attr name com.zoop.checkout.app:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11363,16 +11364,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:layout_insetEdge
+     * @attr name com.zoop.checkout.app:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:layout_keyline
+     * @attr name com.zoop.checkout.app:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -11382,8 +11383,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.zoop.checkout:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.zoop.checkout:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.zoop.checkout.app:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.zoop.checkout.app:bottomSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -11392,7 +11393,7 @@ public final class R {
       0x7f040044, 0x7f040045
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11400,11 +11401,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:bottomSheetDialogTheme
+     * @attr name com.zoop.checkout.app:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11412,7 +11413,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:bottomSheetStyle
+     * @attr name com.zoop.checkout.app:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -11422,28 +11423,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DocumentView_antialias com.zoop.checkout:antialias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_cacheConfig com.zoop.checkout:cacheConfig}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_hypen com.zoop.checkout:hypen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_lineHeightMultiplier com.zoop.checkout:lineHeightMultiplier}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_maxLines com.zoop.checkout:maxLines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_offsetX com.zoop.checkout:offsetX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_offsetY com.zoop.checkout:offsetY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_padding com.zoop.checkout:padding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_paddingBottom com.zoop.checkout:paddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_paddingLeft com.zoop.checkout:paddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_paddingRight com.zoop.checkout:paddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_paddingTop com.zoop.checkout:paddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_reverse com.zoop.checkout:reverse}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_text com.zoop.checkout:text}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textAlignment com.zoop.checkout:textAlignment}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textColor com.zoop.checkout:textColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textFormat com.zoop.checkout:textFormat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textSize com.zoop.checkout:textSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textStyle com.zoop.checkout:textStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textSubpixel com.zoop.checkout:textSubpixel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_textTypefacePath com.zoop.checkout:textTypefacePath}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DocumentView_wordSpacingMultiplier com.zoop.checkout:wordSpacingMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_antialias com.zoop.checkout.app:antialias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_cacheConfig com.zoop.checkout.app:cacheConfig}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_hypen com.zoop.checkout.app:hypen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_lineHeightMultiplier com.zoop.checkout.app:lineHeightMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_maxLines com.zoop.checkout.app:maxLines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_offsetX com.zoop.checkout.app:offsetX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_offsetY com.zoop.checkout.app:offsetY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_padding com.zoop.checkout.app:padding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_paddingBottom com.zoop.checkout.app:paddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_paddingLeft com.zoop.checkout.app:paddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_paddingRight com.zoop.checkout.app:paddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_paddingTop com.zoop.checkout.app:paddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_reverse com.zoop.checkout.app:reverse}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_text com.zoop.checkout.app:text}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textAlignment com.zoop.checkout.app:textAlignment}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textColor com.zoop.checkout.app:textColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textFormat com.zoop.checkout.app:textFormat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textSize com.zoop.checkout.app:textSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textStyle com.zoop.checkout.app:textStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textSubpixel com.zoop.checkout.app:textSubpixel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_textTypefacePath com.zoop.checkout.app:textTypefacePath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DocumentView_wordSpacingMultiplier com.zoop.checkout.app:wordSpacingMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #DocumentView_antialias
      * @see #DocumentView_cacheConfig
@@ -11477,17 +11478,17 @@ public final class R {
       0x7f0401dc, 0x7f040209
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#antialias}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#antialias}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:antialias
+     * @attr name com.zoop.checkout.app:antialias
      */
     public static final int DocumentView_antialias=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cacheConfig}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cacheConfig}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11502,39 +11503,39 @@ public final class R {
      * <tr><td>no_cache</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:cacheConfig
+     * @attr name com.zoop.checkout.app:cacheConfig
      */
     public static final int DocumentView_cacheConfig=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hypen}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hypen}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:hypen
+     * @attr name com.zoop.checkout.app:hypen
      */
     public static final int DocumentView_hypen=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#lineHeightMultiplier}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#lineHeightMultiplier}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:lineHeightMultiplier
+     * @attr name com.zoop.checkout.app:lineHeightMultiplier
      */
     public static final int DocumentView_lineHeightMultiplier=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#maxLines}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#maxLines}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:maxLines
+     * @attr name com.zoop.checkout.app:maxLines
      */
     public static final int DocumentView_maxLines=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#offsetX}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#offsetX}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11543,11 +11544,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:offsetX
+     * @attr name com.zoop.checkout.app:offsetX
      */
     public static final int DocumentView_offsetX=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#offsetY}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#offsetY}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11556,11 +11557,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:offsetY
+     * @attr name com.zoop.checkout.app:offsetY
      */
     public static final int DocumentView_offsetY=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#padding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#padding}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11569,11 +11570,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:padding
+     * @attr name com.zoop.checkout.app:padding
      */
     public static final int DocumentView_padding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingBottom}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingBottom}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11582,11 +11583,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingBottom
+     * @attr name com.zoop.checkout.app:paddingBottom
      */
     public static final int DocumentView_paddingBottom=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingLeft}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingLeft}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11595,11 +11596,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingLeft
+     * @attr name com.zoop.checkout.app:paddingLeft
      */
     public static final int DocumentView_paddingLeft=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingRight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingRight}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11608,11 +11609,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingRight
+     * @attr name com.zoop.checkout.app:paddingRight
      */
     public static final int DocumentView_paddingRight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingTop}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11621,31 +11622,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingTop
+     * @attr name com.zoop.checkout.app:paddingTop
      */
     public static final int DocumentView_paddingTop=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#reverse}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#reverse}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:reverse
+     * @attr name com.zoop.checkout.app:reverse
      */
     public static final int DocumentView_reverse=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#text}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#text}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:text
+     * @attr name com.zoop.checkout.app:text
      */
     public static final int DocumentView_text=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAlignment}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAlignment}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11660,22 +11661,22 @@ public final class R {
      * <tr><td>right</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:textAlignment
+     * @attr name com.zoop.checkout.app:textAlignment
      */
     public static final int DocumentView_textAlignment=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textColor}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:textColor
+     * @attr name com.zoop.checkout.app:textColor
      */
     public static final int DocumentView_textColor=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textFormat}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textFormat}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11688,11 +11689,11 @@ public final class R {
      * <tr><td>plain</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:textFormat
+     * @attr name com.zoop.checkout.app:textFormat
      */
     public static final int DocumentView_textFormat=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textSize}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11701,11 +11702,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:textSize
+     * @attr name com.zoop.checkout.app:textSize
      */
     public static final int DocumentView_textSize=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textStyle}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11721,36 +11722,36 @@ public final class R {
      * <tr><td>underline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:textStyle
+     * @attr name com.zoop.checkout.app:textStyle
      */
     public static final int DocumentView_textStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textSubpixel}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textSubpixel}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:textSubpixel
+     * @attr name com.zoop.checkout.app:textSubpixel
      */
     public static final int DocumentView_textSubpixel=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textTypefacePath}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textTypefacePath}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:textTypefacePath
+     * @attr name com.zoop.checkout.app:textTypefacePath
      */
     public static final int DocumentView_textTypefacePath=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#wordSpacingMultiplier}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#wordSpacingMultiplier}
      * attribute's value can be found in the {@link #DocumentView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:wordSpacingMultiplier
+     * @attr name com.zoop.checkout.app:wordSpacingMultiplier
      */
     public static final int DocumentView_wordSpacingMultiplier=21;
     /**
@@ -11760,14 +11761,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.zoop.checkout:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.zoop.checkout:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.zoop.checkout:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.zoop.checkout:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.zoop.checkout:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.zoop.checkout:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.zoop.checkout:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.zoop.checkout:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.zoop.checkout.app:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.zoop.checkout.app:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.zoop.checkout.app:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.zoop.checkout.app:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.zoop.checkout.app:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.zoop.checkout.app:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.zoop.checkout.app:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.zoop.checkout.app:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -11783,7 +11784,7 @@ public final class R {
       0x7f0400b8, 0x7f0400ed, 0x7f040186, 0x7f0401de
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11792,11 +11793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:arrowHeadLength
+     * @attr name com.zoop.checkout.app:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11805,11 +11806,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:arrowShaftLength
+     * @attr name com.zoop.checkout.app:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11818,22 +11819,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:barLength
+     * @attr name com.zoop.checkout.app:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:color
+     * @attr name com.zoop.checkout.app:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11842,11 +11843,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:drawableSize
+     * @attr name com.zoop.checkout.app:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11855,21 +11856,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:gapBetweenBars
+     * @attr name com.zoop.checkout.app:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:spinBars
+     * @attr name com.zoop.checkout.app:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11878,7 +11879,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:thickness
+     * @attr name com.zoop.checkout.app:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -11888,25 +11889,25 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.zoop.checkout:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.zoop.checkout:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.zoop.checkout:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.zoop.checkout:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.zoop.checkout:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.zoop.checkout:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled com.zoop.checkout:fab_colorDisabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fab_colorNormal com.zoop.checkout:fab_colorNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fab_colorPressed com.zoop.checkout:fab_colorPressed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fab_colorRipple com.zoop.checkout:fab_colorRipple}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fab_shadow com.zoop.checkout:fab_shadow}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fab_type com.zoop.checkout:fab_type}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.zoop.checkout:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.zoop.checkout:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.zoop.checkout:maxImageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.zoop.checkout:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.zoop.checkout:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.zoop.checkout:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.zoop.checkout:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.zoop.checkout.app:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.zoop.checkout.app:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.zoop.checkout.app:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.zoop.checkout.app:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.zoop.checkout.app:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.zoop.checkout.app:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fab_colorDisabled com.zoop.checkout.app:fab_colorDisabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fab_colorNormal com.zoop.checkout.app:fab_colorNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fab_colorPressed com.zoop.checkout.app:fab_colorPressed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fab_colorRipple com.zoop.checkout.app:fab_colorRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fab_shadow com.zoop.checkout.app:fab_shadow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fab_type com.zoop.checkout.app:fab_type}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.zoop.checkout.app:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.zoop.checkout.app:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.zoop.checkout.app:maxImageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.zoop.checkout.app:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.zoop.checkout.app:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.zoop.checkout.app:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.zoop.checkout.app:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -11936,18 +11937,18 @@ public final class R {
       0x7f040171, 0x7f04017d, 0x7f0401fc
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundTint
+     * @attr name com.zoop.checkout.app:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11964,11 +11965,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:backgroundTintMode
+     * @attr name com.zoop.checkout.app:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11977,11 +11978,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:borderWidth
+     * @attr name com.zoop.checkout.app:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11990,11 +11991,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:elevation
+     * @attr name com.zoop.checkout.app:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12003,11 +12004,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:fabCustomSize
+     * @attr name com.zoop.checkout.app:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12021,65 +12022,65 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:fabSize
+     * @attr name com.zoop.checkout.app:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fab_colorDisabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fab_colorDisabled}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:fab_colorDisabled
+     * @attr name com.zoop.checkout.app:fab_colorDisabled
      */
     public static final int FloatingActionButton_fab_colorDisabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fab_colorNormal}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fab_colorNormal}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:fab_colorNormal
+     * @attr name com.zoop.checkout.app:fab_colorNormal
      */
     public static final int FloatingActionButton_fab_colorNormal=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fab_colorPressed}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fab_colorPressed}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:fab_colorPressed
+     * @attr name com.zoop.checkout.app:fab_colorPressed
      */
     public static final int FloatingActionButton_fab_colorPressed=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fab_colorRipple}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fab_colorRipple}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:fab_colorRipple
+     * @attr name com.zoop.checkout.app:fab_colorRipple
      */
     public static final int FloatingActionButton_fab_colorRipple=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fab_shadow}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fab_shadow}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:fab_shadow
+     * @attr name com.zoop.checkout.app:fab_shadow
      */
     public static final int FloatingActionButton_fab_shadow=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fab_type}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fab_type}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12092,11 +12093,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:fab_type
+     * @attr name com.zoop.checkout.app:fab_type
      */
     public static final int FloatingActionButton_fab_type=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12104,11 +12105,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:hideMotionSpec
+     * @attr name com.zoop.checkout.app:hideMotionSpec
      */
     public static final int FloatingActionButton_hideMotionSpec=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hoveredFocusedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hoveredFocusedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12117,11 +12118,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:hoveredFocusedTranslationZ
+     * @attr name com.zoop.checkout.app:hoveredFocusedTranslationZ
      */
     public static final int FloatingActionButton_hoveredFocusedTranslationZ=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#maxImageSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#maxImageSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12130,11 +12131,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:maxImageSize
+     * @attr name com.zoop.checkout.app:maxImageSize
      */
     public static final int FloatingActionButton_maxImageSize=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12143,22 +12144,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:pressedTranslationZ
+     * @attr name com.zoop.checkout.app:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:rippleColor
+     * @attr name com.zoop.checkout.app:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12166,17 +12167,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:showMotionSpec
+     * @attr name com.zoop.checkout.app:showMotionSpec
      */
     public static final int FloatingActionButton_showMotionSpec=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:useCompatPadding
+     * @attr name com.zoop.checkout.app:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=18;
     /**
@@ -12186,7 +12187,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.zoop.checkout:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.zoop.checkout.app:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -12194,13 +12195,13 @@ public final class R {
       0x7f04003a
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:behavior_autoHide
+     * @attr name com.zoop.checkout.app:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -12210,12 +12211,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.zoop.checkout:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.zoop.checkout:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.zoop.checkout:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.zoop.checkout:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.zoop.checkout:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.zoop.checkout:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.zoop.checkout.app:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.zoop.checkout.app:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.zoop.checkout.app:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.zoop.checkout.app:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.zoop.checkout.app:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.zoop.checkout.app:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -12229,17 +12230,17 @@ public final class R {
       0x7f0400e7, 0x7f0400e8
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:fontProviderAuthority
+     * @attr name com.zoop.checkout.app:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12247,11 +12248,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:fontProviderCerts
+     * @attr name com.zoop.checkout.app:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12264,11 +12265,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:fontProviderFetchStrategy
+     * @attr name com.zoop.checkout.app:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12281,27 +12282,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:fontProviderFetchTimeout
+     * @attr name com.zoop.checkout.app:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:fontProviderPackage
+     * @attr name com.zoop.checkout.app:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:fontProviderQuery
+     * @attr name com.zoop.checkout.app:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -12316,11 +12317,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.zoop.checkout:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.zoop.checkout:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.zoop.checkout:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.zoop.checkout:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.zoop.checkout:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.zoop.checkout.app:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.zoop.checkout.app:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.zoop.checkout.app:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.zoop.checkout.app:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.zoop.checkout.app:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -12396,7 +12397,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12404,11 +12405,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:font
+     * @attr name com.zoop.checkout.app:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12421,35 +12422,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:fontStyle
+     * @attr name com.zoop.checkout.app:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:fontVariationSettings
+     * @attr name com.zoop.checkout.app:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:fontWeight
+     * @attr name com.zoop.checkout.app:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:ttcIndex
+     * @attr name com.zoop.checkout.app:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -12461,7 +12462,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.zoop.checkout:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.zoop.checkout.app:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -12513,13 +12514,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:foregroundInsidePadding
+     * @attr name com.zoop.checkout.app:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -12534,10 +12535,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.zoop.checkout:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.zoop.checkout:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.zoop.checkout:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.zoop.checkout:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.zoop.checkout.app:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.zoop.checkout.app:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.zoop.checkout.app:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.zoop.checkout.app:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -12629,7 +12630,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12637,11 +12638,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:divider
+     * @attr name com.zoop.checkout.app:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12650,21 +12651,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:dividerPadding
+     * @attr name com.zoop.checkout.app:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:measureWithLargestChild
+     * @attr name com.zoop.checkout.app:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12679,7 +12680,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:showDividers
+     * @attr name com.zoop.checkout.app:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -12846,19 +12847,19 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_paddingStart android:paddingStart}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_paddingEnd android:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_additionalPaddingEndForIcon com.zoop.checkout:additionalPaddingEndForIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_additionalPaddingStartForIcon com.zoop.checkout:additionalPaddingStartForIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint com.zoop.checkout:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.zoop.checkout:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_cornerRadius com.zoop.checkout:cornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_icon com.zoop.checkout:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconPadding com.zoop.checkout:iconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconSize com.zoop.checkout:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint com.zoop.checkout:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.zoop.checkout:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_rippleColor com.zoop.checkout:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeColor com.zoop.checkout:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeWidth com.zoop.checkout:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_additionalPaddingEndForIcon com.zoop.checkout.app:additionalPaddingEndForIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_additionalPaddingStartForIcon com.zoop.checkout.app:additionalPaddingStartForIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint com.zoop.checkout.app:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.zoop.checkout.app:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_cornerRadius com.zoop.checkout.app:cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_icon com.zoop.checkout.app:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconPadding com.zoop.checkout.app:iconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconSize com.zoop.checkout.app:iconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint com.zoop.checkout.app:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode com.zoop.checkout.app:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_rippleColor com.zoop.checkout.app:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeColor com.zoop.checkout.app:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeWidth com.zoop.checkout.app:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialButton_android_padding
      * @see #MaterialButton_android_paddingLeft
@@ -13053,7 +13054,7 @@ public final class R {
      */
     public static final int MaterialButton_android_paddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#additionalPaddingEndForIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#additionalPaddingEndForIcon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13062,11 +13063,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:additionalPaddingEndForIcon
+     * @attr name com.zoop.checkout.app:additionalPaddingEndForIcon
      */
     public static final int MaterialButton_additionalPaddingEndForIcon=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#additionalPaddingStartForIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#additionalPaddingStartForIcon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13075,22 +13076,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:additionalPaddingStartForIcon
+     * @attr name com.zoop.checkout.app:additionalPaddingStartForIcon
      */
     public static final int MaterialButton_additionalPaddingStartForIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundTint
+     * @attr name com.zoop.checkout.app:backgroundTint
      */
     public static final int MaterialButton_backgroundTint=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13107,11 +13108,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:backgroundTintMode
+     * @attr name com.zoop.checkout.app:backgroundTintMode
      */
     public static final int MaterialButton_backgroundTintMode=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#cornerRadius}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#cornerRadius}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13120,11 +13121,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:cornerRadius
+     * @attr name com.zoop.checkout.app:cornerRadius
      */
     public static final int MaterialButton_cornerRadius=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#icon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13132,11 +13133,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:icon
+     * @attr name com.zoop.checkout.app:icon
      */
     public static final int MaterialButton_icon=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconPadding}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13145,11 +13146,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:iconPadding
+     * @attr name com.zoop.checkout.app:iconPadding
      */
     public static final int MaterialButton_iconPadding=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconSize}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconSize}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13158,22 +13159,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:iconSize
+     * @attr name com.zoop.checkout.app:iconSize
      */
     public static final int MaterialButton_iconSize=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconTint}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:iconTint
+     * @attr name com.zoop.checkout.app:iconTint
      */
     public static final int MaterialButton_iconTint=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13190,33 +13191,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:iconTintMode
+     * @attr name com.zoop.checkout.app:iconTintMode
      */
     public static final int MaterialButton_iconTintMode=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#rippleColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:rippleColor
+     * @attr name com.zoop.checkout.app:rippleColor
      */
     public static final int MaterialButton_rippleColor=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:strokeColor
+     * @attr name com.zoop.checkout.app:strokeColor
      */
     public static final int MaterialButton_strokeColor=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13225,7 +13226,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:strokeWidth
+     * @attr name com.zoop.checkout.app:strokeWidth
      */
     public static final int MaterialButton_strokeWidth=23;
     /**
@@ -13235,8 +13236,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeColor com.zoop.checkout:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.zoop.checkout:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeColor com.zoop.checkout.app:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.zoop.checkout.app:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCardView_strokeColor
      * @see #MaterialCardView_strokeWidth
@@ -13245,18 +13246,18 @@ public final class R {
       0x7f040193, 0x7f040194
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:strokeColor
+     * @attr name com.zoop.checkout.app:strokeColor
      */
     public static final int MaterialCardView_strokeColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13265,7 +13266,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:strokeWidth
+     * @attr name com.zoop.checkout.app:strokeWidth
      */
     public static final int MaterialCardView_strokeWidth=1;
     /**
@@ -13275,38 +13276,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.zoop.checkout:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.zoop.checkout:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.zoop.checkout:chipGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.zoop.checkout:chipStandaloneStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.zoop.checkout:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.zoop.checkout:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.zoop.checkout:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.zoop.checkout:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.zoop.checkout:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.zoop.checkout:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.zoop.checkout:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.zoop.checkout:floatingActionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.zoop.checkout:materialButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.zoop.checkout:materialCardViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.zoop.checkout:navigationViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.zoop.checkout:scrimBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.zoop.checkout:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.zoop.checkout:tabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.zoop.checkout:textAppearanceBody1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.zoop.checkout:textAppearanceBody2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.zoop.checkout:textAppearanceButton}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.zoop.checkout:textAppearanceCaption}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.zoop.checkout:textAppearanceHeadline1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.zoop.checkout:textAppearanceHeadline2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.zoop.checkout:textAppearanceHeadline3}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.zoop.checkout:textAppearanceHeadline4}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.zoop.checkout:textAppearanceHeadline5}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.zoop.checkout:textAppearanceHeadline6}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.zoop.checkout:textAppearanceOverline}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.zoop.checkout:textAppearanceSubtitle1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.zoop.checkout:textAppearanceSubtitle2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.zoop.checkout:textInputStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.zoop.checkout.app:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.zoop.checkout.app:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.zoop.checkout.app:chipGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.zoop.checkout.app:chipStandaloneStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.zoop.checkout.app:chipStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.zoop.checkout.app:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.zoop.checkout.app:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.zoop.checkout.app:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.zoop.checkout.app:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.zoop.checkout.app:colorSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.zoop.checkout.app:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.zoop.checkout.app:floatingActionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.zoop.checkout.app:materialButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.zoop.checkout.app:materialCardViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.zoop.checkout.app:navigationViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.zoop.checkout.app:scrimBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.zoop.checkout.app:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.zoop.checkout.app:tabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.zoop.checkout.app:textAppearanceBody1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.zoop.checkout.app:textAppearanceBody2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.zoop.checkout.app:textAppearanceButton}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.zoop.checkout.app:textAppearanceCaption}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.zoop.checkout.app:textAppearanceHeadline1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.zoop.checkout.app:textAppearanceHeadline2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.zoop.checkout.app:textAppearanceHeadline3}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.zoop.checkout.app:textAppearanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.zoop.checkout.app:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.zoop.checkout.app:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.zoop.checkout.app:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.zoop.checkout.app:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.zoop.checkout.app:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.zoop.checkout.app:textInputStyle}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponentsTheme_bottomSheetDialogTheme
      * @see #MaterialComponentsTheme_bottomSheetStyle
@@ -13352,7 +13353,7 @@ public final class R {
       0x7f0401cb, 0x7f0401d0, 0x7f0401d1, 0x7f0401d7
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13360,11 +13361,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:bottomSheetDialogTheme
+     * @attr name com.zoop.checkout.app:bottomSheetDialogTheme
      */
     public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13372,11 +13373,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:bottomSheetStyle
+     * @attr name com.zoop.checkout.app:bottomSheetStyle
      */
     public static final int MaterialComponentsTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipGroupStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipGroupStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13384,11 +13385,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:chipGroupStyle
+     * @attr name com.zoop.checkout.app:chipGroupStyle
      */
     public static final int MaterialComponentsTheme_chipGroupStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipStandaloneStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipStandaloneStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13396,11 +13397,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:chipStandaloneStyle
+     * @attr name com.zoop.checkout.app:chipStandaloneStyle
      */
     public static final int MaterialComponentsTheme_chipStandaloneStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#chipStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#chipStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13408,66 +13409,66 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:chipStyle
+     * @attr name com.zoop.checkout.app:chipStyle
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorAccent}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorAccent
+     * @attr name com.zoop.checkout.app:colorAccent
      */
     public static final int MaterialComponentsTheme_colorAccent=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorBackgroundFloating
+     * @attr name com.zoop.checkout.app:colorBackgroundFloating
      */
     public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorPrimary
+     * @attr name com.zoop.checkout.app:colorPrimary
      */
     public static final int MaterialComponentsTheme_colorPrimary=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorPrimaryDark
+     * @attr name com.zoop.checkout.app:colorPrimaryDark
      */
     public static final int MaterialComponentsTheme_colorPrimaryDark=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#colorSecondary}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#colorSecondary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:colorSecondary
+     * @attr name com.zoop.checkout.app:colorSecondary
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13475,11 +13476,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:editTextStyle
+     * @attr name com.zoop.checkout.app:editTextStyle
      */
     public static final int MaterialComponentsTheme_editTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#floatingActionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#floatingActionButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13505,11 +13506,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:floatingActionButtonStyle
+     * @attr name com.zoop.checkout.app:floatingActionButtonStyle
      */
     public static final int MaterialComponentsTheme_floatingActionButtonStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#materialButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#materialButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13517,11 +13518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:materialButtonStyle
+     * @attr name com.zoop.checkout.app:materialButtonStyle
      */
     public static final int MaterialComponentsTheme_materialButtonStyle=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#materialCardViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#materialCardViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13529,11 +13530,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:materialCardViewStyle
+     * @attr name com.zoop.checkout.app:materialCardViewStyle
      */
     public static final int MaterialComponentsTheme_materialCardViewStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#navigationViewStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#navigationViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13541,11 +13542,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:navigationViewStyle
+     * @attr name com.zoop.checkout.app:navigationViewStyle
      */
     public static final int MaterialComponentsTheme_navigationViewStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#scrimBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#scrimBackground}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13556,11 +13557,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:scrimBackground
+     * @attr name com.zoop.checkout.app:scrimBackground
      */
     public static final int MaterialComponentsTheme_scrimBackground=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13568,11 +13569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:snackbarButtonStyle
+     * @attr name com.zoop.checkout.app:snackbarButtonStyle
      */
     public static final int MaterialComponentsTheme_snackbarButtonStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13580,11 +13581,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:tabStyle
+     * @attr name com.zoop.checkout.app:tabStyle
      */
     public static final int MaterialComponentsTheme_tabStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceBody1}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceBody1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13592,11 +13593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceBody1
+     * @attr name com.zoop.checkout.app:textAppearanceBody1
      */
     public static final int MaterialComponentsTheme_textAppearanceBody1=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceBody2}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceBody2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13604,11 +13605,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceBody2
+     * @attr name com.zoop.checkout.app:textAppearanceBody2
      */
     public static final int MaterialComponentsTheme_textAppearanceBody2=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceButton}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceButton}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13616,11 +13617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceButton
+     * @attr name com.zoop.checkout.app:textAppearanceButton
      */
     public static final int MaterialComponentsTheme_textAppearanceButton=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceCaption}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceCaption}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13628,11 +13629,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceCaption
+     * @attr name com.zoop.checkout.app:textAppearanceCaption
      */
     public static final int MaterialComponentsTheme_textAppearanceCaption=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceHeadline1}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceHeadline1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13640,11 +13641,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceHeadline1
+     * @attr name com.zoop.checkout.app:textAppearanceHeadline1
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline1=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceHeadline2}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceHeadline2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13652,11 +13653,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceHeadline2
+     * @attr name com.zoop.checkout.app:textAppearanceHeadline2
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline2=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceHeadline3}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceHeadline3}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13664,11 +13665,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceHeadline3
+     * @attr name com.zoop.checkout.app:textAppearanceHeadline3
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline3=24;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceHeadline4}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceHeadline4}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13676,11 +13677,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceHeadline4
+     * @attr name com.zoop.checkout.app:textAppearanceHeadline4
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline4=25;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceHeadline5}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceHeadline5}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13688,11 +13689,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceHeadline5
+     * @attr name com.zoop.checkout.app:textAppearanceHeadline5
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline5=26;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceHeadline6}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceHeadline6}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13700,11 +13701,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceHeadline6
+     * @attr name com.zoop.checkout.app:textAppearanceHeadline6
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline6=27;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceOverline}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceOverline}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13712,11 +13713,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceOverline
+     * @attr name com.zoop.checkout.app:textAppearanceOverline
      */
     public static final int MaterialComponentsTheme_textAppearanceOverline=28;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceSubtitle1}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceSubtitle1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13724,11 +13725,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceSubtitle1
+     * @attr name com.zoop.checkout.app:textAppearanceSubtitle1
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle1=29;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAppearanceSubtitle2}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAppearanceSubtitle2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13736,11 +13737,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textAppearanceSubtitle2
+     * @attr name com.zoop.checkout.app:textAppearanceSubtitle2
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle2=30;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textInputStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textInputStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13748,7 +13749,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:textInputStyle
+     * @attr name com.zoop.checkout.app:textInputStyle
      */
     public static final int MaterialComponentsTheme_textInputStyle=31;
     /**
@@ -13758,15 +13759,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_flexBasisPercent com.zoop.checkout:layout_flexBasisPercent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_flexGrow com.zoop.checkout:layout_flexGrow}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_flexShrink com.zoop.checkout:layout_flexShrink}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_maxHeight com.zoop.checkout:layout_maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_maxWidth com.zoop.checkout:layout_maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_minHeight com.zoop.checkout:layout_minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_minWidth com.zoop.checkout:layout_minWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_order com.zoop.checkout:layout_order}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_wrapBefore com.zoop.checkout:layout_wrapBefore}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_flexBasisPercent com.zoop.checkout.app:layout_flexBasisPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_flexGrow com.zoop.checkout.app:layout_flexGrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_flexShrink com.zoop.checkout.app:layout_flexShrink}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_maxHeight com.zoop.checkout.app:layout_maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_maxWidth com.zoop.checkout.app:layout_maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_minHeight com.zoop.checkout.app:layout_minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_minWidth com.zoop.checkout.app:layout_minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_order com.zoop.checkout.app:layout_order}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponents_FlexboxLayout_Layout_layout_wrapBefore com.zoop.checkout.app:layout_wrapBefore}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponents_FlexboxLayout_Layout_layout_flexBasisPercent
      * @see #MaterialComponents_FlexboxLayout_Layout_layout_flexGrow
@@ -13784,7 +13785,7 @@ public final class R {
       0x7f04012d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_flexBasisPercent}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_flexBasisPercent}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -13792,29 +13793,29 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.zoop.checkout:layout_flexBasisPercent
+     * @attr name com.zoop.checkout.app:layout_flexBasisPercent
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_flexBasisPercent=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_flexGrow}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_flexGrow}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:layout_flexGrow
+     * @attr name com.zoop.checkout.app:layout_flexGrow
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_flexGrow=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_flexShrink}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_flexShrink}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.zoop.checkout:layout_flexShrink
+     * @attr name com.zoop.checkout.app:layout_flexShrink
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_flexShrink=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_maxHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_maxHeight}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13823,11 +13824,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:layout_maxHeight
+     * @attr name com.zoop.checkout.app:layout_maxHeight
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_maxHeight=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_maxWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_maxWidth}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13836,11 +13837,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:layout_maxWidth
+     * @attr name com.zoop.checkout.app:layout_maxWidth
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_maxWidth=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_minHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_minHeight}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13849,11 +13850,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:layout_minHeight
+     * @attr name com.zoop.checkout.app:layout_minHeight
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_minHeight=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_minWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_minWidth}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13862,26 +13863,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:layout_minWidth
+     * @attr name com.zoop.checkout.app:layout_minWidth
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_minWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_order}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_order}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:layout_order
+     * @attr name com.zoop.checkout.app:layout_order
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_order=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout_wrapBefore}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout_wrapBefore}
      * attribute's value can be found in the {@link #MaterialComponents_FlexboxLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:layout_wrapBefore
+     * @attr name com.zoop.checkout.app:layout_wrapBefore
      */
     public static final int MaterialComponents_FlexboxLayout_Layout_layout_wrapBefore=8;
     /**
@@ -14007,16 +14008,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.zoop.checkout:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.zoop.checkout:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.zoop.checkout:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.zoop.checkout:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.zoop.checkout:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.zoop.checkout:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.zoop.checkout:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.zoop.checkout:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.zoop.checkout:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.zoop.checkout:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.zoop.checkout.app:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.zoop.checkout.app:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.zoop.checkout.app:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.zoop.checkout.app:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.zoop.checkout.app:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.zoop.checkout.app:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.zoop.checkout.app:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.zoop.checkout.app:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.zoop.checkout.app:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.zoop.checkout.app:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -14193,7 +14194,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14201,31 +14202,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:actionLayout
+     * @attr name com.zoop.checkout.app:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:actionProviderClass
+     * @attr name com.zoop.checkout.app:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:actionViewClass
+     * @attr name com.zoop.checkout.app:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14242,32 +14243,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:alphabeticModifiers
+     * @attr name com.zoop.checkout.app:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:contentDescription
+     * @attr name com.zoop.checkout.app:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:iconTint
+     * @attr name com.zoop.checkout.app:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14284,11 +14285,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:iconTintMode
+     * @attr name com.zoop.checkout.app:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14305,11 +14306,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:numericModifiers
+     * @attr name com.zoop.checkout.app:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14325,17 +14326,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:showAsAction
+     * @attr name com.zoop.checkout.app:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:tooltipText
+     * @attr name com.zoop.checkout.app:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -14352,8 +14353,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.zoop.checkout:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.zoop.checkout:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.zoop.checkout.app:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.zoop.checkout.app:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -14458,17 +14459,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:preserveIconSpacing
+     * @attr name com.zoop.checkout.app:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14476,7 +14477,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:subMenuArrow
+     * @attr name com.zoop.checkout.app:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -14489,15 +14490,15 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.zoop.checkout:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.zoop.checkout:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.zoop.checkout:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.zoop.checkout:itemHorizontalPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconPadding com.zoop.checkout:itemIconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.zoop.checkout:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.zoop.checkout:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.zoop.checkout:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.zoop.checkout:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.zoop.checkout.app:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.zoop.checkout.app:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.zoop.checkout.app:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.zoop.checkout.app:itemHorizontalPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconPadding com.zoop.checkout.app:itemIconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.zoop.checkout.app:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.zoop.checkout.app:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.zoop.checkout.app:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.zoop.checkout.app:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -14556,7 +14557,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14565,11 +14566,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:elevation
+     * @attr name com.zoop.checkout.app:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14577,11 +14578,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:headerLayout
+     * @attr name com.zoop.checkout.app:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14589,11 +14590,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:itemBackground
+     * @attr name com.zoop.checkout.app:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemHorizontalPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemHorizontalPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14602,11 +14603,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:itemHorizontalPadding
+     * @attr name com.zoop.checkout.app:itemHorizontalPadding
      */
     public static final int NavigationView_itemHorizontalPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemIconPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemIconPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14615,22 +14616,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:itemIconPadding
+     * @attr name com.zoop.checkout.app:itemIconPadding
      */
     public static final int NavigationView_itemIconPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:itemIconTint
+     * @attr name com.zoop.checkout.app:itemIconTint
      */
     public static final int NavigationView_itemIconTint=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14638,22 +14639,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:itemTextAppearance
+     * @attr name com.zoop.checkout.app:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:itemTextColor
+     * @attr name com.zoop.checkout.app:itemTextColor
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14661,7 +14662,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:menu
+     * @attr name com.zoop.checkout.app:menu
      */
     public static final int NavigationView_menu=11;
     /**
@@ -14673,7 +14674,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.zoop.checkout:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.zoop.checkout.app:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -14710,13 +14711,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:overlapAnchor
+     * @attr name com.zoop.checkout.app:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -14726,7 +14727,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.zoop.checkout:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.zoop.checkout.app:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -14734,13 +14735,13 @@ public final class R {
       0x7f04018c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:state_above_anchor
+     * @attr name com.zoop.checkout.app:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -14750,8 +14751,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.zoop.checkout:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.zoop.checkout:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.zoop.checkout.app:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.zoop.checkout.app:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -14760,7 +14761,7 @@ public final class R {
       0x7f040152, 0x7f040158
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14769,11 +14770,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingBottomNoButtons
+     * @attr name com.zoop.checkout.app:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14782,7 +14783,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingTopNoTitle
+     * @attr name com.zoop.checkout.app:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -14794,15 +14795,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.zoop.checkout:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.zoop.checkout:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.zoop.checkout:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.zoop.checkout:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.zoop.checkout:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.zoop.checkout:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.zoop.checkout:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.zoop.checkout:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.zoop.checkout:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.zoop.checkout.app:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.zoop.checkout.app:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.zoop.checkout.app:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.zoop.checkout.app:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.zoop.checkout.app:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.zoop.checkout.app:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.zoop.checkout.app:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.zoop.checkout.app:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.zoop.checkout.app:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -14857,17 +14858,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:fastScrollEnabled
+     * @attr name com.zoop.checkout.app:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14875,11 +14876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:fastScrollHorizontalThumbDrawable
+     * @attr name com.zoop.checkout.app:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14887,11 +14888,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:fastScrollHorizontalTrackDrawable
+     * @attr name com.zoop.checkout.app:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14899,11 +14900,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:fastScrollVerticalThumbDrawable
+     * @attr name com.zoop.checkout.app:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14911,46 +14912,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:fastScrollVerticalTrackDrawable
+     * @attr name com.zoop.checkout.app:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:layoutManager
+     * @attr name com.zoop.checkout.app:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:reverseLayout
+     * @attr name com.zoop.checkout.app:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:spanCount
+     * @attr name com.zoop.checkout.app:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:stackFromEnd
+     * @attr name com.zoop.checkout.app:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -14960,7 +14961,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.zoop.checkout:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.zoop.checkout.app:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -14968,7 +14969,7 @@ public final class R {
       0x7f040109
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14979,7 +14980,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:insetForeground
+     * @attr name com.zoop.checkout.app:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -14989,7 +14990,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.zoop.checkout:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.zoop.checkout.app:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -14997,7 +14998,7 @@ public final class R {
       0x7f04003d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15006,7 +15007,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:behavior_overlapTop
+     * @attr name com.zoop.checkout.app:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -15020,19 +15021,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.zoop.checkout:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.zoop.checkout:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.zoop.checkout:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.zoop.checkout:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.zoop.checkout:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.zoop.checkout:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.zoop.checkout:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.zoop.checkout:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.zoop.checkout:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.zoop.checkout:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.zoop.checkout:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.zoop.checkout:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.zoop.checkout:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.zoop.checkout.app:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.zoop.checkout.app:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.zoop.checkout.app:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.zoop.checkout.app:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.zoop.checkout.app:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.zoop.checkout.app:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.zoop.checkout.app:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.zoop.checkout.app:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.zoop.checkout.app:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.zoop.checkout.app:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.zoop.checkout.app:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.zoop.checkout.app:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.zoop.checkout.app:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -15170,7 +15171,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15178,11 +15179,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:closeIcon
+     * @attr name com.zoop.checkout.app:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15190,21 +15191,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:commitIcon
+     * @attr name com.zoop.checkout.app:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:defaultQueryHint
+     * @attr name com.zoop.checkout.app:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15212,21 +15213,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:goIcon
+     * @attr name com.zoop.checkout.app:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:iconifiedByDefault
+     * @attr name com.zoop.checkout.app:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15234,11 +15235,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:layout
+     * @attr name com.zoop.checkout.app:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15246,21 +15247,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:queryBackground
+     * @attr name com.zoop.checkout.app:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:queryHint
+     * @attr name com.zoop.checkout.app:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15268,11 +15269,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:searchHintIcon
+     * @attr name com.zoop.checkout.app:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15280,11 +15281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:searchIcon
+     * @attr name com.zoop.checkout.app:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15292,11 +15293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:submitBackground
+     * @attr name com.zoop.checkout.app:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15304,11 +15305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:suggestionRowLayout
+     * @attr name com.zoop.checkout.app:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15316,7 +15317,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:voiceIcon
+     * @attr name com.zoop.checkout.app:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -15326,8 +15327,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_button_style com.zoop.checkout:button_style}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_text com.zoop.checkout:text}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_button_style com.zoop.checkout.app:button_style}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_text com.zoop.checkout.app:text}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_button_style
      * @see #SignInButton_text
@@ -15336,7 +15337,7 @@ public final class R {
       0x7f04005b, 0x7f0401ba
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#button_style}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#button_style}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15349,17 +15350,17 @@ public final class R {
      * <tr><td>small</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:button_style
+     * @attr name com.zoop.checkout.app:button_style
      */
     public static final int SignInButton_button_style=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#text}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#text}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:text
+     * @attr name com.zoop.checkout.app:text
      */
     public static final int SignInButton_text=1;
     /**
@@ -15369,7 +15370,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.zoop.checkout:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.zoop.checkout.app:snackbarButtonStyle}</code></td><td></td></tr>
      * </table>
      * @see #Snackbar_snackbarButtonStyle
      */
@@ -15377,7 +15378,7 @@ public final class R {
       0x7f040184
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15385,7 +15386,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:snackbarButtonStyle
+     * @attr name com.zoop.checkout.app:snackbarButtonStyle
      */
     public static final int Snackbar_snackbarButtonStyle=0;
     /**
@@ -15396,8 +15397,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.zoop.checkout:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.zoop.checkout:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.zoop.checkout.app:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.zoop.checkout.app:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -15420,7 +15421,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15429,11 +15430,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:elevation
+     * @attr name com.zoop.checkout.app:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15442,7 +15443,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:maxActionInlineWidth
+     * @attr name com.zoop.checkout.app:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -15456,7 +15457,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.zoop.checkout:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.zoop.checkout.app:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -15531,7 +15532,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15539,7 +15540,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:popupTheme
+     * @attr name com.zoop.checkout.app:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -15552,17 +15553,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.zoop.checkout:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.zoop.checkout:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.zoop.checkout:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.zoop.checkout:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.zoop.checkout:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.zoop.checkout:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.zoop.checkout:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.zoop.checkout:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.zoop.checkout:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.zoop.checkout:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.zoop.checkout:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.zoop.checkout.app:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.zoop.checkout.app:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.zoop.checkout.app:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.zoop.checkout.app:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.zoop.checkout.app:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.zoop.checkout.app:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.zoop.checkout.app:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.zoop.checkout.app:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.zoop.checkout.app:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.zoop.checkout.app:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.zoop.checkout.app:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -15618,27 +15619,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:showText
+     * @attr name com.zoop.checkout.app:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:splitTrack
+     * @attr name com.zoop.checkout.app:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15647,11 +15648,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:switchMinWidth
+     * @attr name com.zoop.checkout.app:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15660,11 +15661,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:switchPadding
+     * @attr name com.zoop.checkout.app:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15672,11 +15673,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:switchTextAppearance
+     * @attr name com.zoop.checkout.app:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15685,22 +15686,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:thumbTextPadding
+     * @attr name com.zoop.checkout.app:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:thumbTint
+     * @attr name com.zoop.checkout.app:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15717,11 +15718,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:thumbTintMode
+     * @attr name com.zoop.checkout.app:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15729,22 +15730,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:track
+     * @attr name com.zoop.checkout.app:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:trackTint
+     * @attr name com.zoop.checkout.app:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15761,7 +15762,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:trackTintMode
+     * @attr name com.zoop.checkout.app:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -15823,31 +15824,31 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.zoop.checkout:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.zoop.checkout:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.zoop.checkout:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTint com.zoop.checkout:tabIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.zoop.checkout:tabIconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicator com.zoop.checkout:tabIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.zoop.checkout:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.zoop.checkout:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.zoop.checkout:tabIndicatorFullWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.zoop.checkout:tabIndicatorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.zoop.checkout:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.zoop.checkout:tabInlineLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.zoop.checkout:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.zoop.checkout:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.zoop.checkout:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.zoop.checkout:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.zoop.checkout:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.zoop.checkout:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.zoop.checkout:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.zoop.checkout:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabRippleColor com.zoop.checkout:tabRippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.zoop.checkout:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.zoop.checkout:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.zoop.checkout:tabTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.zoop.checkout:tabUnboundedRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.zoop.checkout.app:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.zoop.checkout.app:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.zoop.checkout.app:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTint com.zoop.checkout.app:tabIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.zoop.checkout.app:tabIconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicator com.zoop.checkout.app:tabIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.zoop.checkout.app:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.zoop.checkout.app:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.zoop.checkout.app:tabIndicatorFullWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.zoop.checkout.app:tabIndicatorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.zoop.checkout.app:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.zoop.checkout.app:tabInlineLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.zoop.checkout.app:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.zoop.checkout.app:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.zoop.checkout.app:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.zoop.checkout.app:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.zoop.checkout.app:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.zoop.checkout.app:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.zoop.checkout.app:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.zoop.checkout.app:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabRippleColor com.zoop.checkout.app:tabRippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.zoop.checkout.app:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.zoop.checkout.app:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.zoop.checkout.app:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.zoop.checkout.app:tabUnboundedRipple}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -15885,7 +15886,7 @@ public final class R {
       0x7f0401b9
     };
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15893,11 +15894,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:tabBackground
+     * @attr name com.zoop.checkout.app:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15906,11 +15907,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabContentStart
+     * @attr name com.zoop.checkout.app:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15923,22 +15924,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:tabGravity
+     * @attr name com.zoop.checkout.app:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIconTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIconTint}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tabIconTint
+     * @attr name com.zoop.checkout.app:tabIconTint
      */
     public static final int TabLayout_tabIconTint=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIconTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIconTintMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15955,11 +15956,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:tabIconTintMode
+     * @attr name com.zoop.checkout.app:tabIconTintMode
      */
     public static final int TabLayout_tabIconTintMode=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIndicator}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIndicator}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15967,41 +15968,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:tabIndicator
+     * @attr name com.zoop.checkout.app:tabIndicator
      */
     public static final int TabLayout_tabIndicator=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIndicatorAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIndicatorAnimationDuration}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:tabIndicatorAnimationDuration
+     * @attr name com.zoop.checkout.app:tabIndicatorAnimationDuration
      */
     public static final int TabLayout_tabIndicatorAnimationDuration=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tabIndicatorColor
+     * @attr name com.zoop.checkout.app:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIndicatorFullWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIndicatorFullWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:tabIndicatorFullWidth
+     * @attr name com.zoop.checkout.app:tabIndicatorFullWidth
      */
     public static final int TabLayout_tabIndicatorFullWidth=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIndicatorGravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIndicatorGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16016,11 +16017,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:tabIndicatorGravity
+     * @attr name com.zoop.checkout.app:tabIndicatorGravity
      */
     public static final int TabLayout_tabIndicatorGravity=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16029,21 +16030,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabIndicatorHeight
+     * @attr name com.zoop.checkout.app:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabInlineLabel}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabInlineLabel}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:tabInlineLabel
+     * @attr name com.zoop.checkout.app:tabInlineLabel
      */
     public static final int TabLayout_tabInlineLabel=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16052,11 +16053,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabMaxWidth
+     * @attr name com.zoop.checkout.app:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16065,11 +16066,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabMinWidth
+     * @attr name com.zoop.checkout.app:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16082,11 +16083,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:tabMode
+     * @attr name com.zoop.checkout.app:tabMode
      */
     public static final int TabLayout_tabMode=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16095,11 +16096,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabPadding
+     * @attr name com.zoop.checkout.app:tabPadding
      */
     public static final int TabLayout_tabPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16108,11 +16109,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabPaddingBottom
+     * @attr name com.zoop.checkout.app:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16121,11 +16122,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabPaddingEnd
+     * @attr name com.zoop.checkout.app:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16134,11 +16135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabPaddingStart
+     * @attr name com.zoop.checkout.app:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16147,33 +16148,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:tabPaddingTop
+     * @attr name com.zoop.checkout.app:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabRippleColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabRippleColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tabRippleColor
+     * @attr name com.zoop.checkout.app:tabRippleColor
      */
     public static final int TabLayout_tabRippleColor=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tabSelectedTextColor
+     * @attr name com.zoop.checkout.app:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16181,28 +16182,28 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:tabTextAppearance
+     * @attr name com.zoop.checkout.app:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:tabTextColor
+     * @attr name com.zoop.checkout.app:tabTextColor
      */
     public static final int TabLayout_tabTextColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#tabUnboundedRipple}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#tabUnboundedRipple}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:tabUnboundedRipple
+     * @attr name com.zoop.checkout.app:tabUnboundedRipple
      */
     public static final int TabLayout_tabUnboundedRipple=24;
     /**
@@ -16223,8 +16224,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.zoop.checkout:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.zoop.checkout:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.zoop.checkout.app:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.zoop.checkout.app:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -16390,17 +16391,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:fontFamily
+     * @attr name com.zoop.checkout.app:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16410,7 +16411,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:textAllCaps
+     * @attr name com.zoop.checkout.app:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -16422,32 +16423,32 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.zoop.checkout:boxBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.zoop.checkout:boxBackgroundMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.zoop.checkout:boxCollapsedPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.zoop.checkout:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.zoop.checkout:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.zoop.checkout:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.zoop.checkout:boxCornerRadiusTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.zoop.checkout:boxStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.zoop.checkout:boxStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.zoop.checkout:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.zoop.checkout:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.zoop.checkout:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.zoop.checkout:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.zoop.checkout:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.zoop.checkout:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperText com.zoop.checkout:helperText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.zoop.checkout:helperTextEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.zoop.checkout:helperTextTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.zoop.checkout:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.zoop.checkout:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.zoop.checkout:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.zoop.checkout:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.zoop.checkout:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.zoop.checkout:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.zoop.checkout:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.zoop.checkout:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.zoop.checkout.app:boxBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.zoop.checkout.app:boxBackgroundMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.zoop.checkout.app:boxCollapsedPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.zoop.checkout.app:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.zoop.checkout.app:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.zoop.checkout.app:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.zoop.checkout.app:boxCornerRadiusTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.zoop.checkout.app:boxStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.zoop.checkout.app:boxStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.zoop.checkout.app:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.zoop.checkout.app:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.zoop.checkout.app:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.zoop.checkout.app:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.zoop.checkout.app:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.zoop.checkout.app:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperText com.zoop.checkout.app:helperText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.zoop.checkout.app:helperTextEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.zoop.checkout.app:helperTextTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.zoop.checkout.app:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.zoop.checkout.app:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.zoop.checkout.app:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.zoop.checkout.app:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.zoop.checkout.app:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.zoop.checkout.app:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.zoop.checkout.app:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.zoop.checkout.app:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -16513,18 +16514,18 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxBackgroundColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:boxBackgroundColor
+     * @attr name com.zoop.checkout.app:boxBackgroundColor
      */
     public static final int TextInputLayout_boxBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxBackgroundMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxBackgroundMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16538,11 +16539,11 @@ public final class R {
      * <tr><td>outline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:boxBackgroundMode
+     * @attr name com.zoop.checkout.app:boxBackgroundMode
      */
     public static final int TextInputLayout_boxBackgroundMode=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxCollapsedPaddingTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxCollapsedPaddingTop}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16551,11 +16552,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:boxCollapsedPaddingTop
+     * @attr name com.zoop.checkout.app:boxCollapsedPaddingTop
      */
     public static final int TextInputLayout_boxCollapsedPaddingTop=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxCornerRadiusBottomEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxCornerRadiusBottomEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16564,11 +16565,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:boxCornerRadiusBottomEnd
+     * @attr name com.zoop.checkout.app:boxCornerRadiusBottomEnd
      */
     public static final int TextInputLayout_boxCornerRadiusBottomEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxCornerRadiusBottomStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxCornerRadiusBottomStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16577,11 +16578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:boxCornerRadiusBottomStart
+     * @attr name com.zoop.checkout.app:boxCornerRadiusBottomStart
      */
     public static final int TextInputLayout_boxCornerRadiusBottomStart=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxCornerRadiusTopEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxCornerRadiusTopEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16590,11 +16591,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:boxCornerRadiusTopEnd
+     * @attr name com.zoop.checkout.app:boxCornerRadiusTopEnd
      */
     public static final int TextInputLayout_boxCornerRadiusTopEnd=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxCornerRadiusTopStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxCornerRadiusTopStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16603,22 +16604,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:boxCornerRadiusTopStart
+     * @attr name com.zoop.checkout.app:boxCornerRadiusTopStart
      */
     public static final int TextInputLayout_boxCornerRadiusTopStart=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxStrokeColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxStrokeColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:boxStrokeColor
+     * @attr name com.zoop.checkout.app:boxStrokeColor
      */
     public static final int TextInputLayout_boxStrokeColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#boxStrokeWidth}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#boxStrokeWidth}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16627,30 +16628,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:boxStrokeWidth
+     * @attr name com.zoop.checkout.app:boxStrokeWidth
      */
     public static final int TextInputLayout_boxStrokeWidth=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:counterEnabled
+     * @attr name com.zoop.checkout.app:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.zoop.checkout:counterMaxLength
+     * @attr name com.zoop.checkout.app:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16658,11 +16659,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:counterOverflowTextAppearance
+     * @attr name com.zoop.checkout.app:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16670,21 +16671,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:counterTextAppearance
+     * @attr name com.zoop.checkout.app:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:errorEnabled
+     * @attr name com.zoop.checkout.app:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16692,31 +16693,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:errorTextAppearance
+     * @attr name com.zoop.checkout.app:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#helperText}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#helperText}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:helperText
+     * @attr name com.zoop.checkout.app:helperText
      */
     public static final int TextInputLayout_helperText=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#helperTextEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#helperTextEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:helperTextEnabled
+     * @attr name com.zoop.checkout.app:helperTextEnabled
      */
     public static final int TextInputLayout_helperTextEnabled=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#helperTextTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#helperTextTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16724,31 +16725,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:helperTextTextAppearance
+     * @attr name com.zoop.checkout.app:helperTextTextAppearance
      */
     public static final int TextInputLayout_helperTextTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:hintAnimationEnabled
+     * @attr name com.zoop.checkout.app:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:hintEnabled
+     * @attr name com.zoop.checkout.app:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16756,21 +16757,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:hintTextAppearance
+     * @attr name com.zoop.checkout.app:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:passwordToggleContentDescription
+     * @attr name com.zoop.checkout.app:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16778,32 +16779,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:passwordToggleDrawable
+     * @attr name com.zoop.checkout.app:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:passwordToggleEnabled
+     * @attr name com.zoop.checkout.app:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=25;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:passwordToggleTint
+     * @attr name com.zoop.checkout.app:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=26;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16819,7 +16820,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:passwordToggleTintMode
+     * @attr name com.zoop.checkout.app:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=27;
     /**
@@ -16830,8 +16831,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.zoop.checkout:enforceMaterialTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.zoop.checkout:enforceTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.zoop.checkout.app:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.zoop.checkout.app:enforceTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #ThemeEnforcement_android_textAppearance
      * @see #ThemeEnforcement_enforceMaterialTheme
@@ -16853,23 +16854,23 @@ public final class R {
      */
     public static final int ThemeEnforcement_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#enforceMaterialTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#enforceMaterialTheme}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:enforceMaterialTheme
+     * @attr name com.zoop.checkout.app:enforceMaterialTheme
      */
     public static final int ThemeEnforcement_enforceMaterialTheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#enforceTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#enforceTextAppearance}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.zoop.checkout:enforceTextAppearance
+     * @attr name com.zoop.checkout.app:enforceTextAppearance
      */
     public static final int ThemeEnforcement_enforceTextAppearance=2;
     /**
@@ -16881,33 +16882,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.zoop.checkout:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.zoop.checkout:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.zoop.checkout:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.zoop.checkout:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.zoop.checkout:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.zoop.checkout:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.zoop.checkout:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.zoop.checkout:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.zoop.checkout:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.zoop.checkout:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.zoop.checkout:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.zoop.checkout:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.zoop.checkout:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.zoop.checkout:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.zoop.checkout:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.zoop.checkout:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.zoop.checkout:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.zoop.checkout:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.zoop.checkout:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.zoop.checkout:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.zoop.checkout:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.zoop.checkout:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.zoop.checkout:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.zoop.checkout:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.zoop.checkout:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.zoop.checkout:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.zoop.checkout:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.zoop.checkout.app:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.zoop.checkout.app:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.zoop.checkout.app:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.zoop.checkout.app:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.zoop.checkout.app:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.zoop.checkout.app:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.zoop.checkout.app:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.zoop.checkout.app:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.zoop.checkout.app:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.zoop.checkout.app:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.zoop.checkout.app:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.zoop.checkout.app:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.zoop.checkout.app:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.zoop.checkout.app:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.zoop.checkout.app:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.zoop.checkout.app:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.zoop.checkout.app:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.zoop.checkout.app:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.zoop.checkout.app:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.zoop.checkout.app:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.zoop.checkout.app:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.zoop.checkout.app:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.zoop.checkout.app:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.zoop.checkout.app:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.zoop.checkout.app:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.zoop.checkout.app:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.zoop.checkout.app:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -16992,7 +16993,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -17005,21 +17006,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:buttonGravity
+     * @attr name com.zoop.checkout.app:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:collapseContentDescription
+     * @attr name com.zoop.checkout.app:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17027,11 +17028,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:collapseIcon
+     * @attr name com.zoop.checkout.app:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17040,11 +17041,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetEnd
+     * @attr name com.zoop.checkout.app:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17053,11 +17054,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetEndWithActions
+     * @attr name com.zoop.checkout.app:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17066,11 +17067,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetLeft
+     * @attr name com.zoop.checkout.app:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17079,11 +17080,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetRight
+     * @attr name com.zoop.checkout.app:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17092,11 +17093,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetStart
+     * @attr name com.zoop.checkout.app:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17105,11 +17106,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:contentInsetStartWithNavigation
+     * @attr name com.zoop.checkout.app:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17117,21 +17118,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:logo
+     * @attr name com.zoop.checkout.app:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:logoDescription
+     * @attr name com.zoop.checkout.app:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17140,21 +17141,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:maxButtonHeight
+     * @attr name com.zoop.checkout.app:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:navigationContentDescription
+     * @attr name com.zoop.checkout.app:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17162,11 +17163,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:navigationIcon
+     * @attr name com.zoop.checkout.app:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17174,21 +17175,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:popupTheme
+     * @attr name com.zoop.checkout.app:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:subtitle
+     * @attr name com.zoop.checkout.app:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17196,32 +17197,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:subtitleTextAppearance
+     * @attr name com.zoop.checkout.app:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:subtitleTextColor
+     * @attr name com.zoop.checkout.app:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.zoop.checkout:title
+     * @attr name com.zoop.checkout.app:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17230,11 +17231,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:titleMargin
+     * @attr name com.zoop.checkout.app:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17243,11 +17244,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:titleMarginBottom
+     * @attr name com.zoop.checkout.app:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17256,11 +17257,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:titleMarginEnd
+     * @attr name com.zoop.checkout.app:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17269,11 +17270,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:titleMarginStart
+     * @attr name com.zoop.checkout.app:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17282,11 +17283,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:titleMarginTop
+     * @attr name com.zoop.checkout.app:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17295,11 +17296,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:titleMargins
+     * @attr name com.zoop.checkout.app:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17307,18 +17308,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:titleTextAppearance
+     * @attr name com.zoop.checkout.app:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:titleTextColor
+     * @attr name com.zoop.checkout.app:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -17330,9 +17331,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.zoop.checkout:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.zoop.checkout:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.zoop.checkout:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.zoop.checkout.app:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.zoop.checkout.app:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.zoop.checkout.app:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -17375,7 +17376,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17384,11 +17385,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingEnd
+     * @attr name com.zoop.checkout.app:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17397,11 +17398,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.zoop.checkout:paddingStart
+     * @attr name com.zoop.checkout.app:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17409,7 +17410,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.zoop.checkout:theme
+     * @attr name com.zoop.checkout.app:theme
      */
     public static final int View_theme=4;
     /**
@@ -17420,8 +17421,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.zoop.checkout:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.zoop.checkout:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.zoop.checkout.app:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.zoop.checkout.app:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -17446,18 +17447,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.zoop.checkout:backgroundTint
+     * @attr name com.zoop.checkout.app:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.zoop.checkout.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.zoop.checkout.app.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17474,7 +17475,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.zoop.checkout:backgroundTintMode
+     * @attr name com.zoop.checkout.app:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

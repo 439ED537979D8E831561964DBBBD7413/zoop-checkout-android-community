@@ -13,6 +13,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.InputType;
 import android.text.TextWatcher;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -23,6 +24,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.zoop.checkout.app.API.ReceiptService;
+import com.zoop.checkout.app.API.RetrofitInstance;
 import com.zoop.zoopandroidsdk.api.Receipts;
 import com.zoop.zoopandroidsdk.api.ZoopSignatureView;
 import com.zoop.zoopandroidsdk.sessions.ZoopSessionsPayments;
@@ -40,6 +45,10 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.text.Normalizer;
 import java.util.Date;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements ReceiptDeliveryListener {
 
@@ -63,8 +72,6 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
     String sStateAndCountry;
     String sTransactionJSON;
 
-    AsyncTaskReceiptLoadingProgress mReceiptLoadingProgress = null;
-
     View mProgressStatusView;
     View mReceiptView;
 
@@ -75,7 +82,7 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         loadReceipt(getIntent());
-            }
+    }
 
     public  void loadReceipt(Intent data){
         Bundle b = data.getExtras();
@@ -89,8 +96,16 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
             mReceiptView = findViewById(R.id.layout_receipt_gp);
             showProgress(true);
 
-            mReceiptLoadingProgress = new AsyncTaskReceiptLoadingProgress();
-            mReceiptLoadingProgress.execute((Void) null);
+            try {
+                joTransaction = new JSONObject(sTransactionJSON);
+                String receiptId = joTransaction.getString("sales_receipt");
+                getReceipt(receiptId);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+//
+//            mReceiptLoadingProgress = new AsyncTaskReceiptLoadingProgress();
+//            mReceiptLoadingProgress.execute((Void) null);
 
 
         } else {
@@ -572,7 +587,7 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
             if (Mode.equals("interest_free")) {
                 InstallmentType = "Loja em " + joInstallmentPlan.getString("number_installments") + " parcelas";
             } else {
-                InstallmentType = "Cliente em " + joInstallmentPlan.getString("number_installments") + " parcelas";
+                InstallmentType = "Cliente em " +   joInstallmentPlan.getString("number_installments") + " parcelas";
             }
         }
 
@@ -609,7 +624,7 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
         APIParameters ap = APIParameters.getInstance();
 
 
-       String publishableKey=APIParameters.getInstance().getStringParameter("publishableKey");
+        String publishableKey=APIParameters.getInstance().getStringParameter("publishableKey");
         String marketplaceId=APIParameters.getInstance().getStringParameter("marketplaceId");
         String sellerId=APIParameters.getInstance().getStringParameter("sellerId");
 
@@ -620,105 +635,106 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
 
     }
 
-    public class AsyncTaskReceiptLoadingProgress extends AsyncTask<Void, Void, Boolean> {
-        @Override
-        protected Boolean doInBackground(Void... params) {
-            try {
-                joTransaction = new JSONObject(sTransactionJSON);
-                joZoopReceipt = fetchZoopReceipt(joTransaction.getString("sales_receipt"));
+    public void getReceipt (String receiptId) {
+        String sURL = com.zoop.zoopandroidsdk.commons.Extras.getURL(APISettingsConstants.ZoopURL_RetrieveReceiptEndpoint);
 
-                return true;
-            } catch (Exception e) {
-                ZLog.exception(300062, e);
-                return false;
-            }
-        }
+        String publishableKey=APIParameters.getInstance().getStringParameter("publishableKey");
+        String marketplaceId=APIParameters.getInstance().getStringParameter("marketplaceId");
+        String sellerId=APIParameters.getInstance().getStringParameter("sellerId");
 
-        @Override
-        protected void onPostExecute(final Boolean success) {
-            mReceiptLoadingProgress = null;
-            if (success) {
+
+        sURL = sURL.replace("[MARKETPLACE_ID]", marketplaceId);
+        sURL = sURL.replace("[RECEIPT_ID]", receiptId);
+
+        ReceiptService receiptService = RetrofitInstance.getRetrofitInstance().create(ReceiptService.class);
+
+        Call<Object> receiptCall = receiptService.getReceipt("Basic " + Base64.encodeToString(String.format("%s:", publishableKey).getBytes(), Base64.NO_WRAP), sURL);
+
+        receiptCall.enqueue(new Callback<Object>() {
+            @Override
+            public void onResponse(Call<Object> call, Response<Object> response) {
                 try {
-                        Button buttonNewTransaction = (Button) findViewById(R.id.buttonNewTransaction);
-                        buttonNewTransaction.setOnClickListener(new OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_new_transaction", null);
-                                Intent newCharge = new Intent(ReceiptActivity.this, ChargeActivity.class);
-                                newCharge.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    joZoopReceipt = new JSONObject(new Gson().toJson(response.body()));
+                    Button buttonNewTransaction = (Button) findViewById(R.id.buttonNewTransaction);
+                    buttonNewTransaction.setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_new_transaction", null);
+                            Intent newCharge = new Intent(ReceiptActivity.this, ChargeActivity.class);
+                            newCharge.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
 
-                                startActivity(newCharge);	                            }
-                        });
+                            startActivity(newCharge);	                            }
+                    });
 
-                        setUITransactionForVoidStatus(joTransaction);
+                    setUITransactionForVoidStatus(joTransaction);
 
-                        buttonSendReceiptViaEmail = (Button) findViewById(R.id.buttonSendReceiptViaEmail);
-                        buttonSendReceiptViaEmail.setOnClickListener(new OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                final Bundle emailBundle = new Bundle();
-                                //buttonSendReceiptViaEmail.setBackgroundColor(Color.BLUE);
+                    buttonSendReceiptViaEmail = (Button) findViewById(R.id.buttonSendReceiptViaEmail);
+                    buttonSendReceiptViaEmail.setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            final Bundle emailBundle = new Bundle();
+                            //buttonSendReceiptViaEmail.setBackgroundColor(Color.BLUE);
 
-                                final AlertDialog.Builder alert = new AlertDialog.Builder(ReceiptActivity.this);
-                                alert.setTitle(getResources().getString(R.string.dialog_send_receipt_via_email_title));
-                                alert.setMessage(getResources().getString(R.string.dialog_send_receipt_via_email_message));
+                            final AlertDialog.Builder alert = new AlertDialog.Builder(ReceiptActivity.this);
+                            alert.setTitle(getResources().getString(R.string.dialog_send_receipt_via_email_title));
+                            alert.setMessage(getResources().getString(R.string.dialog_send_receipt_via_email_message));
 
-                                // Set an EditText view to get user input
-                                final EditText input = new EditText(getApplicationContext());
-                                input.setInputType(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS | InputType.TYPE_TEXT_FLAG_AUTO_COMPLETE);
-                                input.setTextColor(getResources().getColor(R.color.zcolor_regular_button_darker));
-                                alert.setView(input);
-
-
-                                alert.setPositiveButton(getResources().getString(R.string.send_receipt_confirm_action), new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog, int whichButton) {
-                                        try {
-
-                                            String email=input.getText().toString();
-
-                                            if(!email.equals("")) {
-
-                                                if(email.contains("@")) {
+                            // Set an EditText view to get user input
+                            final EditText input = new EditText(getApplicationContext());
+                            input.setInputType(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS | InputType.TYPE_TEXT_FLAG_AUTO_COMPLETE);
+                            input.setTextColor(getResources().getColor(R.color.zcolor_regular_button_darker));
+                            alert.setView(input);
 
 
-                                                    InputMethodManager im = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                                                    im.hideSoftInputFromWindow(input.getWindowToken(), InputMethodManager.RESULT_UNCHANGED_SHOWN);
-                                                    emailBundle.putString("status", "success");
-                                                    CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_send_email", emailBundle);
-                                                    Receipts.sendEmailReceipt(joTransaction, input.getText().toString(), ReceiptActivity.this);
-                                                }else {
+                            alert.setPositiveButton(getResources().getString(R.string.send_receipt_confirm_action), new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int whichButton) {
+                                    try {
 
-                                                    Toast.makeText(ReceiptActivity.this,"Email inválido",Toast.LENGTH_LONG).show();
+                                        String email=input.getText().toString();
+
+                                        if(!email.equals("")) {
+
+                                            if(email.contains("@")) {
 
 
-                                                }
-                                            }else{
+                                                InputMethodManager im = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                                                im.hideSoftInputFromWindow(input.getWindowToken(), InputMethodManager.RESULT_UNCHANGED_SHOWN);
+                                                emailBundle.putString("status", "success");
+                                                CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_send_email", emailBundle);
+                                                Receipts.sendEmailReceipt(joTransaction, input.getText().toString(), ReceiptActivity.this);
+                                            }else {
 
-                                                Toast.makeText(ReceiptActivity.this,"Email não informado",Toast.LENGTH_LONG).show();
+                                                Toast.makeText(ReceiptActivity.this,"Email inválido",Toast.LENGTH_LONG).show();
+
+
                                             }
+                                        }else{
 
-
-                                        } catch (Exception e) {
-
+                                            Toast.makeText(ReceiptActivity.this,"Email não informado",Toast.LENGTH_LONG).show();
                                         }
 
+
+                                    } catch (Exception e) {
+
                                     }
-                                });
 
-                                alert.setNegativeButton(getResources().getString(R.string.send_receipt_cancel_action), new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog, int whichButton) {
-                                        emailBundle.putString("status", "canceled");
-                                        CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_send_email", emailBundle);
-                                        // Canceled.
-                                    }
-                                });
+                                }
+                            });
 
-                                final AlertDialog dialogWindow = alert.create();
-                                dialogWindow.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+                            alert.setNegativeButton(getResources().getString(R.string.send_receipt_cancel_action), new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int whichButton) {
+                                    emailBundle.putString("status", "canceled");
+                                    CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_send_email", emailBundle);
+                                    // Canceled.
+                                }
+                            });
 
-                                alert.show();
-                            }
-                        });
+                            final AlertDialog dialogWindow = alert.create();
+                            dialogWindow.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+
+                            alert.show();
+                        }
+                    });
 
                     buttonSendReceiptViaSMS = (Button) findViewById(R.id.buttonSendReceiptViaSMS);
                     buttonSendReceiptViaSMS.setOnClickListener(new OnClickListener() {
@@ -808,78 +824,78 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
                     });
 
 
-                        ((Button) findViewById(R.id.buttonPrintReceiptCardholderCopy)).setOnClickListener(new OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                try {
-                                    CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_buyer", null);
-                                    StringBuffer sbReceipt;
-                                    String sReceiptText;
-                                    if (joZoopReceipt.has("original_receipt")) {
-                                        sbReceipt = new StringBuffer();
-                                        sbReceipt.append(joZoopReceipt.getJSONObject("original_receipt").getString("sales_receipt_cardholder"));
-                                        sReceiptText = formatOriginalReceiptFromGPRawReceipt(sbReceipt.toString());
-                                    }
-                                    else {
-                                        sbReceipt = getZoopPrintedReceiptForMerchant(joTransaction, joZoopReceipt);
-                                        sReceiptText = sbReceipt.toString();
-                                    }
+                    ((Button) findViewById(R.id.buttonPrintReceiptCardholderCopy)).setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            try {
+                                CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_buyer", null);
+                                StringBuffer sbReceipt;
+                                String sReceiptText;
+                                if (joZoopReceipt.has("original_receipt")) {
+                                    sbReceipt = new StringBuffer();
+                                    sbReceipt.append(joZoopReceipt.getJSONObject("original_receipt").getString("sales_receipt_cardholder"));
+                                    sReceiptText = formatOriginalReceiptFromGPRawReceipt(sbReceipt.toString());
+                                }
+                                else {
+                                    sbReceipt = getZoopPrintedReceiptForMerchant(joTransaction, joZoopReceipt);
+                                    sReceiptText = sbReceipt.toString();
+                                }
 
 
-                                    Intent intent = new Intent(ReceiptActivity.this, ReceiptPrint.class);
-                                    intent.putExtra("buffer", sReceiptText);
-                                    intent.putExtra("bufferprinter", sReceiptText);
+                                Intent intent = new Intent(ReceiptActivity.this, ReceiptPrint.class);
+                                intent.putExtra("buffer", sReceiptText);
+                                intent.putExtra("bufferprinter", sReceiptText);
+                                intent.putExtra("withpassword", false);
+
+                                startActivity(intent);
+                            } catch (Exception e) {
+                                ZLog.exception(300052, e);
+                            }
+                            //StringBuffer sbprinter= PrintReceiptFormat(" - VIA DO CLIENTE");
+                        }
+                    });
+
+                    ((Button) findViewById(R.id.buttonPrintReceiptMerchantCopy)).setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            //" - VIA DO ESTABELECIMENTO"
+                            try {
+                                CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_seller", null);
+                                StringBuffer sbReceipt;
+                                String sReceiptText;
+
+                                if (joZoopReceipt.has("original_receipt")) {
+                                    sbReceipt = new StringBuffer();
+                                    sbReceipt.append(joZoopReceipt.getJSONObject("original_receipt").getString("sales_receipt_merchant"));
+                                    sReceiptText = formatOriginalReceiptFromGPRawReceipt(sbReceipt.toString());
+                                }
+                                else {
+                                    sbReceipt = getZoopPrintedReceiptForMerchant(joTransaction, joZoopReceipt);
+                                    sReceiptText = sbReceipt.toString();
+                                }
+
+                                Intent intent = new Intent(ReceiptActivity.this, ReceiptPrint.class);
+                                intent.putExtra("buffer", sReceiptText);
+                                intent.putExtra("bufferprinter", sReceiptText);
+
+                                intent.putExtra("Signatureparam", sSignatureData);
+                                if (sSignatureData == null) {
+                                    intent.putExtra("withpassword", true);
+                                } else {
                                     intent.putExtra("withpassword", false);
-
-                                    startActivity(intent);
-                                } catch (Exception e) {
-                                    ZLog.exception(300052, e);
                                 }
-                                //StringBuffer sbprinter= PrintReceiptFormat(" - VIA DO CLIENTE");
+                                startActivity(intent);
+                            } catch (Exception e) {
+                                ZLog.exception(300053, e);
                             }
-                        });
-
-                        ((Button) findViewById(R.id.buttonPrintReceiptMerchantCopy)).setOnClickListener(new OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                //" - VIA DO ESTABELECIMENTO"
-                                try {
-                                    CheckoutApplication.getFirebaseAnalytics().logEvent("receipt_seller", null);
-                                    StringBuffer sbReceipt;
-                                    String sReceiptText;
-
-                                    if (joZoopReceipt.has("original_receipt")) {
-                                        sbReceipt = new StringBuffer();
-                                        sbReceipt.append(joZoopReceipt.getJSONObject("original_receipt").getString("sales_receipt_merchant"));
-                                        sReceiptText = formatOriginalReceiptFromGPRawReceipt(sbReceipt.toString());
-                                    }
-                                    else {
-                                        sbReceipt = getZoopPrintedReceiptForMerchant(joTransaction, joZoopReceipt);
-                                        sReceiptText = sbReceipt.toString();
-                                    }
-
-                                    Intent intent = new Intent(ReceiptActivity.this, ReceiptPrint.class);
-                                    intent.putExtra("buffer", sReceiptText);
-                                    intent.putExtra("bufferprinter", sReceiptText);
-
-                                    intent.putExtra("Signatureparam", sSignatureData);
-                                    if (sSignatureData == null) {
-                                        intent.putExtra("withpassword", true);
-                                    } else {
-                                        intent.putExtra("withpassword", false);
-                                    }
-                                    startActivity(intent);
-                                } catch (Exception e) {
-                                    ZLog.exception(300053, e);
-                                }
-                            }
-                        });
-                        ((View) findViewById(R.id.bannerZoop)).setOnClickListener(new OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                ZLog.t(300039);
-                            }
-                        });
+                        }
+                    });
+                    ((View) findViewById(R.id.bannerZoop)).setOnClickListener(new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            ZLog.t(300039);
+                        }
+                    });
 
                     if (APIParameters.getInstance().getBooleanParameter(APISettingsConstants.Receipt_ShowReceiptLogoOnGPReceipt)) {
                         findViewById(R.id.linearLayoutReceiptLogo).setVisibility(View.VISIBLE);
@@ -899,20 +915,15 @@ public class ReceiptActivity extends ZCLMenuWithHomeButtonActivity implements Re
                 catch (JSONException e) {
                     ZLog.exception(300063, e);
                 }
-//            } catch (Exception e) {
-//                ZLog.exception(300042, e);
-//            }
 
+                showProgress(false);
             }
-            showProgress(false);
-        }
 
-
-        @Override
-        protected void onCancelled() {
-            mReceiptLoadingProgress = null;
-            showProgress(false);
-        }
+            @Override
+            public void onFailure(Call call, Throwable t) {
+                showProgress(false);
+            }
+        });
     }
 
     private void showProgress(final boolean show) {

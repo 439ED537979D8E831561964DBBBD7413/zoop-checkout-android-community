@@ -117,7 +117,7 @@ public class ChargeActivity extends ZCLMenuActivity implements TerminalPaymentLi
             }
             try {
                 if (R.layout.flipper_charge_status == flipCurrentView) {
-                  //  terminalPayment.requestAbortCharge();
+                    //  terminalPayment.requestAbortCharge();
                 }
                 changePlan();
             } catch (Exception e) {
@@ -171,7 +171,7 @@ public class ChargeActivity extends ZCLMenuActivity implements TerminalPaymentLi
         String androidId = Settings.Secure.getString(ZoopAPI.getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
 
 
-         params = intent.getExtras();
+        params = intent.getExtras();
         if (params != null&& !Intent.ACTION_VIEW.equals(action)) {
             bActivityCalledForIntentIntegration = true;
             try {
@@ -216,7 +216,7 @@ public class ChargeActivity extends ZCLMenuActivity implements TerminalPaymentLi
                 publishableKey = params.getString("publishable_key");
                 try {
                     JSONObject joSelectedTerminal = TerminalListManager.getCurrentSelectedZoopTerminal();
-                    ZoopAPI.initialize(getApplication(), marketplaceId, sellerId, publishableKey);
+                    ZoopAPI.initialize(getApplication());
                     terminalListManager.requestZoopDeviceSelection(joSelectedTerminal);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -409,11 +409,11 @@ public class ChargeActivity extends ZCLMenuActivity implements TerminalPaymentLi
                 try {
 
 
-                Intent signatureIntent = new Intent(ChargeActivity.this, CaptureSignatureActivity.class);
-                Bundle b = new Bundle();
-                b.putString("transactionJSON", joTransactionResponse.toString());
-                signatureIntent.putExtras(b);
-                startActivityForResult(signatureIntent, CAPTURE_CARDHOLDER_SIGNATURE);
+                    Intent signatureIntent = new Intent(ChargeActivity.this, CaptureSignatureActivity.class);
+                    Bundle b = new Bundle();
+                    b.putString("transactionJSON", joTransactionResponse.toString());
+                    signatureIntent.putExtras(b);
+                    startActivityForResult(signatureIntent, CAPTURE_CARDHOLDER_SIGNATURE);
                 }catch (Exception e){
 
                 }
@@ -837,10 +837,10 @@ public class ChargeActivity extends ZCLMenuActivity implements TerminalPaymentLi
                 ((View) findViewById(R.id.layoutButtonsNewTransaction2)).setVisibility(View.VISIBLE);
                 ((Button) findViewById(R.id.buttonNext)).setVisibility(View.GONE);
                 TextView textViewMessageExplanationText = (TextView) findViewById(R.id.textViewMessageExplanationText);
-                    textViewMessageExplanationText.setVisibility(View.GONE);
-                    String applicationMessage = "Operação cancelada pelo usuário";
-                    ZLog.t(300018, applicationMessage);
-                    displayApplicationStatus(applicationMessage);
+                textViewMessageExplanationText.setVisibility(View.GONE);
+                String applicationMessage = "Operação cancelada pelo usuário";
+                ZLog.t(300018, applicationMessage);
+                displayApplicationStatus(applicationMessage);
 
 
             }
@@ -1308,7 +1308,7 @@ public class ChargeActivity extends ZCLMenuActivity implements TerminalPaymentLi
         try {
             if((!params.getString("seller_id").equals(""))) {
                 JSONObject joSelectedTerminal = TerminalListManager.getCurrentSelectedZoopTerminal();
-              //  ZoopAPI.initialize(getApplication(), markeplaceIdOriginalIntent, sellerIdOriginalIntent, publishablekeyOriginalIntent);
+                //  ZoopAPI.initialize(getApplication(), markeplaceIdOriginalIntent, sellerIdOriginalIntent, publishablekeyOriginalIntent);
                 TerminalListManager terminalListManager=new TerminalListManager(this,this);
                 terminalListManager.requestZoopDeviceSelection(joSelectedTerminal);
                 APIParameters.getInstance().putStringParameter("publishableKey", publishablekeyOriginalIntent);

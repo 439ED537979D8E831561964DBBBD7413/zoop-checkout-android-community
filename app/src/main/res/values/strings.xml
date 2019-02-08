@@ -127,6 +127,7 @@
     <string name="text_transaction_step4_denied">ERRO\nTransação negada</string>
     <string name="login_connection_error">Erro de conexão ao registrar usuário</string>
     <string name="login_unexpected_error">Erro inesperado durante o login</string>
+    <string name="login_error">Falha ao realizar login, verifique seu email e senha</string>
     <string name="label_transaction_receipt">Comprovante</string>
     <string name="label_button_send_via_email">Enviar por E-mail</string>
     <string name="label_button_send_via_sms">Enviar por SMS</string>

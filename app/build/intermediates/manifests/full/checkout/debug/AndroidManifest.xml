@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zoop.checkout"
+    package="com.zoop.checkout.app"
     android:versionCode="87"
     android:versionName="1.9.9" >
 
@@ -36,10 +36,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.zoop.checkout.permission.C2D_MESSAGE"
+        android:name="com.zoop.checkout.app.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.zoop.checkout.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.zoop.checkout.app.permission.C2D_MESSAGE" />
 
     <application
         android:name="com.zoop.checkout.app.CheckoutApplication"
@@ -244,7 +244,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.zoop.checkout" />
+                <category android:name="com.zoop.checkout.app" />
             </intent-filter>
         </receiver>
         <!--
@@ -261,7 +261,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.zoop.checkout.firebaseinitprovider"
+            android:authorities="com.zoop.checkout.app.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

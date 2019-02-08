@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/mipmap-xxxhdpi_textfield_disabled.9.png.flat",
-        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/mipmap-xxxhdpi/textfield_disabled.9.png"
-    },
-    {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable_abc_text_cursor_material.xml.flat",
         "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8cf3707ad8d43c0bb2e4eecd3367ee95/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/mipmap-xxxhdpi_textfield_disabled.9.png.flat",
+        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/mipmap-xxxhdpi/textfield_disabled.9.png"
     },
     {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/layout_abc_action_bar_up_container.xml.flat",
@@ -36,12 +36,12 @@
         "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8cf3707ad8d43c0bb2e4eecd3367ee95/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/layout_fragment_card_register.xml.flat",
-        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/layout/fragment_card_register.xml"
-    },
-    {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
         "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/db03ee0672bd4568e8c14c592d5951a9/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/layout_fragment_card_register.xml.flat",
+        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/layout/fragment_card_register.xml"
     },
     {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable-mdpi_drawer_shadow.9.png.flat",
@@ -56,20 +56,20 @@
         "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8cf3707ad8d43c0bb2e4eecd3367ee95/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable_logout.png.flat",
-        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/checkout/res/drawable/logout.png"
-    },
-    {
-        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable-v21_avd_hide_password.xml.flat",
-        "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/db03ee0672bd4568e8c14c592d5951a9/res/drawable-v21/avd_hide_password.xml"
+        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable_borda.xml.flat",
+        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/drawable/borda.xml"
     },
     {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/color_mtrl_chip_text_color.xml.flat",
         "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/db03ee0672bd4568e8c14c592d5951a9/res/color/mtrl_chip_text_color.xml"
     },
     {
-        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable_borda.xml.flat",
-        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/drawable/borda.xml"
+        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable-v21_avd_hide_password.xml.flat",
+        "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/db03ee0672bd4568e8c14c592d5951a9/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable_logout.png.flat",
+        "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/checkout/res/drawable/logout.png"
     },
     {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/layout-sw600dp-v13_design_layout_snackbar.xml.flat",
@@ -124,12 +124,12 @@
         "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8cf3707ad8d43c0bb2e4eecd3367ee95/res/color/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/color_abc_search_url_text.xml.flat",
-        "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8cf3707ad8d43c0bb2e4eecd3367ee95/res/color/abc_search_url_text.xml"
-    },
-    {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/layout_zbutton_keypad_selector.xml.flat",
         "source": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/src/main/res/layout/zbutton_keypad_selector.xml"
+    },
+    {
+        "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/color_abc_search_url_text.xml.flat",
+        "source": "/Users/wellingtonfelisberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/8cf3707ad8d43c0bb2e4eecd3367ee95/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/res/merged/checkout/debug/drawable-xxhdpi-v4_fab_shadow_mini.png.flat",

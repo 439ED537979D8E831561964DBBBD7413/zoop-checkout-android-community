@@ -394,7 +394,7 @@ public class StartupActivity extends Activity {
                     }
 
 
-                    ZoopAPI.initialize(getApplication(), sMarketplaceId, sSellerId, publishableKey);
+                    ZoopAPI.initialize(getApplication());
 
                     String regexUsersToRemoveInstallments = ap.getStringParameter(APISettingsConstants.PaymentType_UsernamesToRemoveRegex);
                     if (true == APIParameters.getInstance().getBooleanParameter(APISettingsConstants.PaymentType_showCreditWithInstallments, true)) {

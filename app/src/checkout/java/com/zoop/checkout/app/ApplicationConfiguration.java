@@ -12,7 +12,7 @@ public class ApplicationConfiguration {
 	public static final String LOGIN_API = "Checkout";
 
 	public static final String CHECKOUT_API_TEST_PUBLIC_KEY = 			"";
-	public static final String CHECKOUT_API_PRODUCTION_PUBLIC_KEY = 	"";
+	public static final String CHECKOUT_API_PRODUCTION_PUBLIC_KEY = 	"ckt_prod_5c81mVJBUxws0NzP1NTEgw==";
 	public static final String WEB_PORTAL_URL_WITH_SLUG = "https://portal.pagzoop.com/zoop-checkout";
 	public static final boolean ENABLE_PURCHASE_ZOOP_TERMINAL_BUTTON = true;
 	public static final String SUPPORT_EMAIL = "suporte@pagzoop.com";

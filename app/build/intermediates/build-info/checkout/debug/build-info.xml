@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="28"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="26"
     build-mode="FULL"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="3.1.0"
-    timestamp="1541508852280"
+    timestamp="1549472243700"
     token="1877746285450066594"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="6830" />
+        duration="8117" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1718" />
+        duration="1935" />
     <task
         name="verifier"
-        duration="626" />
+        duration="101" />
 
     <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/resources/instant-run/checkout/debug/resources-checkout-debug.apk"
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/resources/instant-run/checkout/debug/resources-checkout-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/instant-run-apk/checkout/debug/checkout.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
         location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
         location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_0.apk"
@@ -36,42 +93,75 @@
         location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_4.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/instant-run-apk/checkout/debug/checkout.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1541508852280"
+        timestamp="1549472243700"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/resources/instant-run/checkout/debug/resources-checkout-debug.apk"
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/resources/instant-run/checkout/debug/resources-checkout-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/split-apk/checkout/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-checkout-android-community/app/build/intermediates/instant-run-apk/checkout/debug/checkout.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_0.apk"
@@ -80,32 +170,8 @@
             location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/split-apk/checkout/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/wellingtonfelisberto/projects/zoop-android/app/build/intermediates/instant-run-apk/checkout/debug/checkout.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

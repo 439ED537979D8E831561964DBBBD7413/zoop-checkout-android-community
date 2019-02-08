@@ -1,4 +1,4 @@
 storeFile=../app/keys/AndroidKeystore201408
-storePassword=""
-keyAlias=""
-keyPassword=""
+storePassword="CreativeWorks2012"
+keyAlias="checkout"
+keyPassword="CreativeWorks2012"
